@@ -197,7 +197,7 @@ h3 {
 h4 {
   margin-top: 10px;
   margin-bottom: 24px;
-  /* color: #0f172a; */
+  color: #0f172a;
   font-size: 21.33px;
   line-height: 32px;
   font-weight: 400;
@@ -341,6 +341,7 @@ p {
   position: relative;
   display: flex;
   padding: 110% 32px 32px;
+  margin-bottom: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
@@ -372,6 +373,7 @@ p {
 .is--white {
   color: white;
   text-decoration: none;
+  margin-bottom: 12px;
 }
 
 h2 {
@@ -383,7 +385,44 @@ h2 {
 
 
 
-/* -------------->>>>>>>>>>>> SECTION ATTRACT  <<<<<<<<<<<<<<---------------- */
+/* -------------->>>>>>>>>>>> START CUSTOMERS THINK SECTION  <<<<<<<<<<<<<<---------------- */
+/* -------------->>>>>>>>>>>> START CUSTOMERS THINK SECTION  <<<<<<<<<<<<<<---------------- */
+
+
+.c-gradient__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  inset: 0px 0px auto;
+  bottom: auto;
+  width: 100%;
+  min-height: 600px;
+  background-image: linear-gradient(90deg, #009aff 70%, #35c89f 0);
+}
+
+.c-section, .no-overflow {
+  overflow: hidden;
+}
+
+.c-ctn, .cc-80, .cc-relative, .custom-full-width {
+  min-width: 920px;
+}
+
+.c-ctn, .cc-relative, .custom-full-width {
+  max-width: none;
+}
+
+.no-padding {
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.c-card, .cc-redius__8 {
+  overflow: hidden;
+  border-radius: 8px;
+}
 
 
 
@@ -395,7 +434,106 @@ h2 {
 
 
 
+/* -------------->>>>>>>>>>>> END CUSTOMERS THINK SECTION <<<<<<<<<<<<<<---------------- */
+/* -------------->>>>>>>>>>>> END CUSTOMERS THINK SECTION <<<<<<<<<<<<<<---------------- */
 
+
+
+
+
+
+/* -------------->>>>>>>>>>>> START STRYVE STATS SECTION <<<<<<<<<<<<<<---------------- */
+/* -------------->>>>>>>>>>>> START STRYVE STATS SECTION <<<<<<<<<<<<<<---------------- */
+
+
+
+.c-stats__item-holder {
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.c-stats__bubble-holder, .cc-pink, .cc-1 {
+  top: 12%;
+  width: 2.8vw;
+  height: 2.8vw;
+}
+
+.c-stats__bubble-holder, .cc-pink {
+  inset: -22% 30% 0px auto;
+  max-width: 60px;
+}
+
+.c-stats__bubble-holder {
+  position: absolute;
+  z-index: -1;
+}
+
+.c-stats__bubble-holder, .cc-orange, .cc-1 {
+  width: 2.2vw;
+  height: 2.2vw;
+}
+
+.c-stats__bubble-holder, .cc-orange {
+  inset: -16% 49% auto auto;
+  max-width: 50px;
+}
+
+/* -------------->>>>>>>>>>>> END STRYVE STATS SECTION <<<<<<<<<<<<<<---------------- */
+/* -------------->>>>>>>>>>>> END STRYVE STATS SECTION <<<<<<<<<<<<<<---------------- */
+
+
+
+
+
+
+
+/* .c-pre-footer {
+  position: relative;
+  background-color: blue;
+  overflow: hidden;
+  padding-top: 78px;
+  padding-bottom: 397px;
+}
+
+h1 ,.is--white {
+  color: white;
+}
+
+.c-tag__holder, .cc-pre-footer {
+  position: static;
+  right: 43%;
+  bottom: 10%;
+  padding: 0;
+}
+
+.c-pre-footer__cover {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin-left: auto;
+  justify-content: center;
+  align-items: flex-end
+}
+
+.c-pre-footer__text {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-block-15 {
+  align-self: flex-start;
+  flex: 1 1 0%;
+} */
 
 
 
@@ -416,9 +554,6 @@ h2 {
 }
 .c-section.p-btm__140 {
   padding-bottom: 140px;
-}
-.c-section.no-overflow {
-  overflow: hidden;
 }
 .c-section.cc-mobile {
   display: none;
@@ -481,9 +616,7 @@ h2 {
 .c-ctn.cc-relative {
   position: relative;
 }
-.c-ctn.cc-relative.custom-full-width {
-  max-width: none;
-}
+
 .c-ctn.cc-60 {
   width: 40%;
 }
@@ -524,9 +657,7 @@ h2 {
   max-width: 1200px;
   min-width: auto;
 }
-.c-ctn.cc-80.cc-relative.custom-full-width {
-  min-width: 920px;
-}
+
 .c-ctn.cc-flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -843,6 +974,7 @@ h2 {
   right: auto;
   bottom: auto;
   z-index: 2;
+  inset: 0px auto auto 0px;
   max-width: 100%;
   padding-top: 32px;
   padding-left: 32px;
@@ -1297,23 +1429,6 @@ h2 {
   backface-visibility: hidden;
 }
 
-.c-gradient__bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: auto;
-  width: 100%;
-  min-height: 600px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(70%, #009aff),
-    color-stop(0, #35c89f)
-  );
-  background-image: linear-gradient(90deg, #009aff 70%, #35c89f 0);
-}
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1826,6 +1941,7 @@ h2 {
   top: 0;
   right: 0;
   bottom: 0;
+  inset: 0px;
   z-index: 1;
   padding-top: 110%;
   border-radius: 8px;
@@ -2261,13 +2377,7 @@ h2 {
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
 }
-.c-pre-footer {
-  position: relative;
-  overflow: hidden;
-  padding-top: 78px;
-  padding-bottom: 397px;
-  background-color: #0f00c0;
-}
+
 .title-row1__holder {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2276,15 +2386,6 @@ h2 {
 }
 .c-card__reading-time {
   display: inline;
-}
-.text-block-15 {
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 .c-ratings {
   display: -webkit-box;

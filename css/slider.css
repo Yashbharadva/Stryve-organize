@@ -1,0 +1,133 @@
+/*! CSS Used from: https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/css/stryve-project-5bdce3c7936e32726719e868.webflow.44e24a980.min.css */
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.swiper-arrows {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.swiper-arrows.myswiper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.swiper-arrow-holder {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1em;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.swiper-arrow-holder.mg-right__10 {
+  margin-right: 10px;
+}
+.swiper-button-prev {
+  min-height: auto;
+  margin-right: 0;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.swiper-button-next {
+  min-height: 15px;
+}
+/*! CSS Used from: https://unpkg.com/swiper/swiper-bundle.min.css */
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-button-prev {
+  left: 10px;
+  right: auto;
+}
+.swiper-button-prev:after {
+  content: "prev";
+}
+.swiper-button-next {
+  right: 10px;
+  left: auto;
+}
+.swiper-button-next:after {
+  content: "next";
+}
+/*! CSS Used from: Embedded */
+* {
+  -moz-font-feature-settings: "ss01";
+  -webkit-font-feature-settings: "ss01";
+  font-feature-settings: "ss01" on;
+}
+/*! CSS Used from: Embedded */
+.swiper-arrow-holder {
+  outline: unset !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  width: 100% !important;
+  height: 100% !important;
+  position: static !important;
+  outline: unset !important;
+  margin-top: unset !important;
+}
+.swiper-arrows {
+  outline: unset !important;
+  position: absolute !important;
+  z-index: 70;
+  right: 0% !important;
+  top: 0% !important;
+}
+
+.swiper-button-disabled {
+  outline: unset !important;
+  opacity: 0.35 !important;
+  cursor: not-allowed;
+}
+/*! CSS Used fontfaces */
+

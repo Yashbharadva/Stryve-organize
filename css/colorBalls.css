@@ -1,0 +1,201 @@
+/*! CSS Used from: https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/css/stryve-project-5bdce3c7936e32726719e868.webflow.44e24a980.min.css */
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 20px 0 40px;
+  color: #0f172a;
+  font-size: 50.52px;
+  line-height: 64px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+.center-text {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #0f172a;
+  text-align: center;
+}
+.c-assess__svg {
+  width: 100%;
+  height: 100%;
+}
+.c-stat__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.c-stats__bubble-holder {
+  position: absolute;
+  left: auto;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  z-index: -1;
+}
+.c-stats__bubble-holder.cc-blue {
+  top: auto;
+  right: 34%;
+  bottom: 15%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 4vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.c-stats__bubble-holder.cc-orange.cc-1 {
+  width: 2.2vw;
+  height: 2.2vw;
+}
+.c-stats__bubble-holder.cc-pink.cc-1 {
+  top: 12%;
+  width: 2.3vw;
+  height: 2.3vw;
+}
+.c-stats__bubble-holder.cc-ruby {
+  left: 23%;
+  top: auto;
+  right: auto;
+  bottom: 21%;
+  width: 5vw;
+  max-width: 100px;
+}
+.c-stats__bubble-holder.cc-yellow {
+  top: 40%;
+  right: 30%;
+  width: 3.7vw;
+}
+.c-stats__bubble-holder.cc-orange {
+  left: auto;
+  top: -16%;
+  right: 49%;
+  bottom: auto;
+  width: 2.2vw;
+  max-width: 50px;
+}
+.c-stats__bubble-holder.cc-pink {
+  height: 9.7vw;
+  left: auto;
+  top: -22%;
+  right: 30%;
+  bottom: 0;
+  width: 2.8vw;
+  max-width: 60px;
+}
+.c-stats__bubble-holder.cc-middle.cc-pink {
+  top: -10%;
+  right: 22%;
+  bottom: auto;
+  width: 5vw;
+  height: auto;
+  max-width: 100px;
+}
+.c-stats__bubble-holder.cc-middle.cc-yellow {
+  top: 37%;
+  right: 52%;
+  width: 1.8vw;
+  max-width: 40px;
+}
+.c-stats__bubble-holder.cc-middle.cc-orange {
+  right: 52%;
+  width: 2.8vw;
+  height: 2.8vw;
+  max-width: 60px;
+}
+.c-stats__bubble-holder.cc-last.cc-turquoise {
+  left: 21%;
+  top: -17%;
+  right: auto;
+  bottom: auto;
+  z-index: -1;
+  width: 5vw;
+  max-width: 100px;
+}
+.c-stats__bubble-holder.cc-last.cc-blue {
+  top: auto;
+  right: 42%;
+  bottom: 42%;
+  z-index: -1;
+  width: 2.2vw;
+  height: 2.2vw;
+  max-width: 40px;
+}
+.c-stats__bubble-holder.cc-last.cc-green {
+  left: auto;
+  top: 1%;
+  right: 30%;
+  bottom: auto;
+  z-index: -1;
+  width: 2.8vw;
+  height: 2.8vw;
+  max-width: 60px;
+}
+.ultra-heading {
+  font-size: 80px;
+  line-height: 96px;
+}
+.c-stats__item-holder {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+.text-16 {
+  font-size: 16px;
+}
+.text-16.center-text.mg-top {
+  margin-top: -32px;
+}
+.stats-grid {
+  display: -ms-grid;
+  display: grid;
+  padding-bottom: 70px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
