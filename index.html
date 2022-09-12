@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="css/welcome.css" />
   <link rel="stylesheet" href="css/footer.css" />
   <link rel="stylesheet" href="css/responsive.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <script src="animation.js"></script>
+  <!-- <link rel="stylesheet" href="css/nav-ani.css" /> -->
+  <!-- <script src="script.js"></script> -->
 
   <title>Stryve</title>
 </head>
@@ -35,7 +35,7 @@
 
       <!-- NAVIGATION BAR -->
 
-      <nav class="nav-menu w-nav-menu">
+      <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown">
           <div class="w-dropdown-toggle">
             <div>Why Stryve</div>
@@ -65,12 +65,196 @@
         <a href="#" class="c-bg__white w-nav-link">Log in</a>
       </nav>
 
-      <a href="#" class="c-menu-button w-inline-block">
+
+      <a class="c-menu-button w-inline-block" onclick="openTab()">
         <div class="c-menu-line"></div>
         <div class="c-menu-line"></div>
         <div class="c-menu-line"></div>
       </a>
 
+
+      <div id="open-tab" class="c-nav__menu-list" style="display: none; opacity: 0;">
+        <div id="close-tab" class="c-nav__menu-list" style="display: block; opacity: 1; z-index: -1;">
+          <div class="c-nav-list__container relative">
+            <div class="flex-wrapper cc-spaced c-nav-menu__head">
+              <a href="#" class="w-nav-brand w--current">
+                <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf45f80a06c5_Frame.svg"
+                  alt="logo" class="c-logo__svg menu">
+              </a>
+              <div class="c-nav-menu__close">
+                <div class="w-embed">
+                  <?xml version="1.0"?>
+                  <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"
+                    onclick="closeTab()">
+                    <path
+                      d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="flex-vertical cc-nav-menu">
+              <a href="#" class="c-nav__menu w-inline-block w--cureent animate-text">
+                <div class="text-block-11">Home</div>
+              </a>
+              <div class="c-nav-menu__dropdown w-dropdown">
+                <div class="dropdown-toggle-4 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div class="text-block-11">Why</div>
+                </div>
+              </div>
+              <div class="c-nav-menu__dropdown w-dropdown">
+                <div class="dropdown-toggle-4 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div class="text-block-11">Our solution</div>
+                </div>
+
+              </div><a href="#" class="c-nav__menu-link w-inline-block animate-text">
+                <div class="text-block-11">About</div>
+              </a><a href="#" class="c-nav__menu-link w-inline-block animate-text">
+                <div class="text-block-11">Pricing</div>
+              </a>
+              <div class="c-nav-menu__dropdown w-dropdown">
+                <div class="dropdown-toggle-4 w-dropdown-toggle">
+                  <div class="icon-2 w-icon-dropdown-toggle"></div>
+                  <div class="text-block-11">Resources</div>
+                </div>
+
+              </div><a href="#" class="c-nav__menu-link w-inline-block animate-text">
+                <div class="text-block-11">Contact</div>
+              </a><a href="#" target="_blank" class="c-nav__menu-link w-inline-block animate-text">
+                <div class="text-block-11">Login</div>
+              </a>
+            </div>
+
+
+            <div class="c-bubble__wrapper _200 nav-menu"
+              style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+            </div>
+            <div class="c-bubble__wrapper _240 nav-menu"
+              style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+            </div>
+            <div class="c-bubble__wrapper _205 nav-menu"
+              style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script>
+
+        function openTab() {
+          document.getElementById("open-tab").style.display = "block";
+          document.getElementById("open-tab").style.opacity = "1";
+          document.getElementById("open-tab").style.opacity = "1";
+        }
+
+        function closeTab() {
+          document.getElementById("close-tab").style.display = "none";
+          document.getElementById("close-tab").style.opacity = "0";
+          document.getElementById("close-tab").style.zIndex = "-1";
+
+        }
+
+      </script>
+
+
+
+
+
+
+
+
+      <div class="c-nav__menu-list" style="display: none; opacity: 0;">
+        <div class="c-nav-list__container relative">
+          <div class="flex-wrapper cc-spaced c-nav-menu__head"
+            style="transform: translate3d(-50px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+            <a href="/" aria-current="page" class="w-nav-brand w--current" aria-label="home"><img loading="lazy"
+                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf45f80a06c5_Frame.svg" alt=""
+                class="c-logo__svg menu"></a>
+            <div data-w-id="18c38a3f-49bc-be3b-7da4-0d6608277fef" class="c-nav-menu__close">
+              <div class="w-embed"><svg width="24px" height="24px" id="Layer_1" version="1.1" viewBox="0 0 512 512"
+                  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  class=" drawsvg-initialized">
+                  <path
+                    d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"
+                    style="stroke-dasharray: 1930.07, 1930.07; stroke-dashoffset: -1930.02px;"></path>
+                </svg></div>
+            </div>
+          </div>
+          <div class="flex-vertical cc-nav-menu"
+            style="transform: translate3d(0px, 100px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
+            <a href="/" aria-current="page" class="c-nav__menu-link w-inline-block w--current animate-text">
+              <div class="text-block-11">Home</div>
+            </a>
+            <div data-delay="0" data-hover="false" class="c-nav-menu__dropdown w-dropdown" style="">
+              <div class="dropdown-toggle-4 w-dropdown-toggle" id="w-dropdown-toggle-4"
+                aria-controls="w-dropdown-list-4" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                <div class="icon-2 w-icon-dropdown-toggle"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                  aria-hidden="true"></div>
+                <div class="text-block-11">Why</div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;" id="w-dropdown-list-4"
+                aria-labelledby="w-dropdown-toggle-4"><a href="/solutions/attract"
+                  class="c-dropdown__link w-dropdown-link" tabindex="0">Attract</a><a href="/solutions/assess"
+                  class="c-dropdown__link w-dropdown-link" tabindex="0">Assess</a><a href="/solutions/simplify"
+                  class="c-dropdown__link w-dropdown-link" tabindex="0">Simplify</a></nav>
+            </div>
+            <div data-delay="0" data-hover="false" class="c-nav-menu__dropdown w-dropdown">
+              <div class="dropdown-toggle-4 w-dropdown-toggle" id="w-dropdown-toggle-5"
+                aria-controls="w-dropdown-list-5" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                <div class="icon-2 w-icon-dropdown-toggle"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                  aria-hidden="true"></div>
+                <div class="text-block-11">Our solution</div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;" id="w-dropdown-list-5"
+                aria-labelledby="w-dropdown-toggle-5"><a href="/why/time" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Time</a><a href="/why/compliance" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Compliance</a><a href="/why/diversity" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Diversity</a><a href="/why/engagement" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Engagement</a></nav>
+            </div><a href="/about" class="c-nav__menu-link w-inline-block animate-text">
+              <div class="text-block-11">About</div>
+            </a><a href="/pricing" class="c-nav__menu-link w-inline-block animate-text">
+              <div class="text-block-11">Pricing</div>
+            </a>
+            <div data-delay="0" data-hover="false" class="c-nav-menu__dropdown w-dropdown">
+              <div class="dropdown-toggle-4 w-dropdown-toggle" id="w-dropdown-toggle-6"
+                aria-controls="w-dropdown-list-6" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                <div class="icon-2 w-icon-dropdown-toggle"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                  aria-hidden="true"></div>
+                <div class="text-block-11">Resources</div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;" id="w-dropdown-list-6"
+                aria-labelledby="w-dropdown-toggle-6"><a href="/learnings" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Learning</a><a
+                  href="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6151be16c92719d19cb3f01a_Stryve%20User%20Guide.pdf"
+                  class="c-dropdown__link w-dropdown-link" tabindex="0">User Guide</a><a
+                  href="https://ats.stryve.online/support-ticket" target="_blank"
+                  class="c-dropdown__link w-dropdown-link" tabindex="0" rel="noopener noreferrer">Raise ticket</a></nav>
+            </div><a href="/contact" class="c-nav__menu-link w-inline-block animate-text">
+              <div class="text-block-11">Contact</div>
+            </a><a href="https://control.stryve.online" target="_blank"
+              class="c-nav__menu-link w-inline-block animate-text" rel="noopener noreferrer">
+              <div class="text-block-11">Login</div>
+            </a>
+          </div>
+          <div class="c-bubble__wrapper _200 nav-menu"
+            style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+          </div>
+          <div class="c-bubble__wrapper _240 nav-menu"
+            style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+          </div>
+          <div class="c-bubble__wrapper _205 nav-menu"
+            style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -196,7 +380,6 @@
         </div>
       </div>
 
-
     </div>
 
 
@@ -229,158 +412,197 @@
 
           <!-- WHITE BALLS WITH INNER TEXT -->
 
-          <div class="flex-vertical p-btm-50 cc-solution-gen mobile">
-            <div class="flex-wrapper cc-spaced mg-btm__20 row">
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-1 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I don't have enough time to recruit</div>
-              </a>
-
-              <a id="no-info-mobile" style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-2 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">My data is a mess</div>
-              </a>
-
-            </div>
-
-            <div class="flex-wrapper mg-btm__20">
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-3 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I'm struggling to attract candidates</div>
-              </a>
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-4 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I can't keep up with emails</div>
-              </a>
-            </div>
-
-            <div class="flex-wrapper cc-spaced mg-btm__20 row">
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-5 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I don't have a clear picture of my hiring
-                  pipeline</div>
-              </a>
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-6 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I can't keep track of applications</div>
-              </a>
-
-            </div>
-
-            <div class="flex-wrapper mg-btm__20">
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-7 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to keep my team involved </div>
-              </a>
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-8 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I'm sick of countless spreadsheets</div>
-              </a>
-
-            </div>
-
-
-            <div class="flex-wrapper cc-spaced mg-btm__20 row">
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-9 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I'm not super tech savy</div>
-              </a>
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-10 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">Assessing the best candidate is tough</div>
-              </a>
-
-            </div>
-            <div class="flex-wrapper">
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-11 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">Soooo many positions to fill</div>
-              </a>
-
-              <a style="background-color: rgb(255, 255, 255);" href="#"
-                class="c-solution__circle cc-mobile cc-12 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">My team is not diverse enough</div>
-              </a>
-
-            </div>
-          </div>
-
 
           <div class="flex-vertical p-btm-50">
             <div class="flex-wrapper cc-first-row">
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-1 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I'm not super tech-savvy</div>
+              <a id="first-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-1 w-inline-block" onclick="myFunction()">
+                <div id="first-ball-text" style="color:rgb(15,23,42)" class="text-11 center-text">I'm not super
+                  tech-savvy</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-2 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I don't have enough time to recruit</div>
+              <a id="second-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-2 w-inline-block" onclick="myFunction2()">
+                <div id="first-ball-text2" style="color:rgb(15,23,42)" class="text-11 center-text">I don't have enough
+                  time to recruit</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-3 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">My data is a mess</div>
+              <a id="third-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-3 w-inline-block" onclick="myFunction3()">
+                <div id="first-ball-text3" style="color:rgb(15,23,42)" class="text-11 center-text">My data is a mess
+                </div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-4 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I can't keep up with emails</div>
+              <a id="forth-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-4 w-inline-block" onclick="myFunction4()">
+                <div id="first-ball-text4" style="color:rgb(15,23,42)" class="text-11 center-text">I can't keep up with
+                  emails</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-5 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I'm sick of countless spreadsheets</div>
+              <a id="fifth-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-5 w-inline-block" onclick="myFunction5()">
+                <div id="first-ball-text5" style="color:rgb(15,23,42)" class="text-11 center-text">I'm sick of countless
+                  spreadsheets</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-6 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">Soooo many positions to fill</div>
+              <a id="six-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-6 w-inline-block" onclick="myFunction6()">
+                <div id="first-ball-text6" style="color:rgb(15,23,42)" class="text-11 center-text">Soooo many positions
+                  to fill</div>
               </a>
 
 
             </div>
+
+            <script>
+              function myFunction() {
+                document.getElementById("first-ball").style.backgroundColor = "#f52768";
+                document.getElementById("first-ball-text").style.color = "white";
+                document.getElementById("first-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction2() {
+                document.getElementById("second-ball").style.backgroundColor = "#706f6a";
+                document.getElementById("first-ball-text2").style.color = "white";
+                document.getElementById("second-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text2").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction3() {
+                document.getElementById("third-ball").style.backgroundColor = "#f8b8c3";
+                document.getElementById("first-ball-text3").style.color = "white";
+                document.getElementById("third-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text3").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction4() {
+                document.getElementById("forth-ball").style.backgroundColor = "#47dbdb";
+                document.getElementById("first-ball-text4").style.color = "white";
+                document.getElementById("forth-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text4").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction5() {
+                document.getElementById("fifth-ball").style.backgroundColor = "#f89c27";
+                document.getElementById("first-ball-text5").style.color = "white";
+                document.getElementById("fifth-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text5").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction6() {
+                document.getElementById("six-ball").style.backgroundColor = "#1001c0";
+                document.getElementById("first-ball-text6").style.color = "white";
+                document.getElementById("six-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text6").style.transitionDuration = "0.5s";
+              }
+
+            </script>
 
 
             <div class="flex-wrapper">
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-7 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to keep my team in the loop
+              <a id="seven-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-7 w-inline-block" onclick="myFunction7()">
+                <div id="first-ball-text7" style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to keep my
+                  team in the loop
                 </div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-8 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to pinpoint the best candidate
+              <a id="eight-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-8 w-inline-block" onclick="myFunction8()">
+                <div id="first-ball-text8" style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to
+                  pinpoint
+                  the best candidate
                 </div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-9 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to attract candidates</div>
+              <a id="nine-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-9 w-inline-block" onclick="myFunction9()">
+                <div id="first-ball-text9" style="color:rgb(15,23,42)" class="text-11 center-text">I struggle to attract
+                  candidates</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-10 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I can't keep track of applications</div>
+              <a id="ten-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-10 w-inline-block" onclick="myFunction10()">
+                <div id="first-ball-text10" style="color:rgb(15,23,42)" class="text-11 center-text">I can't keep track
+                  of
+                  applications</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-11 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">I don't have a clear picture of my hiring
+              <a id="eleven-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-11 w-inline-block" onclick="myFunction11()">
+                <div id="first-ball-text11" style="color:rgb(15,23,42)" class="text-11 center-text">I don't have a clear
+                  picture of my hiring
                   pipeline</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-12 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">GDPR... yikes!</div>
+              <a id="twelve-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-12 w-inline-block" onclick="myFunction12()">
+                <div id="first-ball-text12" style="color:rgb(15,23,42)" class="text-11 center-text">GDPR... yikes!</div>
               </a>
 
-              <a style="background-color: rgb(255, 255, 255);" href="#" class="c-solution__circle cc-13 w-inline-block">
-                <div style="color:rgb(15,23,42)" class="text-11 center-text">My team lacks diversity</div>
+              <a id="thirteen-ball" style="background-color: rgb(255, 255, 255); cursor: pointer;"
+                class="c-solution__circle cc-13 w-inline-block" onclick="myFunction13()">
+                <div id="first-ball-text13" style="color:rgb(15,23,42)" class="text-11 center-text">My team lacks
+                  diversity</div>
               </a>
 
             </div>
+
+            <script>
+              function myFunction7() {
+                document.getElementById("seven-ball").style.backgroundColor = "#6acfb6";
+                document.getElementById("first-ball-text7").style.color = "white";
+                document.getElementById("seven-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text7").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction8() {
+                document.getElementById("eight-ball").style.backgroundColor = "#f59e0d";
+                document.getElementById("first-ball-text8").style.color = "white";
+                document.getElementById("eight-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text8").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction9() {
+                document.getElementById("nine-ball").style.backgroundColor = "#fcd127";
+                document.getElementById("first-ball-text9").style.color = "white";
+                document.getElementById("nine-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text9").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction10() {
+                document.getElementById("ten-ball").style.backgroundColor = "#0d65f4";
+                document.getElementById("first-ball-text10").style.color = "white";
+                document.getElementById("ten-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text10").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction11() {
+                document.getElementById("eleven-ball").style.backgroundColor = "#fcd127";
+                document.getElementById("first-ball-text11").style.color = "white";
+                document.getElementById("eleven-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text11").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction12() {
+                document.getElementById("twelve-ball").style.backgroundColor = "#42c89f";
+                document.getElementById("first-ball-text12").style.color = "white";
+                document.getElementById("twelve-ball").style.transitionDuration = "0.5s";
+                document.getElementById("first-ball-text12").style.transitionDuration = "0.5s";
+              }
+
+              function myFunction13() {
+                document.getElementById("thirteen-ball").style.backgroundColor = "#299aff";
+                document.getElementById("first-ball-text13").style.color = "white";
+                document.getElementById("thirteen-ball").style.transitionDuration = "1s";
+                document.getElementById("first-ball-text13").style.transitionDuration = "1s";
+                document.getElementById("thirteen-ball").style.cursor = "pointer";
+              }
+
+            </script>
           </div>
 
           <!-- CHECK SOLUTION BUTTON -->
@@ -392,6 +614,7 @@
           </a>
         </div>
       </div>
+
     </section>
 
 
@@ -2263,6 +2486,8 @@
     </footer>
 
   </main>
+
+
 </body>
 
 </html>
