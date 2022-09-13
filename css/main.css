@@ -1146,9 +1146,9 @@ h1 ,.is--white {
   max-width: 30ch;
   padding: 10px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: black;
 }
-.c-tag__holder.cc-1 {
+.c-tag__holder.cc-5 {
   position: absolute;
   left: 12%;
   top: 18%;

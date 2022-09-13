@@ -1,0 +1,153 @@
+/* .scroll-container {
+  height: 100vh;
+  min-height: 450px;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.scroll-container:nth-of-type(2) {
+  background-color: #f5d2d3;
+} */
+
+/* .js-scroll, .header-next {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+} */
+
+
+.hiring {
+  letter-spacing: -0.02em;
+}
+
+.hiring, .hard, .made-it, .easy, .para, .play-learn, .image-aqua, .header-challenge 
+,.button-challenge, .helping, .line
+{
+  /* display: block; */
+  animation-name: slideUp;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+
+.image-lightgreen {
+  animation-name: popup-circle1;
+  animation-duration: 1.5s;
+}
+
+.image-aqua {
+  animation-name: popup-circle2;
+  animation-duration: 1.5s;
+}
+
+.image-lightpink {
+  animation-name: popup-circle3;
+  animation-duration: 1.5s;
+}
+
+.image-yellow {
+  animation-name: popup-circle4;
+  animation-duration: 1.5s;
+}
+
+.image-lightRed {
+  animation-name: popup-circle5;
+  animation-duration: 1.5s;
+}
+
+.image-orenge {
+  animation-name: popup-circle6;
+  animation-duration: 1.5s;
+}
+
+.image-lightcream {
+  animation-name: popup-circle7;
+  animation-duration: 1.5s;
+}
+
+.image-girl {
+  animation-name: popup-circle8;
+  animation-duration: 1.5s;
+}
+
+.sidetext {
+  animation-name: sidetext-white;
+  animation-duration: 1.5s;
+}
+
+.circle-text-one {
+  animation: popup-circle;
+  animation-duration: 1.5s;
+}
+
+.text-color {
+  animation: hideText;
+  animation-duration: 1.5s;
+}
+
+
+
+
+
+/* .no-mg, .line, p {
+  letter-spacing: -0.02em;
+}
+
+  .no-mg, .line, p{
+    display: block;
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  } */
+  /* .offset-header-odd {
+    text-align: left;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+  }
+  .offset-header-even {
+    text-align: right;
+    animation-delay: 50ms;
+    animation-fill-mode: both;
+  } */
+
+  @keyframes slideUp {
+    0%,30%, 50%{
+      transform: translateY(100%);
+      opacity: 0;
+    }
+     
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    
+    }
+  }
+
+  @keyframes sidetext-white {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }

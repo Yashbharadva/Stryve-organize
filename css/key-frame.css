@@ -1,0 +1,136 @@
+
+@keyframes popup-circle1 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@keyframes popup-circle2 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 28%;
+    width: 28%;
+  }
+}
+
+@keyframes popup-circle3 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 30%;
+    width: 30%;
+  }
+}
+
+@keyframes popup-circle4 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 8%;
+    width: 8%;
+  }
+}
+
+@keyframes popup-circle5 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 30%;
+    width: 30%;
+  }
+}
+
+@keyframes popup-circle6 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 7%;
+    width: 7%;
+  }
+}
+
+@keyframes popup-circle7 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 5%;
+    width: 5%;
+  }
+}
+
+@keyframes popup-circle8 {
+  0%{
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    height: 12%;
+    width: 12%;
+  }
+}
+
+@keyframes popup-circle {
+  0%{
+    height: 0px;
+    width: 0px;
+    opacity: 0;
+    background-color: white;
+  }
+  100% {
+    opacity: 1;
+    height: 117px;
+    width: 117px;
+  }
+}
+
+/* @keyframes hideText {
+  0% {
+    opacity: 0;
+    color: white;
+    height: 0px;
+    width: 0px;
+  }
+
+  100% {
+    opacity: 1;
+    color: black;
+    height: 117px;
+    width: 117px;
+  }
+
+
+} */
