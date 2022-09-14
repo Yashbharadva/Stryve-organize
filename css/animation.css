@@ -323,15 +323,15 @@
   animation-duration: 1.5s;
 }
 
-.circle-text-one {
+/* .circle-text-one {
   animation: popup-circle;
   animation-duration: 1.5s;
-}
+} */
 
-.text-color {
+/* .text-color {
   animation: hideText;
   animation-duration: 1.5s;
-}
+} */
 
 
 

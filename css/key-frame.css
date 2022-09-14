@@ -115,9 +115,9 @@
     height: 117px;
     width: 117px;
   }
-}
+} 
 
-/* @keyframes hideText {
+@keyframes hideText {
   0% {
     opacity: 0;
     color: white;
@@ -133,4 +133,4 @@
   }
 
 
-} */
+}
