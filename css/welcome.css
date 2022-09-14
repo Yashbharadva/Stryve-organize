@@ -28,6 +28,26 @@ svg:not(:root) {
   max-width: 100%;
   display: inline-block;
 }
+
+
+
+/* .hello:hover {
+  height: 50rem;
+  opacity: 1;
+} */
+
+
+
+
+
+
+/* .hover-p:hover {
+  opacity: 1;
+  height: 50rem;
+  width: 50rem;
+  color: black;
+} */
+
 h1 {
   margin: 20px 0 40px;
   color: #0f172a;

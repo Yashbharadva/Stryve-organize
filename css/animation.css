@@ -34,6 +34,250 @@
   animation-timing-function: ease-in;
 }
 
+
+/* ------------>>>>>>> First cards <<<<<<<------------- */
+
+.swiper-slide ,.swiper-slide-active :hover .hello{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.swiper-slide ,.swiper-slide-active :hover .access-button{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.hello {
+  animation-name: uppppp;
+  padding-top: 25px;
+  transition-duration: 0.5s;
+}
+
+.access-button {
+  opacity: 0;
+}
+
+.access-button :hover {
+  opacity: 1;
+}
+
+
+.header-access {
+  animation-name: padding-up;
+}
+
+@keyframes padding-up {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes uppppp {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/* ------------>>>>>>> Second cards <<<<<<<------------- */
+
+
+.swipe-slide , .swiper-slide-next:hover .hello2 {
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.swiper-slide ,.swiper-slide-next :hover .access-button2{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.hello2 {
+  animation-name: uppppp;
+  padding-top: 25px;
+  transition-duration: 0.5s;
+}
+
+.access-button2 {
+  opacity: 0;
+}
+
+.access-button2 :hover {
+  opacity: 1;
+}
+
+.header-access2 {
+  animation-name: padding-up;
+}
+
+@keyframes padding-up {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes uppppp {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* ------------>>>>>>> Third cards <<<<<<<------------- */
+
+.swiper-slide ,.swiper-slide-next :hover .hello3{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.swiper-slide ,.swiper-slide-next :hover .access-button3{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.hello3 {
+  animation-name: uppppp;
+  padding-top: 25px;
+  transition-duration: 0.5s;
+}
+
+.access-button3 {
+  opacity: 0;
+}
+
+.access-button3 :hover {
+  opacity: 1;
+}
+
+
+.header-access3 {
+  animation-name: padding-up;
+}
+
+@keyframes padding-up {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes uppppp {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/* ------------>>>>>>> Fourth cards <<<<<<<------------- */
+
+.swiper-slide ,.swiper-slide-next :hover .hello4{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.swiper-slide ,.swiper-slide-next :hover .access-button4{
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+
+.hello4 {
+  animation-name: uppppp;
+  padding-top: 25px;
+  transition-duration: 0.5s;
+}
+
+.access-button4 {
+  opacity: 0;
+}
+
+.access-button4 :hover {
+  opacity: 1;
+}
+
+
+.header-access4 {
+  animation-name: padding-up;
+}
+
+@keyframes padding-up {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes uppppp {
+  0% {
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
 .image-lightgreen {
   animation-name: popup-circle1;
   animation-duration: 1.5s;

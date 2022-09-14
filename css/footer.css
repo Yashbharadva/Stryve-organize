@@ -140,6 +140,7 @@ h5 {
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
   text-decoration: none;
+  opacity: 0;
 }
 .is--white.is--12px {
   font-size: 12px;
