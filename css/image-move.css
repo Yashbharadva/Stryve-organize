@@ -3,29 +3,49 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run;
-  animation-duration: 9s;
+  animation-duration: 6.5s;
 }
 
 
 @keyframes run {
   0% {
-    left: 0;
+    left: 5%;
+  }
+
+  5% {
+    left: 5%;
   }
 
   10% {
-    left: 3%;
+    left: 5%;
   }
 
   15% {
-    left: 3%;
+    left: 5%;
+  }
+
+  25% {
+    left: 25%;
   }
 
   50% {
     left: 65%;
   }
 
+  75% {
+    left: 65%;
+  }
+
+  80% {
+    left: 55%;
+  }
+
+  90% {
+    left: 30%;
+  }
+
   100% {
-    left: 0;
+    left: 5%;
   }
 }
 
@@ -34,29 +54,49 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run1;
-  animation-duration: 8s;
+  animation-duration: 6.5s;
 
 }
 
 @keyframes run1 {
   0% {
-    left: 10;
+    left: 12%;
+  }
+
+  5% {
+    left: 12%;
   }
 
   10% {
-    left: 13%;
+    left: 12%;
   }
 
   15% {
-    left: 13%;
+    left: 25%;
+  }
+
+  25% {
+    left: 40%;
   }
 
   50% {
     left: 75%;
   }
 
+  75% {
+    left: 75%;
+  }
+
+  80% {
+    left: 75%;
+  }
+
+  90% {
+    left: 50%;
+  }
+
   100% {
-    left: 0;
+    left: 12%;
   }
 }
 
@@ -65,29 +105,49 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run2;
-  animation-duration: 8s;
-
+  animation-duration: 6.5s;
 }
+
 
 @keyframes run2 {
   0% {
-    left: 0;
+    left: 12%;
+  }
+
+  5% {
+    left: 12%;
   }
 
   10% {
-    left: 3%;
+    left: 12%;
   }
 
   15% {
-    left: 10%;
+    left: 27%;
+  }
+
+  25% {
+    left: 42%;
   }
 
   50% {
-    left: 90%;
+    left: 77%;
+  }
+
+  75% {
+    left: 77%;
+  }
+
+  80% {
+    left: 77%;
+  }
+
+  90% {
+    left: 52%;
   }
 
   100% {
-    left: 0;
+    left: 12%;
   }
 }
 
@@ -96,29 +156,49 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run3;
-  animation-duration: 8s;
+  animation-duration: 6.5s;
 
 }
 
 @keyframes run3 {
   0% {
-    left: 0;
+    left: 12%;
+  }
+
+  5% {
+    left: 12%;
   }
 
   10% {
-    left: 3%;
+    left: 12%;
   }
 
   15% {
-    left: 10%;
+    left: 32%;
+  }
+
+  25% {
+    left: 45%;
   }
 
   50% {
-    left: 90%;
+    left: 80%;
+  }
+
+  75% {
+    left: 80%;
+  }
+
+  80% {
+    left: 80%;
+  }
+
+  90% {
+    left: 55%;
   }
 
   100% {
-    left: 0;
+    left: 12%;
   }
 }
 
@@ -127,29 +207,49 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run4;
-  animation-duration: 8s;
+  animation-duration: 6.5s;
 
 }
 
 @keyframes run4 {
   0% {
-    left: 0;
+    left: 17%;
+  }
+
+  5% {
+    left: 17%;
   }
 
   10% {
-    left: 3%;
+    left: 17%;
   }
 
   15% {
-    left: 10%;
+    left: 35%;
+  }
+
+  25% {
+    left: 48%;
   }
 
   50% {
-    left: 90%;
+    left: 83%;
+  }
+
+  75% {
+    left: 83%;
+  }
+
+  80% {
+    left: 83%;
+  }
+
+  90% {
+    left: 58%;
   }
 
   100% {
-    left: 0;
+    left: 17%;
   }
 }
 
@@ -158,29 +258,49 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run5;
-  animation-duration: 8s;
+  animation-duration: 6.5s;
 
 }
 
 @keyframes run5 {
   0% {
-    left: 0;
+    left: 22%;
+  }
+
+  5% {
+    left: 22%;
   }
 
   10% {
-    left: 3%;
+    left: 22%;
   }
 
   15% {
-    left: 10%;
+    left: 40%;
+  }
+
+  25% {
+    left: 52%;
   }
 
   50% {
-    left: 90%;
+    left: 88%;
+  }
+
+  75% {
+    left: 88%;
+  }
+
+  80% {
+    left: 88%;
+  }
+
+  90% {
+    left: 63%;
   }
 
   100% {
-    left: 0;
+    left: 22%;
   }
 }
 
@@ -189,28 +309,483 @@
   position: absolute;
   animation: linear infinite;
   animation-name: run6;
-  animation-duration: 8s;
+  animation-duration: 6.5s;
 
 }
 
 @keyframes run6 {
   0% {
-    left: 0;
+    left: 24%;
+  }
+
+  5% {
+    left: 24%;
   }
 
   10% {
-    left: 3%;
+    left: 24%;
   }
 
   15% {
-    left: 10%;
+    left: 43%;
+  }
+
+  25% {
+    left: 55%;
   }
 
   50% {
-    left: 90%;
+    left: 91%;
+  }
+
+  75% {
+    left: 91%;
+  }
+
+  80% {
+    left: 91%;
+  }
+
+  90% {
+    left: 65%;
   }
 
   100% {
-    left: 0;
+    left: 24%;
   }
 }
+
+#pot7 {
+  bottom: 15%;
+  position: absolute;
+  animation: linear infinite;
+  animation-name: run7;
+  animation-duration: 6.5s;
+
+}
+
+@keyframes run7 {
+  0% {
+    left: 24%;
+  }
+
+  5% {
+    left: 24%;
+  }
+
+  10% {
+    left: 24%;
+  }
+
+  15% {
+    left: 48%;
+  }
+
+  25% {
+    left: 60%;
+  }
+
+  50% {
+    left: 96%;
+  }
+
+  75% {
+    left: 96%;
+  }
+
+  80% {
+    left: 96%;
+  }
+
+  90% {
+    left: 70%;
+  }
+
+  100% {
+    left: 24%;
+  }
+}
+
+#pot8 {
+  bottom: 15%;
+  position: absolute;
+  animation: linear infinite;
+  animation-name: run8;
+  animation-duration: 6.5s;
+
+}
+
+@keyframes run8 {
+  0% {
+    left: 26%;
+  }
+
+  5% {
+    left: 26%;
+  }
+
+  10% {
+    left: 26%;
+  }
+
+  15% {
+    left: 51%;
+  }
+
+  25% {
+    left: 63%;
+  }
+
+  50% {
+    left: 89%;
+  }
+
+  75% {
+    left: 89%;
+  }
+
+  80% {
+    left: 79%;
+  }
+
+  90% {
+    left: 54%;
+  }
+
+  100% {
+    left: 26%;
+  }
+}
+
+#pot9 {
+  bottom: 15%;
+  position: absolute;
+  animation: linear infinite;
+  animation-name: run9;
+  animation-duration: 6.5s;
+
+}
+
+@keyframes run9 {
+  0% {
+    left: 28%;
+  }
+
+  5% {
+    left: 28%;
+  }
+
+  10% {
+    left: 28%;
+  }
+
+  15% {
+    left: 55%;
+  }
+
+  25% {
+    left: 67%;
+  }
+
+  50% {
+    left: 93%;
+  }
+
+  75% {
+    left: 93%;
+  }
+
+  80% {
+    left: 83%;
+  }
+
+  90% {
+    left: 57%;
+  }
+
+  100% {
+    left: 28%;
+  }
+}
+
+/* #element {
+  position:absolute;
+  top:-400px;
+  width:18%;
+  height: 10rem;
+  padding:2em;
+  animation: drop 3s ease forwards;
+  animation-iteration-count:2;
+}
+
+@keyframes drop{
+  0%{opacity: 1}
+  70%{transform: translateY(100px)}
+  100%{
+    transform: translateY(700px);
+    gap: 0.2rem ;
+  }
+} */
+
+
+
+
+
+#ball-yellow {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: hello2;
+  animation-duration: 10s;
+}
+
+@keyframes hello2 {
+  0% {
+    top: 90%;
+    left: 18.5%;
+  }
+
+   100% {
+    top: -210%;
+    left: 18.5%;
+   }
+}
+
+#ball-green {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: hello;
+  animation-duration: 10s;
+}
+
+@keyframes hello {
+  0% {
+    top: 100%;
+    left: 17%;
+  }
+
+   100% {
+    top: -200%;
+    left: 17%;
+   }
+}
+
+#ball-yellow2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: yellow2;
+  animation-duration: 10s;
+}
+
+
+@keyframes yellow2 {
+  0% {
+    top: 110%;
+    left: 17%;
+  }
+
+   100% {
+    top: -190%;
+    left: 17%;
+   }
+}
+
+#ball-green2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: green2;
+  animation-duration: 10s;
+}
+
+@keyframes green2 {
+  0% {
+    top: 120%;
+    left: 18.5%;
+  }
+
+   100% {
+    top: -180%;
+    left: 18.5%;
+   }
+}
+
+#ball-yellow3 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: yellow3;
+  animation-duration: 10s;
+}
+
+
+@keyframes yellow3 {
+  0% {
+    top: 130%;
+    left: 18.5%;
+  }
+
+   100% {
+    top: -170%;
+    left: 18.5%;
+   }
+}
+
+#ball-green3 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: green3;
+  animation-duration: 10s;
+}
+
+
+@keyframes green3 {
+  0% {
+    top: 140%;
+    left: 18.5%;
+  }
+
+   100% {
+    top: -160%;
+    left: 18.5%;
+   }
+}
+
+#ball-yellow4 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: yellow4;
+  animation-duration: 10s;
+}
+
+@keyframes yellow4 {
+  0% {
+    top: 150%;
+    left: 18.5%;
+  }
+
+   100% {
+    top: -150%;
+    left: 18.5%;
+   }
+}
+
+#ball-yellow4 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: yellow4;
+  animation-duration: 10s;
+}
+
+@keyframes yellow4 {
+  0% {
+    top: 150%;
+    left: 18.5%;
+  }
+
+   100% {
+    top: -150%;
+    left: 18.5%;
+   }
+}
+
+#ball-green-curve2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: green-curve2;
+  animation-duration: 3s;
+}
+
+@keyframes green-curve2 {
+  0% {
+    top: 100%;
+    left: 53%;
+  }
+
+  40% {
+    top: 63%;
+    left: 53%;
+  }
+
+  50% {
+    top: 55%;
+    left: 57%;
+  }
+
+  60% {
+    top: 52.5%;
+    left: 60%;
+  }
+
+  70% {
+    top: 48%;
+    left: 67%;
+  }
+
+  80% {
+    top: 46%;
+    left: 75%;
+  }
+
+  100% {
+    top: 45%;
+    left: 100%;
+  }
+}
+
+#ball-yellow-curve2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: yellow-curve2;
+  animation-duration: 3s;
+}
+
+@keyframes yellow-curve2 {
+  0% {
+    top: 110%;
+    left: 53%;
+  }
+
+  40% {
+    top: 73%;
+    left: 53%;
+  }
+
+  50% {
+    top: 65%;
+    left: 57%;
+  }
+
+  60% {
+    top: 52.5%;
+    left: 58%;
+  }
+
+  70% {
+    top: 48%;
+    left: 60%;
+  }
+
+  80% {
+    top: 46%;
+    left: 65%;
+  }
+
+  100% {
+    top: 45%;
+    left: 90%;
+  }
+}
+
+
+
+
+
+
