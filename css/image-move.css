@@ -528,7 +528,7 @@
 } */
 
 
-
+/* -------------------------------------------------- */
 
 
 #ball-yellow {
@@ -550,6 +550,10 @@
     left: 18.5%;
    }
 }
+
+
+
+
 
 #ball-green {
   bottom: 15%;
@@ -694,6 +698,14 @@
    }
 }
 
+
+
+
+
+
+
+
+
 #ball-green-curve2 {
   bottom: 15%;
   position: absolute;
@@ -704,38 +716,28 @@
 
 @keyframes green-curve2 {
   0% {
-    top: 100%;
-    left: 53%;
+    top: 45%;
+    left: 100%;
+  }
+
+  20% {
+    top: 45%;
+    left: 70%;
   }
 
   40% {
-    top: 63%;
-    left: 53%;
-  }
-
-  50% {
     top: 55%;
-    left: 57%;
+    left: 56%;
   }
 
   60% {
-    top: 52.5%;
-    left: 60%;
-  }
-
-  70% {
-    top: 48%;
-    left: 67%;
-  }
-
-  80% {
-    top: 46%;
-    left: 75%;
+    top: 80%;
+    left: 53%;
   }
 
   100% {
-    top: 45%;
-    left: 100%;
+    top: 150%;
+    left: 53%;
   }
 }
 
@@ -749,43 +751,143 @@
 
 @keyframes yellow-curve2 {
   0% {
-    top: 110%;
-    left: 53%;
+    top: 45%;
+    left: 110%;
+  }
+
+  20% {
+    top: 45%;
+    left: 80%;
   }
 
   40% {
-    top: 73%;
-    left: 53%;
-  }
-
-  50% {
-    top: 65%;
-    left: 57%;
+    top: 50%;
+    left: 62%;
   }
 
   60% {
-    top: 52.5%;
-    left: 58%;
-  }
-
-  70% {
-    top: 48%;
-    left: 60%;
-  }
-
-  80% {
-    top: 46%;
-    left: 65%;
+    top: 70%;
+    left: 52%;
   }
 
   100% {
+    top: 140%;
+    left: 53%;
+  }
+}
+
+#ball-green2-curve2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: green2-curve2;
+  animation-duration: 3s;
+}
+
+@keyframes green2-curve2 {
+  0% {
+    top: 45%;
+    left: 120%;
+  }
+
+  20% {
     top: 45%;
     left: 90%;
+  }
+
+  40% {
+    top: 45%;
+    left: 72%;
+  }
+
+  60% {
+    top: 60%;
+    left: 52%;
+  }
+
+  100% {
+    top: 130%;
+    left: 53%;
+  }
+}
+
+#ball-yellow2-curve2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: yellow2-curve2;
+  animation-duration: 3s;
+}
+
+@keyframes yellow2-curve2 {
+  0% {
+    top: 45%;
+    left: 130%;
+  }
+
+  20% {
+    top: 45%;
+    left: 100%;
+  }
+
+  40% {
+    top: 45%;
+    left: 82%;
+  }
+
+  60% {
+    top:55%;
+    left: 53%;
+  }
+
+  100% {
+    top: 120%;
+    left: 53%;
   }
 }
 
 
 
+/* ----------------------------------------------- */
+
+#ball-pink-curve2 {
+  bottom: 15%;
+  position: absolute;
+  animation: infinite;
+  animation-name: pink-curve2;
+  animation-duration: 3s;
+}
+
+@keyframes pink-curve2 {
+  0% {
+    top: 0%;
+    left: 53%;
+  }
+
+  /* 20% {
+    top: 18%;
+    left: 53%;
+  } */
+
+  40% {
+    top: 30%;
+    left: 80;
+  }
 
 
+  /* 40% {
+    top: 31%;
+    left: 80%;
+  }
+
+  60% {
+    top: 30%;
+    left: 90%;
+  } */
+
+  100% {
+    top: 30%;
+    left: 100%;
+  }
+}
 
