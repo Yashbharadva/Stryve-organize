@@ -26,13 +26,17 @@
 }
 
 .hiring, .hard, .made-it, .easy, .para, .play-learn, .image-aqua, .header-challenge 
-,.button-challenge, .helping, .line
-{
-  /* display: block; */
+,.button-challenge, .helping, .line, .attract, .find, .talent, .good, .thanks{
   animation-name: slideUp;
   animation-duration: 1.5s;
   animation-timing-function: ease-in;
 }
+
+/* .attract, .find {
+  animation-name: slideUp;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+} */
 
 /* #ring-animation {
   animation: alternate infinite;

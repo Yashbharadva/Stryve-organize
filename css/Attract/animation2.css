@@ -1,0 +1,48 @@
+#purpule-ball {
+  position: absolute;
+  animation: linear infinite;
+  animation-name: run1;
+  animation-duration: 2.5s;
+}
+
+@keyframes run1 {
+  0% {
+    left: 12%;
+  }
+
+  5% {
+    left: 12%;
+  }
+
+  10% {
+    left: 12%;
+  }
+
+  15% {
+    left: 25%;
+  }
+
+  25% {
+    left: 40%;
+  }
+
+  50% {
+    left: 75%;
+  }
+
+  75% {
+    left: 75%;
+  }
+
+  80% {
+    left: 75%;
+  }
+
+  90% {
+    left: 50%;
+  }
+
+  100% {
+    left: 12%;
+  }
+}

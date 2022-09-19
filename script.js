@@ -12,4 +12,12 @@
 //   document.body.style.backgroundColor = 'aqua';
 // });
 
+// function redirect() {
+//   let url = "/Attract";
+//   window.location(url);
+// }
+
+document.getElementById("redirect-page").onclick = function () {
+  location.href = "/solutions/attract";
+};
 

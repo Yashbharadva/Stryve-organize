@@ -225,9 +225,9 @@ p {
   color: #0f172a;
 }
 
-.c-section p {
+/* .c-section p {
   color: rgba(255,255, 255, 0.65 );
-}
+} */
 
 
 .c-hero__text p {
@@ -466,7 +466,6 @@ h2 {
 
 .c-stats__bubble-holder, .cc-pink {
   inset: -22% 30% 0px auto;
-  max-width: 60px;
 }
 
 .c-stats__bubble-holder {
@@ -1904,7 +1903,6 @@ h1 ,.is--white {
 .p-top__32 {
   padding-top: 32px;
   text-align: left;
-  -o-object-fit: fill;
   object-fit: fill;
 }
 .c-menu-button,
