@@ -1,0 +1,320 @@
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html.w-mod-touch * {
+  background-attachment: scroll !important;
+}
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+h1 {
+  margin: 20px 0 40px;
+  color: #0f172a;
+  font-size: 50.52px;
+  line-height: 64px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0f172a;
+  font-size: 28.43px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: rgba(15, 23, 42, 0.65);
+  font-size: 16px;
+  line-height: 24px;
+}
+.c-ctn {
+  width: 85%;
+  max-width: 1280px;
+  min-width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.c-ctn.cc-absolute {
+  position: absolute;
+  padding-bottom: 0;
+}
+.c-ctn.cc-absolute.cc-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.c-ctn.cc-absolute.cc-flex.spaced {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.c-ctn.cc-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.c-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 48px;
+  min-width: 120px;
+  padding: 15px 23px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #0f172a;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14.4px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-btn.cc-with-icon {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.c-btn.cc-with-icon.mg-right__20 {
+  background-color: #fff;
+}
+.c-icon__arrow {
+  margin-left: 5px;
+  color: #0f172a;
+}
+.c-hero__cover {
+  position: relative;
+  overflow: hidden;
+  width: 50vw;
+  height: 50vw;
+  min-height: 800px;
+  margin-left: auto;
+  background-color: #0f172a;
+}
+.c-hero__cover.cc-ruby {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ff2868;
+}
+.c-hero {
+  position: relative;
+}
+.c-hero.cc-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.c-hero__content {
+  max-width: 50%;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+.c-hero__text {
+  max-width: 40ch;
+  padding-bottom: 60px;
+}
+.c-hero__text.cc-45 {
+  max-width: 45ch;
+}
+.ruby-color {
+  color: #ff2868;
+}
+.heading-3 {
+  font-weight: 300;
+}
+.mg-right__20 {
+  margin-right: 20px;
+}
+.c-compliance-lottie {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 32.44px;
+    line-height: 48px;
+  }
+  h3 {
+    font-size: 25.63px;
+    line-height: 32px;
+  }
+  .c-ctn {
+    max-width: 960px;
+    min-width: 740px;
+  }
+  .c-hero__cover {
+    padding-top: 0;
+  }
+  .c-hero__content {
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-ctn {
+    max-width: 767px;
+    min-width: 440px;
+  }
+  .c-ctn.cc-absolute {
+    position: static;
+  }
+  .c-btn.cc-with-icon.mg-right__20 {
+    margin-bottom: 20px;
+  }
+  .c-hero__cover {
+    width: 100vw;
+    height: 80vw;
+    min-height: auto;
+  }
+  .c-hero.cc-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .c-hero__content {
+    max-width: none;
+    padding-top: 32px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-ctn {
+    max-width: 479px;
+    min-width: 300px;
+  }
+  .c-btn.cc-with-icon.mg-right__20 {
+    margin-right: 0;
+  }
+  .c-hero__cover {
+    height: 100vw;
+    min-height: 500px;
+  }
+}
+/*! CSS Used from: Embedded */
+* {
+  -moz-font-feature-settings: "ss01";
+  -webkit-font-feature-settings: "ss01";
+  font-feature-settings: "ss01" on;
+}
+.lineswrap {
+  overflow: hidden;
+}
+.line {
+  transform: translate3d(0%, 100%, 0) scale3d(1, 1, 1);
+  transition: transform 2s var(--ease1);
+}
+[data-anim="fade"] {
+  opacity: 0;
+  transform: translate3d(0%, 2em, 0) scale3d(1, 1, 1);
+  transition-property: opacity, transform;
+  transition-duration: 2s;
+  transition-timing-function: var(--ease1);
+}
+[data-anim="unscale"] {
+  transform: translate3d(0%, 0%, 0) scale3d(1.1, 1.1, 1);
+  transition: transform 3s var(--ease1);
+}
+.loaded [data-s1] [data-anim],
+.loaded [data-s1] .line {
+  opacity: 1;
+  transform: translate3d(0%, 0%, 0) scale3d(1, 1, 1);
+}
+[data-delay="450"] {
+  transition-delay: 450ms;
+}
+[data-delay="750"] {
+  transition-delay: 750ms;
+}
+/*! CSS Used from: Embedded */
+.c-compliance-lottie {
+  width: 100% !important;
+  height: 100% !important;
+}
+.c-compliance-lottie svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+.animate-text {
+  opacity: 1;
+  transform: translate3d(0%, 0%, 0) scale3d(1, 1, 1);
+}
+/*! CSS Used from: Embedded */
+a:hover,
+a:focus {
+  outline: 0;
+}
+svg:not(:root) {
+  overflow: visible !important;
+}

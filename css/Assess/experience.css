@@ -1,0 +1,64 @@
+.c-section ,.p-top__130 {
+  padding-top: 130px;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.c-avatar__holder {
+  width: 80px;
+  height: 80px;
+}
+
+.c-avatar__img, .cc-circle {
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.c-avatar__img {
+  width: 100%;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+
+.c-text__content {
+  max-width: 50ch;
+  padding-bottom: 32px;
+}
+
+.center-text, .cc--author {
+  margin-bottom: 4px;
+}
+
+.center-text {
+  color: rgba(15, 23, 42, 0.65);
+  font-weight: 100;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 28.43px;
+  line-height: 40px;
+  font-weight: 200;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 300;
+}
+
