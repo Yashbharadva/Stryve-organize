@@ -1,0 +1,60 @@
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.c-hero__cover {
+  position: relative;
+  overflow: hidden;
+  width: 50vw;
+  height: 50vw;
+  min-height: 800px;
+  margin-left: auto;
+  background-color: #0f172a;
+}
+.c-hero__cover.cc-orange {
+  width: 55%;
+  background-color: #ff9c27;
+}
+.c-bubble__wrapper {
+  position: absolute;
+  left: auto;
+  top: 0;
+  right: 0;
+  bottom: auto;
+}
+.c-bubble__wrapper.cc-compliance.cc-yellow {
+  top: -10%;
+  right: -10%;
+  width: 36vw;
+}
+.c-bubble__wrapper.cc-compliance.cc-tranparent {
+  left: 0;
+  top: auto;
+  right: auto;
+  bottom: -15%;
+  width: 36vw;
+  opacity: 0.2;
+}
+.c-assess__svg {
+  width: 100%;
+  height: 100%;
+}
+.c-compliance-lottie {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
