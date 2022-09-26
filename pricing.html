@@ -6,19 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/Homepage/main.css" />
-  <link rel="stylesheet" href="css/Assess/career-site.css" />
-  <link rel="stylesheet" href="css/Assess/assess-main.css" />
-  <link rel="stylesheet" href="css/Homepage/slider.css" />
-  <link rel="stylesheet" href="css/Assess/hiring-line.css" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <title>Assess</title>
+  <link rel="stylesheet" href="css/pricing/pricing.css" />
+  <title>Pricing</title>
 </head>
 
 <body class="loaded">
   <div class="css-edits w-embed"></div>
 
-
   <!-- NAVIGATION BAR -->
+
 
   <div class="c-navbar w-nav">
     <div class="c-ctn cc-nav">
@@ -664,757 +660,781 @@
 
   <main class="page__wrapper">
 
-    <!-- LITE GREEN AND HEADING SECTION -->
-
-    <div class="c-hero cc-flex wf-section">
-      <div class="c-hero__cover cc-turquoise-gd">
-        <div class="c-compliance-lottie"
-          style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-
-
-
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400" width="1400" height="1400"
-            preserveAspectRatio="xMidYMid meet"
-            style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
-            <g clip-path="url(#__lottie_element_3)">
-              <g clip-path="url(#__lottie_element_5)" transform="matrix(1,0,0,1,0,0)" opacity="1"
-                style="display: block;">
-                <g clip-path="url(#__lottie_element_6)">
-                  <g class="png" transform="matrix(1, 0, 0, 1, 550, 1080)" opacity="1" style="display: block;">
-                    <image width="173px" height="173px" preserveAspectRatio="xMidYMid slice"
-                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACtBAMAAAAwgeJwAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAD1BMVEVHcEz/nCb/mSj/nyD/nCcg701XAAAABHRSTlMA2iAQu77iugAAAdNJREFUaN7t2+1NA0EMhOEjNACnFJApgRKQtv+aSBRC7ns9tkdCka+A1aP763eG4f99XxfJs+/nUcNt3xcJt7VRwm0K8I2rAN+4AvCdmw++c9PBD242+MFNBj+5ueAnNxU85WaCp9xE8JybB55z08BLbhZ4yU0Cr7k54DU3BbzFzQBvcRPA29w4eJsbBu9xo+A9bhC8z42B97kh8BE3Aj7iBsDHXD/4mOsG97hecI/rBPe5PnCf6wJbuB6whesA27g82MalwVYuC7ZySbCdy4HtXArMcBkwwyXAHNcO5rhmMMu1glmuEcxzbWCeawJ7uK19SLiGd33c/n/wccfiFre4xS1ucYtb3OIWt7jFLW5xi1vc4ha3uMV9Pe6bhjuczhLuMEDCdYFthw9IuA6w9bAECZcG2w93kHBJMHMYhYRLgbnDMyRcAswe9iHhmsF8OAEJ1wj2hCmQcE1gX/gDCdcA9oZVkHC7YH+4Bgm3A46EgZBwD8Gx8BIS7gE4GrZCwt0Fx8NhSLg74IwwGxLuJjgnfIeEuwHOGhZAwl2B84YbkHAX4MxhDCTcGTh3eAQJdwLOHnZBwv0D5w/nIOH+ghXDRDTNLvEKluwor2DN7vP0GeD+AAhGnHUhrZKkAAAAAElFTkSuQmCC">
-                    </image>
-                  </g>
-                  <g class="png" transform="matrix(1, 0, 0, 1, 110, 400)" opacity="1" style="display: block;">
-                    <image width="211px" height="211px" preserveAspectRatio="xMidYMid slice"
-                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAADTBAMAAADpKTvqAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAElBMVEVHcEz/KGj/KGj/J2n/IHD/KGhizGyIAAAABXRSTlMAX4DPEOHl2SAAAAIgSURBVHja7dq5UUNhFIPRZyogoQAC5QQUQAloGPffCrYxxstb/rtpCK4a+ObkmqZ/tFdZ6Wn/rEphTxlqr2LhkKIMJWLhlKIMJWHhnKIMJWDhkqIMVc7CVYoyVDELNynKUKUs3KUoQxWy8JCiDFXGwkyKMlQRC7MpylAlLCykKEMVsLCYogyVzsJKijJUMgurKcpQqSxspChDJbKwmaIMlcbCQIoyVBILQynKUCksDKYoQyWwMJyiDBVmwZCiDBVkwZSiDBViwZiiDBVgwZyiDOVmwZGiDOVkwZWiDOViwZmiDOVgwZ2iDGVmIZCiDGVkIZSiDGViIZiiDGVg7cKpcdZLs5rVrGY1q1nNalazmtWsZjWrWc1qVrOa1axmNatZzWpWs5rVrGY1q1nNalYN61PHeptUrK+PScV6N9x1djJUkGVBxVg2VIhlQ0VYVlSAZUX5WXaUm2VHeVkelJPlQflYPpSL5UN5WF6Ug+VF2Vl+lJnlR1lZEZSRFUHZWDGUiRVDWVhRlIEVRY2z4qhhVhw1yspADbIyUGOsHNQQKwc1wspCDbCyUNusPNQmKw+1xcpEbbAyUeusXNQqKxe1xspGrbCyUcusfNQiKx+1xKpALbAqUPOsGtQsqwY1x6pCzbCqUI+sOtQDqw51z6pE3bEqUbesWtQNqxZ1zapGXbGqUX+setSFVY/6ZSlQZ5YC9cPSoE4sDerIUqEOrE3UNwvwWW8Za87AAAAAAElFTkSuQmCC">
-                    </image>
-                  </g>
-                  <g class="png" transform="matrix(1,0,0,1,1030.5,626.5)" opacity="1" style="display: block;">
-                    <image width="245px" height="245px" preserveAspectRatio="xMidYMid slice"
-                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPUAAAD1BAMAAAB6n65WAAAAJHpUWHRDcmVhdG9yAAAImXNMyU9KVXBMK0ktUnBNS0tNLikGAEF6Bs5qehXFAAAACXBIWXMAAAABAAAAAQBPJcTWAAAAD1BMVEVHcEz/0Sj/0Sj/zyj/0SjxTTupAAAABHRSTlMA0oAgPXM/RwAAAqtJREFUeNrt3dlNBUEMRNFnSAAJQnAAhADS5B8TO7xllm677JJQTQJX53+6fDrp2/nuHnltf32msZeFBvdlYcHf2TS4f7Q58E82Ce5fbQb8m02B+0+7H/7LJsD9r90NP2O3w/283Qu/YDfD/bLdCb9it8L9ut0Hv2E3wv223QVfYbfBfa3dA19lN8F9vd0B32C3wH2rXQ/fZDfAfbtdDd9hl8N9r10L32UXw32/XQk/YJfC/ahdBz9kF8L9uF0FH2CXwX2kXQMfYhfBfaxdAR9kl8B9tI2HD7ML4D7eRsMn2HC4z7Sx8Ck2GO5zbSR8kg2F+2wbB59mA+E+30bBA2wY3CNtDDzEBsE91kbAg2wI3KPtPDzMBsA93s7CE+w03DPtHDzFTsI9187Ak+wU3LPtODzNTsA9347CAeww3BHtGBzCDsId047AQewQ3FHteTiMHYA7rj0Nf1p4cFt48HvBBRdccMEFF1xwwQUXXHDBBRdccMEFF1xwwQUXXHDBBRdccMEFF1xwwQUXXHDBBRdccMEF/w/wByL85cSDz7qB8Pm/1XHwwF/6RmPj4KFXGUZjo+DBVzhGY2Pg4VdXRmMj4IlXdkZj5+GpV5VGY2fhyVe0RmPn4OlX00ZjZ+CAV/JGY8fhkFUEo7GjcNAKhtHYMThs9cRo7AgcuHJjNPY8HLpqZDT2LBy8YmU09hwcvlpmNPYMvGClzmjscXjJKqHR2KPwohVKo7HH4GWro0Zjj8ALV2aNxj6Gl64KG419BC9ekTYaex9evhpuNPYevGEl3mjsbXjLVQCjsbfgTVcgjMZeh7dd/TAaew3eeOXFaOxbeOtVH6Oxr+HNV5yMxr6Et1/tMhr7HE640mY09h+ccpXPaOwfOOkKoy2865MfcNrVTVt410bvn8bYb1hFQWDBDLI0AAAAAElFTkSuQmCC">
-                    </image>
-                  </g>
-                  <g class="png" transform="matrix(1,0,0,1,183.5,217.5)" opacity="1" style="display: block;">
-                    <image width="1033px" height="965px" preserveAspectRatio="xMidYMid slice"
-                      xlink:href="data:image/png;base64,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">
-                    </image>
-                  </g>
-                </g>
-              </g>
-            </g>
-          </svg>
-
-
-
-
-        </div>
-      </div>
-
-      <div class="c-ctn cc-absolute cc-flex spaced">
-        <div class="c-hero__content">
-          <div class="c-hero__text cc-45">
-            <h3 class="green-color hero-headline">
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text attract" style="display: block; text-align: start; width: 100%;">
-                  Assess
-                </div>
-              </div>
-            </h3>
-
-            <h1 class="heading-3">
-
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text find" style="display: block; text-align: start; width: 100%;">
-                  Assess and hire
-                </div>
-              </div>
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text talent" style="display: block; text-align: start; width: 100%;">
-                  talent faster
-                </div>
-              </div>
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text good" style="display: block; text-align: start; width: 100%;">
-                  than ever before
-                </div>
-              </div>
-            </h1>
-
-            <p class="thanks" data-aos="fade-up">
-              So, you've attracted plenty of candidates. Now you need to find the best fit for your role. Stryve helps
-              you do just that, without any of the fuss.
-            </p>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-    <!-- EXPERIENCE SECTION - ASSESS PART -->
-
-    <section class="c-section p-top__130 wf-section">
-      <div class="c-quote-container">
-        <div class="c-ctn cc-60">
-          <div class="c-header center-text">
-            <h3 class="center-text p-btm__12">
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  "We love that as part of Stryve's features, we can quickly score"
-                </div>
-              </div>
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  candidate profiles based on the skills assigned to the job
-                </div>
-              </div>
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  description. It's saved us so much time and the candidates thats
-                </div>
-              </div>
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  make it through to the interview stage and beyond are always so
-                </div>
-              </div>
-
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  much better suited to the role."
-                </div>
-              </div>
-
-            </h3>
-          </div>
-
-          <div class="flex-wrapper flex-vertical center">
-
-            <div class="c-avatar__holder" data-aos="fade-up">
-              <img class="c-avatar__img cc-circle"
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfd3100a07c3_Milly.png"
-                alt="woman seating">
-            </div>
-
-            <div class="c-text__content">
-              <h4 class="center-text cc-author" data-aos="fade-up">Camilla English</h4>
-              <p class="center-text" data-aos="fade-up">Head of Operations</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- STRYVE SCORE SECTION -->
-
-    <section class="c-section no-padding wf-section">
-      <div class="c-ctn cc-75 desktop">
-        <div class="c-content-holder flex p-btm__72">
-          <div class="c-ctn cc-70 cc-absolute">
-            <div class="c-content_wrapper">
-              <div class="c-text__content">
-                <h2>
-                  <div class="lineswrap" data-aos="fade-up">
-                    <div class="line animate-text" style="display: block; text-align: start; width: 100%;">The Stryve
-                      Score</div>
-                  </div>
-                </h2>
-                <div class="btn-holder cc-30">
-                  <div class="c-btn cc-tag-time"><img
-                      src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff5fa0a065f_Group.svg"
-                      alt="alarm-clock icon" class="c-icon__time">
-                    <div>1-2 hrs saved</div>
-                  </div>
-                </div>
-                <p class="p-top__32">
-                  The Stryve Score is your unique tool for aggregating CVs in seconds, using the key
-                  tags attached to your live job, along with relevant data points, to give each candidate a score. The
-                  higher they rate, the better suited they are for your job, so you can identify that next star even
-                  more quickly!
-                </p>
-              </div>
-              <div class="flex-wrapper">
-                <div class="c-info__holder cc-green">
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf70d90a072b_star%20copy%202.svg"
-                    alt="green circle holding a white star icon" class="c-info__icon">
-                  <h5 class="heading-7 cc-green">
-                    You can customise your own scoring methodology or use our preset
-                    template.
-                  </h5>
-                </div>
+    <section class="c-section p-top__180 wf-section">
+      <div class="c-ctn cc-50">
+        <div class="c-header">
+          <h1 class="center-text" style="font-weight: 100;">
+            <div class="lineswrap">
+              <div class="line animate-text" style="display: block; text-align: center; width: 100%; ">
+                Yes, this is the pricing page.
               </div>
             </div>
-          </div>
-          <div class="c-flex__cover cc-white">
-            <div class="c-illustration__wrapper">
-              <div class="c-bg-bubble bt-left smaller cc-pink"></div>
-              <div class="c-bg-bubble cc-turquoise"></div><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfb7e90a0795_stryve-illustration-GDPR-compliant.svg"
-                loading="lazy" alt="illustration showing gdpr compliant" class="c-illustration__svg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- RECOMMENDED RECRUITER SECTION -->
-
-    <section class="c-section no-padding cc-light-green-bg wf-section">
-      <div class="c-ctn cc-100">
-        <div class="c-content-holder flex">
-          <div class="c-ctn cc-70 cc-absolute">
-            <div class="c-content_wrapper p-top__72">
-              <div class="c-text__content">
-                <h2>
-
-                  <div class="lineswrap" data-aos="fade-up">
-                    <div class="line animate-text" style="display: block; text-align: start; width: 100%;">Recommended
-                      recruiter</div>
-                  </div>
-
-                </h2>
-                <div class="btn-holder cc-30">
-                  <div class="c-btn cc-tag-time">
-
-                    <img
-                      src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff5fa0a065f_Group.svg"
-                      alt="alarm-clock icon" class="c-icon__time">
-
-                    <div>1-2 hrs saved</div>
-
-                  </div>
-                </div>
-                <p class="p-top__80">
-                  Don't have an internal hiring team? We've got you covered! Our recommended
-                  recruiter feature suggests freelance recruiters you can book to help you find your dream candidate.
-                </p>
-              </div>
-              <div class="flex-wrapper cc-95">
-                <div class="c-info__holder cc-green">
-
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf70d90a072b_star%20copy%202.svg"
-                    alt="green circle holding a white star icon" class="c-info__icon">
-
-                  <h5 class="heading-7 cc-green">
-                    The Stryve community of recruiters continues to grow; we won't stop
-                    until we have all specialisms covered.
-                  </h5>
-
-                </div>
+            <div class="lineswrap">
+              <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
+                Book your demo to learn
               </div>
             </div>
-          </div>
-          <div class="c-flex__cover cc-green no-gd">
-            <div class="c-bubble__wrapper cc-assert cc-transparent cc-2">
-
-              <img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf64990a06c0_Ellipse%2029.svg"
-                alt="light pink full circle" class="c-assess__svg">
-
-            </div>
-            <div class="c-illustration__wrapper">
-              <div class="c-bg-bubble bt-left smaller cc-pink"></div>
-              <div class="c-bg-bubble cc-turquoise"></div>
-
-              <img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9da50a0782_stryve-illustration-redaction.svg"
-                alt="candidates profiles cards" class="c-illustration__svg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- REQUEST DEMO SECTION -->
-
-    <section class="c-section wf-section">
-      <div class="c-ctn cc-70">
-        <div class="c-content_wrapper cc-100 cc-flex cc-dark-blue-bg color">
-          <div class="c-text__content cc-30">
-            <h4 class="is--white">Request a quick demo</h4>
-          </div>
-
-          <div class="c-middle-content">
-            <!-- <div class="c-design__line cc-start-building cc-100">
-              <div class="w-embed">
-                <svg id="request-demo" width="100%" height="100%" viewBox="0 0 501 58" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M0.5 18.5C48 27.6667 167.722 38.0302 227 11.5C298.5 -20.5 311 36.5001 357 30C403 23.5 421 -7 465 14.5C483.735 23.6546 498 42.5 499.5 64.5"
-                    stroke="white" stroke-width="2" style="stroke-dasharray: 544, 546; stroke-dashoffset: 0;"></path>
-                </svg>
-              </div>
-            </div> -->
-            <div class="c-bubble__wrapper cc-request-demo cc-blue">
-              <img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf43520a0699_Ellipse%2016%20copy.svg"
-                loading="lazy" alt="light blue full circle" class="c-assess__svg">
-            </div>
-            <div class="c-bubble__wrapper cc-request-demo cc-ruby"><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6a90a0693_Ellipse%2020.svg"
-                loading="lazy" alt="dark pink full circle" class="c-assess__svg"></div>
-            <div class="c-bubble__wrapper cc-request-demo cc-turquoise"><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg"
-                loading="lazy" alt="turquoise full circle" class="c-assess__svg"></div>
-            <div class="c-bubble__wrapper cc-request-demo cc-yellow"><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfeb130a06c1_Ellipse%2014.svg"
-                loading="lazy" alt="yellow full circle" class="c-assess__svg"></div>
-            <div class="c-bubble__wrapper cc-request-demo cc-pink"><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf64990a06c0_Ellipse%2029.svg"
-                loading="lazy" alt="light pink full circle" class="c-assess__svg"></div>
-          </div>
-
-          <a href="#" target="_blank" class="c-btn cc-beige w-button">Book your demo</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- CV REDACTION -->
-
-    <section class="c-section no-padding wf-section">
-      <div class="c-ctn cc-75 desktop">
-        <div class="c-content-holder flex p-btm__72">
-          <div class="c-ctn cc-70 cc-absolute cc-flex">
-            <div class="c-content_wrapper cc-right">
-              <div class="c-text__content">
-                <h2>
-                  <div class="lineswrap" data-aos="fade-up">
-                    <div class="line animate-text" style="display: block; align-items: start; width: 100%;">
-                      CV redaction
-                    </div>
-                  </div>
-                </h2>
-                <div class="btn-holder cc-30">
-                  <div class="c-btn cc-tag-time">
-                    <img class="c-icon__time"
-                      src="	https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff5fa0a065f_Group.svg"
-                      alt="clock">
-                    <div>30m saved</div>
-                  </div>
-                </div>
-                <p class="p-top__32">
-                  Use our redaction tool to remove information on candidate profiles, to ensure that all hiring bias
-                  is
-                  removed and that people are hired for what matters most - their talent!
-                </p>
-              </div>
-
-              <div class="flex-wrapper flex-vertical p-top__16">
-                <div class="c-info__holder cc-green cc-right">
-                  <img class="c-info__icon"
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf70d90a072b_star%20copy%202.svg"
-                    alt="green star">
-                  <h5 class="heading-7 cc-green">
-                    Stay in control over the data your recruiting teams can access.
-                  </h5>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="c-flex__cover cc-white cc-left">
-            <div class="c-illustration__wrapper">
-              <div class="c-bg-bubble bt-left smaller cc-pink"></div>
-              <div class="c-bg-bubble cc-turquoise"></div>
-              <img class="c-illustration__svg"
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf28dd0a0781_stryve-illustration-user-profiles.svg"
-                alt="image-profile">
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- HIRING CANDIDATES SECTION -->
-
-    <section class="c-section cc-pricing-cta wf-section">
-      <div class="c-ctn cc-relative">
-        <div class="c-design__line cc-4">
-          <div class="c-design__svg cc-full w-embed"><svg id="price-line" width="100%" height="214"
-              viewBox="0 0 1440 214" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path id="price-svg-path"
-                d="M-1634 97.7656C-1305.5 97.7656 -982.5 -96.7324 -415.5 65.7673C151.499 228.267 827.5 269 827.5 119.767C827.5 25.5 582 58.5 582 151.766C582 311 1280.5 -72.6134 1841 97.7656C2401.5 268.145 2717.7 166.92 2916.5 97.7653"
-                pathLength="1" stroke="black" stroke-width="2" class="price-svg-path"></path>
-            </svg></div>
-        </div>
-
-        <div class="c-content_wrapper cc-100">
-          <div class="c-text__content center-text cc-30 mg-auto">
-            <h2>
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  Start
-                </div>
-              </div>
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  assessing
-                </div>
-              </div>
-            </h2>
-            <h2 class="heading-11">
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  and hiring
-                </div>
-              </div>
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  candidates
-                </div>
-            </h2>
-            <h2 class="heading-12">
-              <div class="lineswrap" data-aos="fade-up">
-                <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
-                  &zwj;for only £19.99
-                </div>
-              </div>
-            </h2>
-            <p data-aos="fade-up">...giving you more time to focus on the human bit</p>
-          </div>
-        </div>
-
-      </div>
-      <div class="flex-wrapper center">
-        <a href="#" class="c-btn cc-with-icon w-inline-block">
-          <div>Book a demo today</div>
-          <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
-            class="c-icon__arrow" alt="right arrow">
-        </a>
-      </div>
-    </section>
-
-
-
-
-
-    <!-- SECTION THAT IN DIFFERENT PAGE (CUSTOMER THINK SECTION) -->
-
-
-    <section class="c-section no-overflow wf-section">
-      <div class="c-gradient__bg"></div>
-      <div class="c-ctn cc-80 cc-relative custom-full-width">
-        <div class="c-header cc-testimonials">
-          <h1 class="is--white no-padding">
-            <div class="lineswrap" data-aos="fade-up">
-              <div class="line animate-text" style="display: block; text-align: start; width: 100%; font-weight: 100;">
-                What do our customers think?
+            <div class="lineswrap">
+              <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
+                more.
               </div>
             </div>
           </h1>
         </div>
-
-        <div class="c-slider__container">
-          <div
-            class="swiper-container testimonials w-dyn-list swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode"
-            style="cursor: grab;">
-            <div class="swiper-wrapper w-dyn-items">
-
-              <!-- FIRST CUSTOMER -->
-
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
-                <div class="c-card cc-redius__8">
-                  <div class="c-img__inner"></div>
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/61ea7bac4e0cbe7315ec169a_Katharine%20bw-p-500.jpeg"
-                    alt="man-stading" class="c-img-cover radius__8">
-
-                  <div class="c-card__text">
-                    <h3 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: strat; width: 100%; font-weight: 100;">
-                          Katharine Archer
-                        </div>
-                      </div>
-                    </h3>
-
-                    <div class="flex hero-headline slider-title">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: start; width: 100%; font-weight: 100; font-weight: 100;">
-                          People and Development Parner, Ridgeview Estate Winery
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <a href="#" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
-                    style="opacity: 0; height: 48px; width: 0px;">
-                    <div class="c-play__iocn-holder cc-hide">
-                      <img
-                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                        alt="arrow-red" class="c-icon__red-arrow">
-                    </div>
-
-                    <div class="p-right__3 cc-hide">Hear </div>
-                    <div>Read more</div>
-                    <div class="p-right__3 cc-hide">'s</div>
-                  </a>
-
-                </div>
-              </div>
-
-              <!-- SECOND CUSTOMER -->
-
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
-                <div class="c-card cc-redius__8">
-                  <div class="c-img__inner"></div>
-                  <img src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6242ed673b3c651b4ccde178_aod54.png"
-                    alt="man-stading" class="c-img-cover radius__8">
-
-                  <div class="c-card__text">
-                    <h3 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: strat; width: 100%; font-weight: 100;">
-                          Richard Angel
-                        </div>
-                      </div>
-                    </h3>
-
-                    <div class="flex hero-headline slider-title">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: start; width: 100%; font-weight: 100;">
-                          CEO, Angel O'Donnell
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <a href="#" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
-                    style="opacity: 0; height: 48px; width: 0px;">
-                    <div class="c-play__iocn-holder cc-hide">
-                      <img
-                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                        alt="arrow-red" class="c-icon__red-arrow">
-                    </div>
-
-                    <div class="p-right__3 cc-hide">Hear </div>
-                    <div>Read more</div>
-                    <div class="p-right__3 cc-hide">'s</div>
-                  </a>
-
-                </div>
-              </div>
-
-              <!-- THIRD CUSTOMER -->
-
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
-                <div class="c-card cc-redius__8">
-                  <div class="c-img__inner"></div>
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/626963764de226186c9d4c5c_20190913_VOVI_Shot1_BW_003-p-500.jpeg"
-                    alt="man-stading" class="c-img-cover radius__8">
-
-                  <div class="c-card__text">
-                    <h3 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: strat; width: 100%; font-weight: 100;">
-                          Alex Rook
-                        </div>
-                      </div>
-                    </h3>
-
-                    <div class="flex hero-headline slider-title">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: start; width: 100%; font-weight: 100;">
-                          Founder, Vovi
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <a href="#" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
-                    style="opacity: 0; height: 48px; width: 0px;">
-                    <div class="c-play__iocn-holder cc-hide">
-                      <img
-                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                        alt="arrow-red" class="c-icon__red-arrow">
-                    </div>
-
-                    <div class="p-right__3 cc-hide">Hear </div>
-                    <div>Read more</div>
-                    <div class="p-right__3 cc-hide">'s</div>
-                  </a>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
-        <!-- SLIDER PART -->
-
-        <div class="swiper-arrows myswiper">
-          <div class="swiper-arrow-holder mg-right__10">
-            <img
-              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf8c060a06d8_Group%201376.svg"
-              alt="left-arrow" class="swiper-button-prev swiper-button-disabled">
-
-          </div>
-
-          <div class="swiper-arrow-holder">
-            <img
-              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf90700a06bc_Group%201375.svg"
-              alt="right-arrow" class="swiper-button-next swiper-button-disabled">
-
-          </div>
-
-        </div>
-
       </div>
     </section>
 
 
+    <!-- GRID PRICE SECTION -->
 
-    <!-- TIPS SECTION -->
+    <section class="c-section no-padding wf-section">
+      <div class="c-ctn cc-border-btm">
 
-    <section class="c-section cc-beige-bg wf-section">
-      <div class="c-ctn">
-        <div class="c-header cc-60 center center-text">
-          <h2>
-            <div class="lineswrap" data-aos="fade-up">
-              <div class="line animate-text" style="display: block; text-align: center; width: 100%;">We're here to
-                help
-                with</div>
+
+        <div class="w-layout-grid prices-grid">
+          <div class="c-pricing__item prices cc-no-bg">
+            <div class="c-pricing__top cc-no-mg">
+              <div class="c-header cc-25 flex space-between is-invisible">
+                <div class="c-toggle__left-items">
+                  <div class="c-promo__tag subscription-title">
+                    <div class="text-block-3">Save 5%</div>
+                  </div>
+                  <h5 id="annual-title-tag">Annual</h5>
+                </div>
+
+                <div class="c-toggle__holder" id="toggle-btn" style="background-color: rgba(15,23,42,0.1);">
+                  <div class="c-toggle-circle"></div>
+                </div>
+
+                <div class="c-toggle__right-items">
+                  <h5>Monthly</h5>
+                </div>
+
+              </div>
             </div>
-            <div class="lineswrap" data-aos="fade-up">
-              <div class="line animate-text"
-                style="display: block; text-align: center; width: 100%; transition-delay: 200ms;">heaps of insights
-                and
-                tips</div>
+
+            <div class="c-pricing-item__content">
+              <div class="c-line-separator prices"></div>
+              <div class="c-pricing__info prices">
+                <div class="flex-vertical">
+                  <div class="text-12">User limit</div>
+                </div>
+              </div>
+
+              <!-- TIME GRID SECTION -->
+
+              <div class="c-pricing__features prices">
+                <div class="c-line-separator prices mg-btm__16"></div>
+                <div class="flex-wrapper">
+                  <h5 class="blue-color">Time</h5>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Base layer analytics</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Job templates</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Email & calendar sync</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">AI CV parsing technology</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Advanced reporting</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Priority support</div>
+                </div>
+
+              </div>
+
+              <!-- DIVERSITY GRID SECTION -->
+
+              <div class="c-pricing__features prices">
+                <div class="c-line-separator prices mg-btm__16"></div>
+                <div class="flex-wrapper">
+                  <h5 class="pink-color">Diversity</h5>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Candidate screening</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Hiring assessment & report</div>
+                </div>
+
+              </div>
+
+              <!-- ENGAGEMENT GRID SECTION -->
+
+              <div class="c-pricing__features prices">
+                <div class="c-line-separator prices mg-btm__16"></div>
+                <div class="flex-wrapper">
+                  <h5 class="blue-color">Engagement</h5>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Basic branded job board</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Notification functionality</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Learning & support hub</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Social link builder</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Advanced reporting</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Advanced custom branding</div>
+                </div>
+
+              </div>
+
+              <!-- COMPLIANCE GRID SECTION -->
+
+              <div class="c-pricing__features prices">
+                <div class="c-line-separator prices mg-btm__16"></div>
+                <div class="flex-wrapper">
+                  <h5 class="orange-color">Compliance</h5>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">GDPR compliance</div>
+                </div>
+
+                <div class="flex-wrapper mg-btm__2">
+                  <div class="text-12">Custom user profiles</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- ENTREPRENEUR GRID SECTION -->
+
+          <div class="c-pricing__item prices">
+            <div class="c-pricing__top prices cc-red">
+              <div class="c-pricing-top__content">
+                <div class="w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                      <circle cx="12" cy="12" r="12" fill="white"></circle>
+                    </mask>
+                    <g mask="url(#mask0)">
+                      <circle cx="12" cy="12" r="12" fill="white"></circle>
+                      <circle cx="12" cy="12" r="9" fill="#FF9C27"></circle>
+                      <circle cx="12" cy="12" r="6" fill="#FF2868"></circle>
+                    </g>
+                  </svg></div>
+                <h4 class="is--white cc-absolute center-text">Entrepreneur</h4>
+              </div>
+            </div>
+            <div class="c-pricing__info prices"></div>
+            <div class="c-line-separator prices"></div>
+            <div class="c-pricing__info prices">
+              <div class="flex-vertical center">
+                <div class="text-12">1 user</div>
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="blue-color mobile">Time</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Base layer analytics​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" height="" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Job templates
+                  ​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Email &amp; calendar sync​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">AI CV parsing technology​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Advanced reporting​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Priority support​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="pink-color mobile">Diversity</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Candidate Screening
+                  ​</div>
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Hiring Assessment &amp; Report​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="blue-color mobile">Engagement</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Basic branded job board​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Notification Functionality​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Learning &amp; Support Hub​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Social link builder​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Advanced reporting​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Advanced custom branding​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+            </div>
+            <div class="c-pricing__features prices last">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="orange-color mobile">Compliance</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">GDPR Compliance​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Custom User Profiles​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00d10a0747_Vector%2027%20copy.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing-btn__holder mobile"><a href="/contact"
+                class="c-btn cc-with-icon cc-light white w-inline-block">
+                <div>Get Entrepreneur</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
+                  loading="lazy" alt="right arrow" class="c-icon__arrow"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              </a></div>
+          </div>
+
+          <!-- TEAM GRID SECTION -->
+
+          <div class="c-pricing__item prices">
+            <div class="c-pricing__top prices cc-green">
+              <div class="c-pricing-top__content">
+                <div class="w-embed">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g>
+                      <circle cx="12" cy="12" r="12" fill="white"></circle>
+                      <circle cx="16.5" cy="16.5" r="3.5" fill="#009AFF"></circle>
+                      <circle cx="16.5" cy="7.5" r="3.5" fill="#35C89F"></circle>
+                      <circle cx="7.5" cy="16.5" r="3.5" fill="#43DBDB"></circle>
+                      <circle cx="7.5" cy="7.5" r="3.5" fill="#009AFF"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h4 class="is--white cc-absolute center-text">Team</h4>
+              </div>
+            </div>
+            <div class="c-pricing__info prices"></div>
+            <div class="c-line-separator prices"></div>
+            <div class="c-pricing__info prices">
+              <div class="flex-vertical center">
+                <div class="text-12">Up to 5 users</div>
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="blue-color mobile">Time</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Base layer analytics​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" height="" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Job templates
+                  ​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Email &amp; calendar sync​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">AI CV parsing technology​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Advanced reporting​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Priority support​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="pink-color mobile">Diversity</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Candidate Screening
+                  ​</div>
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Hiring Assessment &amp; Report​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="blue-color mobile">Engagement</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Basic branded job board​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Notification Functionality​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Learning &amp; Support Hub​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Social link builder​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Advanced reporting​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0">
+                <div class="text-12 mobile">Advanced custom branding​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+            </div>
+            <div class="c-pricing__features prices last">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="orange-color mobile">Compliance</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">GDPR Compliance​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Custom User Profiles​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf5a9d0a0734_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing-btn__holder mobile"><a href="/contact"
+                class="c-btn cc-with-icon cc-light white w-inline-block">
+                <div>Get Entrepreneur</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
+                  loading="lazy" alt="right arrow" class="c-icon__arrow"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              </a></div>
+          </div>
+
+          <!-- PREMIUM GRID SECTION -->
+          <div class="c-pricing__item prices">
+            <div class="c-pricing__top prices cc-dark-blue">
+              <div class="c-pricing-top__content">
+                <div class="w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                      <circle cx="12" cy="12" r="12" fill="white"></circle>
+                    </mask>
+                    <g mask="url(#mask0)">
+                      <circle cx="12" cy="12" r="12" fill="white"></circle>
+                      <circle cx="5" cy="10" r="2" fill="#FF9C27"></circle>
+                      <circle cx="12" cy="5" r="2" fill="#FF9C27"></circle>
+                      <circle cx="19" cy="10" r="2" fill="#FF9C27"></circle>
+                      <circle cx="12" cy="12" r="4" fill="#FFD128"></circle>
+                      <circle cx="16" cy="18" r="2" fill="#FF9C27"></circle>
+                      <circle cx="8" cy="18" r="2" fill="#FF9C27"></circle>
+                    </g>
+                  </svg></div>
+                <h4 class="is--white cc-absolute center-text">Premium</h4>
+              </div>
+            </div>
+            <div class="c-pricing__info prices"></div>
+            <div class="c-line-separator prices"></div>
+            <div class="c-pricing__info prices">
+              <div class="flex-vertical center">
+                <div class="text-12">Unlimited</div>
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="blue-color mobile">Time</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Base layer analytics​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" height="" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Job templates
+                  ​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Email &amp; calendar sync​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">AI CV parsing technology​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Advanced reporting​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Priority support​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="pink-color mobile">Diversity</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Candidate Screening
+                  ​</div>
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Hiring Assessment &amp; Report​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing__features prices">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="blue-color mobile">Engagement</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Basic branded job board​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Notification Functionality​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Learning &amp; Support Hub​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Social link builder​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Advanced reporting​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Advanced custom branding​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+            </div>
+            <div class="c-pricing__features prices last">
+              <div class="c-line-separator prices mg-btm__16"></div>
+              <div class="flex-wrapper center mg-btm__12 opacity-0 title">
+                <h5 class="orange-color mobile">Compliance</h5><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg opacity-0">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">GDPR Compliance​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+              <div class="flex-wrapper center mg-btm__12">
+                <div class="text-12 mobile">Custom User Profiles​</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf3f670a0739_Vector%2027.svg"
+                  loading="lazy" alt="red checkmark icon" class="c-pricing__check-svg">
+              </div>
+            </div>
+            <div class="c-pricing-btn__holder mobile"><a href="/contact"
+                class="c-btn cc-with-icon cc-light white w-inline-block">
+                <div>Get Entrepreneur</div><img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
+                  loading="lazy" alt="right arrow" class="c-icon__arrow"
+                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+              </a></div>
+          </div>
+
+
+        </div>
+
+        <!-- BUTTONS -->
+
+        <div class="w-layout-grid pricing-buttons-grid">
+          <div class="spacer-element"></div>
+
+          <div class="c-pricing-btn__holder">
+            <a href="#" class="c-btn cc-with-icon cc-light white w-inline-block">
+              <div class="center-text">Book a demo</div>
+              <img class="c-icon__arrow"
+                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg">
+            </a>
+          </div>
+
+          <div class="c-pricing-btn__holder">
+            <a href="#" class="c-btn cc-with-icon cc-light white w-inline-block">
+              <div class="center-text">Book a demo</div>
+              <img class="c-icon__arrow"
+                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg">
+            </a>
+          </div>
+
+          <div class="c-pricing-btn__holder">
+            <a href="#" class="c-btn cc-with-icon cc-light white w-inline-block">
+              <div class="center-text">Book a demo</div>
+              <img class="c-icon__arrow"
+                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+
+    <!-- FREQUENTLY ASKED QUESTION SECTION -->
+
+    <section class="c-section p-btm__200 wf-section">
+      <div class="c-ctn cc-40">
+        <div class="c-header center-text">
+          <h2 class="center-text p-btm__12">
+            <div class="lineswrap">
+              <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
+                Frequently asked questions
+              </div>
             </div>
           </h2>
         </div>
-        <div class="w-dyn-list">
-          <div class="collection-list-grid w-dyn-items">
-            <div class="w-dyn-item">
-              <div class="c-card cc-tips">
-                <a href="/insights/hiring-with-video-technology" class="c-card__link w-inline-block">
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf6bd90a0860_video%20tech.jpg"
-                    class="c-card__img cc-small">
-                </a>
-                <div class="c-card__info">
-                  <a style="color:#ff2868" href="#" class="c-card__tag-link">Advice</a>
-                  <div class="c-card__reading-time">
-                    <div style="background-color:#ff2868" class="c-card__info-separator"></div>
-                    <div class="c-card__info-txt">5</div>
-                    <div class="c-card__info-txt mrg-left">mins</div>
-                  </div>
+      </div>
+
+      <div class="c-ctn cc-70">
+        <div class="w-layout-grid faqs-grid">
+
+          <div class="c-faq__container">
+            <div class="flex-wrapper flex-vertical">
+              <div class="c-faq__upper">
+                <h5 class="c-faq__heading">What is an ATS?</h5>
+                <div class="c-faq__icon-holder">
+                  <img class="c-faq__svg"
+                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf67040a0733_normal%20copy.svg">
                 </div>
-                <h4>Hiring with video technology: How is it done without bias?</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
-                  <div>Read it</div><img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                    alt="right arrow" class="c-icon__arrow">
-                </a>
               </div>
+
+              <p class="c-faq__p" style="display: none; opacity: 0;">
+                An applicant tracking system (ATS) is a platform used to manage your hiring process. It (should) be the
+                one-stop shop for hosting all of your recruitment-related data. A great ATS will include features like:
+                candidate management, job description templates, analytics, a career site, integrations with third
+                parties and much more. Take a look at our full features list to learn more about what Stryve offers.
+              </p>
+
             </div>
-            <div class="w-dyn-item">
-              <div class="c-card cc-tips">
-                <a href="#" class="c-card__link w-inline-block">
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbfe2d20a0864_b%20corp.jpg"
-                    class="c-card__img cc-small">
-                </a>
-                <div class="c-card__info">
-                  <a style="color:hsla(163.26530612244898, 58.10%, 49.61%, 1.00)" href="#"
-                    class="c-card__tag-link">Updates</a>
-                  <div class="c-card__reading-time w-condition-invisible">
-                    <div style="background-color:hsla(163.26530612244898, 58.10%, 49.61%, 1.00)"
-                      class="c-card__info-separator w-condition-invisible"></div>
-                    <div class="c-card__info-txt w-dyn-bind-empty"></div>
-                    <div class="c-card__info-txt mrg-left">mins</div>
-                  </div>
+          </div>
+
+          <div class="c-faq__container">
+            <div class="flex-wrapper flex-vertical">
+              <div class="c-faq__upper">
+                <h5 class="c-faq__heading">How does your pricing work?</h5>
+                <div class="c-faq__icon-holder">
+                  <img class="c-faq__svg"
+                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf67040a0733_normal%20copy.svg">
                 </div>
-                <h4>Stryve becomes B Corp Pending company</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
-                  <div>Read it</div><img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                    class="c-icon__arrow">
-                </a>
               </div>
+
+              <p class="c-faq__p" style="display: none; opacity: 0;">
+                We have built two 'out of the box' packages that we feel suit small to medium sized businesses in the
+                quest for better hiring. We also appreciate that sometimes that isn't quite enough, which is why we
+                offer a premium account for companies looking to grow on a larger scale.
+              </p>
+
             </div>
-            <div class="w-dyn-item">
-              <div class="c-card cc-tips">
-                <a href="/insights/seizing-the-new-opportunity-for-diversity" class="c-card__link w-inline-block">
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf918d0a0868_diversity%203.jpg"
-                    class="c-card__img cc-small">
-                </a>
-                <div class="c-card__info">
-                  <a style="color:#ff2868" href="#" class="c-card__tag-link">Advice</a>
-                  <div class="c-card__reading-time w-condition-invisible">
-                    <div style="background-color:#ff2868" class="c-card__info-separator w-condition-invisible"></div>
-                    <div class="c-card__info-txt w-dyn-bind-empty"></div>
-                    <div class="c-card__info-txt mrg-left">mins</div>
-                  </div>
+          </div>
+
+          <div class="c-faq__container">
+            <div class="flex-wrapper flex-vertical">
+              <div class="c-faq__upper">
+                <h5 class="c-faq__heading">How secure is Stryve?</h5>
+                <div class="c-faq__icon-holder">
+                  <img class="c-faq__svg"
+                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf67040a0733_normal%20copy.svg">
                 </div>
-                <h4>Seizing the new opportunity for diversity: How can we rebuild after Covid-19?</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
-                  <div>Read it</div><img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                    class="c-icon__arrow">
-                </a>
               </div>
+
+              <p class="c-faq__p" style="display: none; opacity: 0;">
+                Our systems are all protected by state-of-the-art security protocols ensuring that all of your data, and
+                your candidates' data, is fully protected.
+              </p>
+
             </div>
-            <div class="w-dyn-item">
-              <div class="c-card cc-tips">
-                <a href="/insights/3-ways-to-hire-for-free" class="c-card__link w-inline-block">
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf47130a086e_free%20ways%203.jpg"
-                    class="c-card__img cc-small"></a>
-                <div class="c-card__info">
-                  <a style="color:hsla(203.76470588235293, 100.00%, 50.00%, 1.00)" href="#"
-                    class="c-card__tag-link">Tricks</a>
-                  <div class="c-card__reading-time">
-                    <div style="background-color:hsla(203.76470588235293, 100.00%, 50.00%, 1.00)"
-                      class="c-card__info-separator"></div>
-                    <div class="c-card__info-txt">10</div>
-                    <div class="c-card__info-txt mrg-left">mins</div>
-                  </div>
+          </div>
+
+          <div class="c-faq__container">
+            <div class="flex-wrapper flex-vertical">
+              <div class="c-faq__upper">
+                <h5 class="c-faq__heading">Does Stryve offer a discount for non-profits?</h5>
+                <div class="c-faq__icon-holder">
+                  <img class="c-faq__svg"
+                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf67040a0733_normal%20copy.svg">
                 </div>
-                <h4>3 ways to hire for free</h4>
-                <a href="/insights/3-ways-to-hire-for-free" class="c-btn cc-with-icon cc-link w-inline-block">
-                  <div>Read it</div><img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                    class="c-icon__arrow">
-                </a>
               </div>
+
+              <p class="c-faq__p" style="display: none; opacity: 0;">
+                As a B Corp Pending company, we pride ourselves on supporting charitable organisations. We currently
+                offer a discount to all B Corp organisations, the NHS and Emergency services. If you are interested in
+                learning more about our discounts for non-profits
+              </p>
+
+            </div>
+          </div>
+
+          <div class="c-faq__container">
+            <div class="flex-wrapper flex-vertical">
+              <div class="c-faq__upper">
+                <h5 class="c-faq__heading">How do i reset my password?</h5>
+                <div class="c-faq__icon-holder">
+                  <img class="c-faq__svg"
+                    src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf67040a0733_normal%20copy.svg">
+                </div>
+              </div>
+
+              <p class="c-faq__p" style="display: none; opacity: 0;">
+                We've all been there! To reset your password, simply head to the login screen, click 'forgot password'
+                and follow the steps from there.
+              </p>
+
             </div>
           </div>
         </div>
-        <div class="flex-wrapper center">
-          <a href="/learnings" class="c-btn cc-with-icon faded-btn w-inline-block">
-            <div>More tips and tricks this way</div>
-            <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
-              loading="lazy" alt="right arrow" class="c-icon__arrow">
-          </a>
-        </div>
       </div>
+
     </section>
 
 
@@ -1634,12 +1654,6 @@
     </footer>
 
   </main>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-  <script>
-    AOS.init();
-  </script>
 
 </body>
 

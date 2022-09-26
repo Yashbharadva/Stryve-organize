@@ -69,6 +69,8 @@
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
           <div class="w-dropdown-toggle" onclick="whyOpen()">
+            <div class="w-icon-dropdown-toggle">
+            </div>
             <div>Why Stryve</div>
           </div>
 
@@ -281,7 +283,7 @@
               </div>
               <div data-w-id="8d4bbd90-e234-4fdd-8f61-31dd088742d9" class="c-nav-middle__flex-holder btm"
                 style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-                <a href="/contact" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block" tabindex="0">
+                <a href="contact.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block" tabindex="0">
                   <h5 class="heading-6">Contact<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf99d90a06c9_Vector%2014%20(1).svg"
                       alt="" class="c-nav__arrow-svg"></h5>
@@ -312,7 +314,7 @@
 
 
         </div>
-        <a href="#" class="w-nav-link">Pricing</a>
+        <a href="pricing.html" class="w-nav-link">Pricing</a>
         <div class="w-dropdown">
           <div class="w-dropdown-toggle" onclick="resourceOpen()">
             <div>Resources</div>
@@ -337,14 +339,14 @@
                 style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
               </div>
             </div>
-            <div class="c-nav-drop__middle-item resources"><a href="/learnings"
+            <div class="c-nav-drop__middle-item resources"><a href="resource.html"
                 class="c-nav__flex-item cc-nav-title resources w-inline-block" tabindex="0">
                 <h5 class="heading-6">Resources<img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg"></h5>
               </a>
               <div class="c-nav-middle__flex-holder cc-turquoise"><a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be434"
-                  href="/user-guide" class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
+                  href="userGuide.html" class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
                   <div class="p-left__5">User guide </div><img loading="lazy"
@@ -360,17 +362,26 @@
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
-              <div class="c-nav-middle__flex-holder cc-turquoise"><a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c"
-                  href="https://ats.stryve.online/support-ticket" target="_blank"
+              <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="#" target="_blank"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
                   <div class="p-left__5">Raise ticket</div><img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
-                </a></div>
+                </a>
+              </div>
+
+              <script>
+
+                function myFunction() {
+                  window.open("raiseTicket.html")
+                }
+              </script>
+
             </div>
-            <div class="c-nav-drop__right-item resources"><a href="/learnings"
+            <div class="c-nav-drop__right-item resources"><a href="resource.html"
                 class="c-nav__flex-item cc-nav-title resources w-inline-block" tabindex="0">
                 <h5 class="heading-6">Education<img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
@@ -404,7 +415,7 @@
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
               <div class="c-nav-middle__flex-holder cc-turquoise no-pd"><a
-                  data-w-id="f9526a54-7229-bd3c-cff9-cc509e1b5870" href="/learnings"
+                  data-w-id="f9526a54-7229-bd3c-cff9-cc509e1b5870" href="resource.html"
                   class="c-nav__flex-item mg-btm__8 cc-red-hover w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
@@ -627,7 +638,7 @@
                   class="c-dropdown__link w-dropdown-link" tabindex="0">User Guide</a><a
                   href="https://ats.stryve.online/support-ticket" target="_blank"
                   class="c-dropdown__link w-dropdown-link" tabindex="0" rel="noopener noreferrer">Raise ticket</a></nav>
-            </div><a href="/contact" class="c-nav__menu-link w-inline-block animate-text">
+            </div><a href="contact.html" class="c-nav__menu-link w-inline-block animate-text">
               <div class="text-block-11">Contact</div>
             </a><a href="https://control.stryve.online" target="_blank"
               class="c-nav__menu-link w-inline-block animate-text" rel="noopener noreferrer">
