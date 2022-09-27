@@ -69,8 +69,6 @@
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
           <div class="w-dropdown-toggle" onclick="whyOpen()">
-            <div class="w-icon-dropdown-toggle">
-            </div>
             <div>Why Stryve</div>
           </div>
 
@@ -363,7 +361,7 @@
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
               <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
-                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="#" target="_blank"
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" target="_blank"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
@@ -447,11 +445,32 @@
 
         </div>
         <div class="nav-line__separator"></div>
-        <a href="#" class="w-nav-link">Book a Demo</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="bookdemo()">Book a Demo</a>
 
-        <a href="#" class="w-nav-link">Sign up</a>
+        <script>
+          function bookdemo() {
+            window.open("bookdemo.html")
+            console.log("You click on book a demo part.")
+          }
+        </script>
 
-        <a href="#" class="c-bg__white w-nav-link">Log in</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="signup()">Sign up</a>
+
+        <script>
+          function signup() {
+            window.open("signup.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
+
+        <a href="#" class="c-bg__white w-nav-link" onclick="login()">Log in</a>
+
+        <script>
+          function login() {
+            window.open("login.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
       </nav>
 
 
@@ -659,7 +678,6 @@
 
     </div>
   </div>
-
   <!-- MAIN SECTION -->
 
   <main class="page__wrapper">
@@ -978,7 +996,7 @@
                 loading="lazy" alt="light pink full circle" class="c-assess__svg"></div>
           </div>
 
-          <a href="#" target="_blank" class="c-btn cc-beige w-button">Book your demo</a>
+          <a href="bookdemo.htmls" target="_blank" class="c-btn cc-beige w-button">Book your demo</a>
         </div>
       </div>
     </section>
@@ -1092,7 +1110,7 @@
 
       </div>
       <div class="flex-wrapper center">
-        <a href="#" class="c-btn cc-with-icon w-inline-block">
+        <a href="bookdemo.html" class="c-btn cc-with-icon w-inline-block">
           <div>Book a demo today</div>
           <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
             class="c-icon__arrow" alt="right arrow">
@@ -1296,14 +1314,12 @@
         <div class="c-header cc-60 center center-text">
           <h2>
             <div class="lineswrap" data-aos="fade-up">
-              <div class="line animate-text" style="display: block; text-align: center; width: 100%;">We're here to
-                help
+              <div class="line animate-text" style="display: block; text-align: center; width: 100%;">We're here to help
                 with</div>
             </div>
             <div class="lineswrap" data-aos="fade-up">
               <div class="line animate-text"
-                style="display: block; text-align: center; width: 100%; transition-delay: 200ms;">heaps of insights
-                and
+                style="display: block; text-align: center; width: 100%; transition-delay: 200ms;">heaps of insights and
                 tips</div>
             </div>
           </h2>
@@ -1312,7 +1328,7 @@
           <div class="collection-list-grid w-dyn-items">
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="/insights/hiring-with-video-technology" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf6bd90a0860_video%20tech.jpg"
                     class="c-card__img cc-small">
@@ -1326,7 +1342,7 @@
                   </div>
                 </div>
                 <h4>Hiring with video technology: How is it done without bias?</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     alt="right arrow" class="c-icon__arrow">
@@ -1335,7 +1351,7 @@
             </div>
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="#" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbfe2d20a0864_b%20corp.jpg"
                     class="c-card__img cc-small">
@@ -1351,7 +1367,7 @@
                   </div>
                 </div>
                 <h4>Stryve becomes B Corp Pending company</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     class="c-icon__arrow">
@@ -1360,7 +1376,7 @@
             </div>
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="/insights/seizing-the-new-opportunity-for-diversity" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf918d0a0868_diversity%203.jpg"
                     class="c-card__img cc-small">
@@ -1374,7 +1390,7 @@
                   </div>
                 </div>
                 <h4>Seizing the new opportunity for diversity: How can we rebuild after Covid-19?</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     class="c-icon__arrow">
@@ -1383,7 +1399,7 @@
             </div>
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="/insights/3-ways-to-hire-for-free" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf47130a086e_free%20ways%203.jpg"
                     class="c-card__img cc-small"></a>
@@ -1398,7 +1414,7 @@
                   </div>
                 </div>
                 <h4>3 ways to hire for free</h4>
-                <a href="/insights/3-ways-to-hire-for-free" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     class="c-icon__arrow">
@@ -1408,7 +1424,7 @@
           </div>
         </div>
         <div class="flex-wrapper center">
-          <a href="/learnings" class="c-btn cc-with-icon faded-btn w-inline-block">
+          <a href="resource.html" class="c-btn cc-with-icon faded-btn w-inline-block">
             <div>More tips and tricks this way</div>
             <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
               loading="lazy" alt="right arrow" class="c-icon__arrow">
@@ -1449,7 +1465,7 @@
             </h1>
           </div>
           <div class="c-tag__holder cc-pre-footer faded-btn">
-            <a href="#" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
+            <a href="bookdemo.html" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
               <div class="text-block-15">Book your demo with us here</div>
               <img
                 src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf2afe0a07b4_arrow%20right%20copy%202.svg"
@@ -1475,10 +1491,10 @@
                     class="c-footer__logo-svg">
                 </a>
                 <div class="flex-wrapper cc-socials">
-                  <a href="#" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
+                  <a href="login.html" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
                     Log in
                   </a>
-                  <a href="#" class="c-btn cc-light white-border faded-btn w-button">
+                  <a href="bookdemo.html" class="c-btn cc-light white-border faded-btn w-button">
                     Get started
                   </a>
 

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/Homepage/main.css" />
   <link rel="stylesheet" href="css/contact/contact.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Contact</title>
 </head>
 
@@ -65,8 +66,6 @@
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
           <div class="w-dropdown-toggle" onclick="whyOpen()">
-            <div class="w-icon-dropdown-toggle">
-            </div>
             <div>Why Stryve</div>
           </div>
 
@@ -359,7 +358,7 @@
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
               <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
-                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="#" target="_blank"
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" target="_blank"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
@@ -443,11 +442,32 @@
 
         </div>
         <div class="nav-line__separator"></div>
-        <a href="#" class="w-nav-link">Book a Demo</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="bookdemo()">Book a Demo</a>
 
-        <a href="#" class="w-nav-link">Sign up</a>
+        <script>
+          function bookdemo() {
+            window.open("bookdemo.html")
+            console.log("You click on book a demo part.")
+          }
+        </script>
 
-        <a href="#" class="c-bg__white w-nav-link">Log in</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="signup()">Sign up</a>
+
+        <script>
+          function signup() {
+            window.open("signup.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
+
+        <a href="#" class="c-bg__white w-nav-link" onclick="login()">Log in</a>
+
+        <script>
+          function login() {
+            window.open("login.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
       </nav>
 
 
@@ -700,13 +720,13 @@
 
               <h1>
 
-                <div class="lineswrap">
+                <div class="lineswrap" data-aos="fade-up">
                   <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
                     We'll show you
                   </div>
                 </div>
 
-                <div class="lineswrap">
+                <div class="lineswrap" data-aos="fade-up">
                   <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
                     the ropes
                   </div>
@@ -714,7 +734,7 @@
 
               </h1>
 
-              <p class="no-padding">
+              <p class="no-padding" data-aos="fade-up">
                 Schedule a demo with a member of our team to learn more about what Stryve could do for your business.
                 What's the worst that could happen?
               </p>
@@ -722,11 +742,11 @@
             </div>
 
             <div data-delay="450" data-anim="fade" class="flex-wrapper flex-vertical mg-btm__40" style="width: 400px;">
-              <h5 class="p-btm__12">What's in it for me?</h5>
+              <h5 class="p-btm__12" data-aos="fade-up">What's in it for me?</h5>
               <div class="flex-vertical p-all__16 cc-beige-bg radius-8">
                 <div class="flex-wrapper align-center mg-btm__14">
-                  <div class="signup__icon-svg w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
+                  <div class="signup__icon-svg w-embed" data-aos="fade-up">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0)">
                         <path
                           d="M0.75 5.25488C0.75 5.84583 0.866396 6.43099 1.09254 6.97696C1.31869 7.52292 1.65016 8.019 2.06802 8.43686C2.48588 8.85473 2.98196 9.18619 3.52792 9.41234C4.07389 9.63849 4.65905 9.75488 5.25 9.75488C5.84095 9.75488 6.42611 9.63849 6.97208 9.41234C7.51804 9.18619 8.01412 8.85473 8.43198 8.43686C8.84984 8.019 9.18131 7.52292 9.40746 6.97696C9.6336 6.43099 9.75 5.84583 9.75 5.25488C9.75 4.66393 9.6336 4.07877 9.40746 3.53281C9.18131 2.98684 8.84984 2.49077 8.43198 2.0729C8.01412 1.65504 7.51804 1.32357 6.97208 1.09742C6.42611 0.871279 5.84095 0.754883 5.25 0.754883C4.65905 0.754883 4.07389 0.871279 3.52792 1.09742C2.98196 1.32357 2.48588 1.65504 2.06802 2.0729C1.65016 2.49077 1.31869 2.98684 1.09254 3.53281C0.866396 4.07877 0.75 4.66393 0.75 5.25488V5.25488Z"
@@ -746,12 +766,13 @@
                           <rect width="24" height="24" fill="white"></rect>
                         </clipPath>
                       </defs>
-                    </svg></div>
-                  <p class="text-14 no-padding">A full demonstration of the Stryve platform</p>
+                    </svg>
+                  </div>
+                  <p class="text-14 no-padding" data-aos="fade-up">A full demonstration of the Stryve platform</p>
                 </div>
                 <div class="flex-wrapper align-center mg-btm__14">
-                  <div class="signup__icon-svg w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
+                  <div class="signup__icon-svg w-embed" data-aos="fade-up">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0)">
                         <path
                           d="M0.75 5.25488C0.75 5.84583 0.866396 6.43099 1.09254 6.97696C1.31869 7.52292 1.65016 8.019 2.06802 8.43686C2.48588 8.85473 2.98196 9.18619 3.52792 9.41234C4.07389 9.63849 4.65905 9.75488 5.25 9.75488C5.84095 9.75488 6.42611 9.63849 6.97208 9.41234C7.51804 9.18619 8.01412 8.85473 8.43198 8.43686C8.84984 8.019 9.18131 7.52292 9.40746 6.97696C9.6336 6.43099 9.75 5.84583 9.75 5.25488C9.75 4.66393 9.6336 4.07877 9.40746 3.53281C9.18131 2.98684 8.84984 2.49077 8.43198 2.0729C8.01412 1.65504 7.51804 1.32357 6.97208 1.09742C6.42611 0.871279 5.84095 0.754883 5.25 0.754883C4.65905 0.754883 4.07389 0.871279 3.52792 1.09742C2.98196 1.32357 2.48588 1.65504 2.06802 2.0729C1.65016 2.49077 1.31869 2.98684 1.09254 3.53281C0.866396 4.07877 0.75 4.66393 0.75 5.25488V5.25488Z"
@@ -771,13 +792,15 @@
                           <rect width="24" height="24" fill="white"></rect>
                         </clipPath>
                       </defs>
-                    </svg></div>
-                  <p class="text-14 no-padding">Expert advice on how an ATS&nbsp;can revolutionise your hiring process
+                    </svg>
+                  </div>
+                  <p class="text-14 no-padding" data-aos="fade-up">Expert advice on how an ATS&nbsp;can revolutionise
+                    your hiring process
                   </p>
                 </div>
                 <div class="flex-wrapper align-center mg-btm__14">
-                  <div class="signup__icon-svg w-embed"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                      xmlns="http://www.w3.org/2000/svg">
+                  <div class="signup__icon-svg w-embed" data-aos="fade-up">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0)">
                         <path
                           d="M0.75 5.25488C0.75 5.84583 0.866396 6.43099 1.09254 6.97696C1.31869 7.52292 1.65016 8.019 2.06802 8.43686C2.48588 8.85473 2.98196 9.18619 3.52792 9.41234C4.07389 9.63849 4.65905 9.75488 5.25 9.75488C5.84095 9.75488 6.42611 9.63849 6.97208 9.41234C7.51804 9.18619 8.01412 8.85473 8.43198 8.43686C8.84984 8.019 9.18131 7.52292 9.40746 6.97696C9.6336 6.43099 9.75 5.84583 9.75 5.25488C9.75 4.66393 9.6336 4.07877 9.40746 3.53281C9.18131 2.98684 8.84984 2.49077 8.43198 2.0729C8.01412 1.65504 7.51804 1.32357 6.97208 1.09742C6.42611 0.871279 5.84095 0.754883 5.25 0.754883C4.65905 0.754883 4.07389 0.871279 3.52792 1.09742C2.98196 1.32357 2.48588 1.65504 2.06802 2.0729C1.65016 2.49077 1.31869 2.98684 1.09254 3.53281C0.866396 4.07877 0.75 4.66393 0.75 5.25488V5.25488Z"
@@ -797,15 +820,16 @@
                           <rect width="24" height="24" fill="white"></rect>
                         </clipPath>
                       </defs>
-                    </svg></div>
-                  <p class="text-14 no-padding">Early access to upcoming features in the platform</p>
+                    </svg>
+                  </div>
+                  <p class="text-14 no-padding" data-aos="fade-up">Early access to upcoming features in the platform</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="c-signup__form-block desktop w-form">
+        <div class="c-signup__form-block desktop w-form" data-aos="fade-up">
           <form>
             <input type="text" name="First-name" class="c-signup__input w-input" maxlength="256"
               placeholder="First name" required>
@@ -861,6 +885,11 @@
 
     </div>
   </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

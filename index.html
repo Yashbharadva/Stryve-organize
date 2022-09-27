@@ -25,6 +25,10 @@
 
 <body class="loaded">
   <div class="css-edits w-embed"></div>
+
+  <!-- NAVIGATION BAR -->
+
+
   <div class="c-navbar w-nav">
     <div class="c-ctn cc-nav">
       <a href="/index.html" class="brand w-nav-brand w--current">
@@ -74,8 +78,6 @@
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
           <div class="w-dropdown-toggle" onclick="whyOpen()">
-            <div class="w-icon-dropdown-toggle">
-            </div>
             <div>Why Stryve</div>
           </div>
 
@@ -104,16 +106,16 @@
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf40a10a06ca_Vector%2014%20copy.svg"
                       alt="" class="c-nav__arrow-svg"></h5>
                 </a>
+
               </div>
-              <div class="c-nav-middle__flex-holder cc-red">
-                <a href="assess-talent.html" class="c-nav__flex-item cc-nav-title cc-2 cc-green w-inline-block"
+              <div class="c-nav-middle__flex-holder cc-red"><a href="assess-talent.html"
+                  class="c-nav__flex-item cc-nav-title cc-2 cc-green w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0">
                   <h5 class="heading-6">Assess talent<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf38130a069d_Vector%2013%20copy.svg"
                       alt="" class="c-nav__arrow-svg"></h5>
-                </a>
-              </div>
+                </a></div>
               <div class="c-nav-middle__flex-holder cc-red"><a href="simplify.html"
                   class="c-nav__flex-item cc-nav-title cc-2 cc-blue w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
@@ -367,15 +369,24 @@
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
-              <div class="c-nav-middle__flex-holder cc-turquoise"><a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c"
-                  href="https://ats.stryve.online/support-ticket" target="_blank"
+              <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" target="_blank"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
                   <div class="p-left__5">Raise ticket</div><img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
-                </a></div>
+                </a>
+              </div>
+
+              <script>
+
+                function myFunction() {
+                  window.open("raiseTicket.html")
+                }
+              </script>
+
             </div>
             <div class="c-nav-drop__right-item resources"><a href="resource.html"
                 class="c-nav__flex-item cc-nav-title resources w-inline-block" tabindex="0">
@@ -443,11 +454,32 @@
 
         </div>
         <div class="nav-line__separator"></div>
-        <a href="#" class="w-nav-link">Book a Demo</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="bookdemo()">Book a Demo</a>
 
-        <a href="#" class="w-nav-link">Sign up</a>
+        <script>
+          function bookdemo() {
+            window.open("bookdemo.html")
+            console.log("You click on book a demo part.")
+          }
+        </script>
 
-        <a href="#" class="c-bg__white w-nav-link">Log in</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="signup()">Sign up</a>
+
+        <script>
+          function signup() {
+            window.open("signup.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
+
+        <a href="#" class="c-bg__white w-nav-link" onclick="login()">Log in</a>
+
+        <script>
+          function login() {
+            window.open("login.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
       </nav>
 
 
@@ -628,15 +660,13 @@
                 <div class="text-block-11">Resources</div>
               </div>
               <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;" id="w-dropdown-list-6"
-                aria-labelledby="w-dropdown-toggle-6">
-                <a href="/learnings" class="c-dropdown__link w-dropdown-link" tabindex="0">Learning</a><a
+                aria-labelledby="w-dropdown-toggle-6"><a href="/learnings" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Learning</a><a
                   href="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6151be16c92719d19cb3f01a_Stryve%20User%20Guide.pdf"
                   class="c-dropdown__link w-dropdown-link" tabindex="0">User Guide</a><a
                   href="https://ats.stryve.online/support-ticket" target="_blank"
-                  class="c-dropdown__link w-dropdown-link" tabindex="0" rel="noopener noreferrer">Raise ticket</a>
-              </nav>
-            </div>
-            <a href="contact.html" class="c-nav__menu-link w-inline-block animate-text">
+                  class="c-dropdown__link w-dropdown-link" tabindex="0" rel="noopener noreferrer">Raise ticket</a></nav>
+            </div><a href="contact.html" class="c-nav__menu-link w-inline-block animate-text">
               <div class="text-block-11">Contact</div>
             </a><a href="https://control.stryve.online" target="_blank"
               class="c-nav__menu-link w-inline-block animate-text" rel="noopener noreferrer">
@@ -778,11 +808,20 @@
           </div>
 
           <div class="flex-wrapper play-learn">
-            <a href="#" class="c-btn cc-white cc-with-play w-inline-block">
-              <div class="sm-ellipse cc-gray"><img
+            <a href="contact.html" class="c-btn cc-with-icon mg-right__20 w-inline-block"
+              style="background-color: black; color: white;">
+              <div>Learn more</div>
+              <img class="c-icon__arrow" alt="arrow"
+                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg">
+            </a>
+            <a href="https://www.stryve.online/presentation-video" class="c-btn cc-white cc-with-play w-inline-block">
+              <div class="sm-ellipse cc-gray">
+                <img
                   src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                  alt="play trigger icon" class="c-icon__black-arrow"></div>
+                  alt="play trigger icon" class="c-icon__black-arrow">
+              </div>
               <div class="text-block-4">Learn more</div>
+
             </a>
           </div>
 
@@ -1046,7 +1085,8 @@
 
           <!-- CHECK SOLUTION BUTTON -->
 
-          <a href="#" class="c-btn cc-with-icon cc-large w-inline-block button-challenge" style="opacity: 1; ">
+          <a href="#" class="c-btn cc-with-icon cc-large w-inline-block button-challenge"
+            style="opacity: 1; cursor: not-allowed;">
             <div>Check out your solution</div><img
               src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
               alt="right arrow" class="c-icon__arrow">
@@ -1187,7 +1227,7 @@
                   </div>
 
                   <div class="c-btn__holder mg-top__40">
-                    <a href="#" class="c-btn cc-beige home w-button access-button">
+                    <a href="save-time.html" class="c-btn cc-beige home w-button access-button">
                       See how
                     </a>
                   </div>
@@ -1223,7 +1263,7 @@
                     </p>
                   </div>
                   <div class="c-btn__holder mg-top__40">
-                    <a href="#" class="c-btn cc-beige home w-button access-button2">
+                    <a href="engagement.html" class="c-btn cc-beige home w-button access-button2">
                       See how
                     </a>
                   </div>
@@ -1258,7 +1298,7 @@
                     </p>
                   </div>
                   <div class="c-btn__holder mg-top__40">
-                    <a href="#" class="c-btn cc-beige home w-button access-button3">
+                    <a href="remain.html" class="c-btn cc-beige home w-button access-button3">
                       See how
                     </a>
                   </div>
@@ -1296,7 +1336,7 @@
                     </p>
                   </div>
                   <div class="c-btn__holder mg-top__40">
-                    <a href="#" class="c-btn cc-beige home w-button access-button4">
+                    <a href="improve.html" class="c-btn cc-beige home w-button access-button4">
                       See how
                     </a>
                   </div>
@@ -1361,7 +1401,7 @@
               </p>
             </div>
             <div class="flex-wrapper" data-aos="fade-up">
-              <a href="/solutions/attract" class="c-btn cc-with-icon faded-btn w-inline-block">
+              <a href="solution-attract.html" class="c-btn cc-with-icon faded-btn w-inline-block">
                 <div>How do we do that?</div><img
                   src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
                   alt="right arrow" class="c-icon__arrow">
@@ -1570,7 +1610,7 @@
               </p>
             </div>
             <div class="flex-wrapper" data-aos="fade-up">
-              <a href="/solutions/assess" class="c-btn cc-with-icon faded-btn w-inline-block">
+              <a href="assess-talent.html" class="c-btn cc-with-icon faded-btn w-inline-block">
                 <div>Tell me more</div><img
                   src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
                   alt="right arrow" class="c-icon__arrow">
@@ -1579,7 +1619,7 @@
           </div>
         </div>
         <div class="c-flex__cover cc-green-no-gd mg-btm__32">
-          <div class="c-lottie-large is--home all-color-ring">
+          <!-- <div class="c-lottie-large is--home all-color-ring">
 
             <img
               src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbffb070a06bd_Ellipse%2019%20copy.svg"
@@ -1638,7 +1678,7 @@
             <img
               src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbffb070a06bd_Ellipse%2019%20copy.svg"
               class="c-assess__svg purple-ball">
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -1693,7 +1733,7 @@
               </div>
               </p>
             </div>
-            <div class="flex-wrapper" data-aos="fade-up"><a href="#"
+            <div class="flex-wrapper" data-aos="fade-up"><a href="simplify.html"
                 class="c-btn cc-with-icon faded-btn w-inline-block">
                 <div>More on that flow state</div><img
                   src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
@@ -2075,9 +2115,8 @@
           </div>
         </div>
       </div>
-      <div class="flex-wrapper center"><a
-          href="https://ats.stryve.online/meetings/victoria-stryve/group-link-victoria-led" target="_blank"
-          class="c-btn cc-with-icon w-inline-block" rel="noopener noreferrer">
+      <div class="flex-wrapper center"><a href="bookdemo.html" target="_blank" class="c-btn cc-with-icon w-inline-block"
+          rel="noopener noreferrer">
           <div>Book a demo today</div><img
             src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
             loading="lazy" alt="right arrow" class="c-icon__arrow"
@@ -2385,8 +2424,8 @@
                 <div class="relative _2">Join them today</div>
               </div>
             </a>
-            <a href="https://ats.stryve.online/meetings/victoria-stryve/group-link-victoria-led" target="_blank"
-              class="c-btn cc-with-icon w-inline-block" rel="noopener noreferrer" data-aos="fade-up">
+            <a href="bookdemo.html" target="_blank" class="c-btn cc-with-icon w-inline-block" rel="noopener noreferrer"
+              data-aos="fade-up">
               <div>Book a demo to learn more</div>
               <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
                 alt="right arrow" class="c-icon__arrow">
@@ -2418,7 +2457,7 @@
           <div class="collection-list-grid w-dyn-items">
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="/insights/hiring-with-video-technology" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf6bd90a0860_video%20tech.jpg"
                     class="c-card__img cc-small">
@@ -2432,7 +2471,7 @@
                   </div>
                 </div>
                 <h4>Hiring with video technology: How is it done without bias?</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     alt="right arrow" class="c-icon__arrow">
@@ -2441,7 +2480,7 @@
             </div>
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="#" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbfe2d20a0864_b%20corp.jpg"
                     class="c-card__img cc-small">
@@ -2457,7 +2496,7 @@
                   </div>
                 </div>
                 <h4>Stryve becomes B Corp Pending company</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     class="c-icon__arrow">
@@ -2466,7 +2505,7 @@
             </div>
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="/insights/seizing-the-new-opportunity-for-diversity" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf918d0a0868_diversity%203.jpg"
                     class="c-card__img cc-small">
@@ -2480,7 +2519,7 @@
                   </div>
                 </div>
                 <h4>Seizing the new opportunity for diversity: How can we rebuild after Covid-19?</h4>
-                <a href="#" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     class="c-icon__arrow">
@@ -2489,7 +2528,7 @@
             </div>
             <div class="w-dyn-item">
               <div class="c-card cc-tips">
-                <a href="/insights/3-ways-to-hire-for-free" class="c-card__link w-inline-block">
+                <a href="resource.html" class="c-card__link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6135d217a84bbf47130a086e_free%20ways%203.jpg"
                     class="c-card__img cc-small"></a>
@@ -2504,7 +2543,7 @@
                   </div>
                 </div>
                 <h4>3 ways to hire for free</h4>
-                <a href="/insights/3-ways-to-hire-for-free" class="c-btn cc-with-icon cc-link w-inline-block">
+                <a href="resource.html" class="c-btn cc-with-icon cc-link w-inline-block">
                   <div>Read it</div><img
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
                     class="c-icon__arrow">
@@ -2514,7 +2553,7 @@
           </div>
         </div>
         <div class="flex-wrapper center">
-          <a href="/learnings" class="c-btn cc-with-icon faded-btn w-inline-block">
+          <a href="resource.html" class="c-btn cc-with-icon faded-btn w-inline-block">
             <div>More tips and tricks this way</div>
             <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg"
               loading="lazy" alt="right arrow" class="c-icon__arrow">
@@ -2555,7 +2594,7 @@
             </h1>
           </div>
           <div class="c-tag__holder cc-pre-footer faded-btn">
-            <a href="#" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
+            <a href="bookdemo.html" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
               <div class="text-block-15">Book your demo with us here</div>
               <img
                 src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf2afe0a07b4_arrow%20right%20copy%202.svg"
@@ -2581,10 +2620,10 @@
                     class="c-footer__logo-svg">
                 </a>
                 <div class="flex-wrapper cc-socials">
-                  <a href="#" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
+                  <a href="login.html" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
                     Log in
                   </a>
-                  <a href="#" class="c-btn cc-light white-border faded-btn w-button">
+                  <a href="bookdemo.html" class="c-btn cc-light white-border faded-btn w-button">
                     Get started
                   </a>
 

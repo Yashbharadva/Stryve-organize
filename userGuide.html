@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/Homepage/main.css" />
   <link rel="stylesheet" href="css/userGuide/userguide.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>User-Guide</title>
 </head>
 
@@ -65,8 +66,6 @@
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
           <div class="w-dropdown-toggle" onclick="whyOpen()">
-            <div class="w-icon-dropdown-toggle">
-            </div>
             <div>Why Stryve</div>
           </div>
 
@@ -359,7 +358,7 @@
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
               <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
-                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="#" target="_blank"
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" target="_blank"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
@@ -443,11 +442,32 @@
 
         </div>
         <div class="nav-line__separator"></div>
-        <a href="#" class="w-nav-link">Book a Demo</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="bookdemo()">Book a Demo</a>
 
-        <a href="#" class="w-nav-link">Sign up</a>
+        <script>
+          function bookdemo() {
+            window.open("bookdemo.html")
+            console.log("You click on book a demo part.")
+          }
+        </script>
 
-        <a href="#" class="c-bg__white w-nav-link">Log in</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="signup()">Sign up</a>
+
+        <script>
+          function signup() {
+            window.open("signup.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
+
+        <a href="#" class="c-bg__white w-nav-link" onclick="login()">Log in</a>
+
+        <script>
+          function login() {
+            window.open("login.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
       </nav>
 
 
@@ -666,13 +686,13 @@
           <div class="c-hero__solution-text cc-50 cc-userguide">
             <div class="c-header no-mg center">
               <h1 class="c-userguide__title">
-                <div class="lineswrap">
+                <div class="lineswrap" data-aos="fade-up">
                   <div class="line animate-text" style="display: block; text-align: center; width: 100%;">
                     Stryve User Guide
                   </div>
                 </div>
               </h1>
-              <p class="center-text is--white">
+              <p class="center-text is--white" data-aos="fade-up">
                 At Stryve we want your hiring process to be as simple as possible. Start here for a rundown of the
                 features and
                 <br>
@@ -682,7 +702,7 @@
 
             <div class="form-block-2 cc-userguide w-form">
               <form>
-                <div class="search-holder">
+                <div class="search-holder" data-aos="fade-up">
                   <input type="text" class="c-search-input cc-userguide w-input" maxlength="256" required
                     placeholder="Search User Guide">
                   <img class="search__svg cc-userguide"
@@ -718,11 +738,44 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 1-->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I setup a campaign?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f6048469a193ca662343b_Group%20(2)%20copy%203.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Getting Started</h4>
-                <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f5fbfa59fba3e14e0b699_social%20video%20youtube%20clip.svg"
+                  class="image-4">
               </div>
               <div class="arrow-holder">
                 <img
@@ -730,9 +783,155 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 2-->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do i create my account?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I select my subscription?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I sign in?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Which if I forgot my password?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I change my password?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I logout?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Getting started overview
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f6048469a193ca662343b_Group%20(2)%20copy%203.svg"
+                  class="image-3">
                 <h4 class="c-category__title">User and Company Settings</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -742,9 +941,192 @@
               </div>
             </div>
 
+
+
+
+
+            <!-- HIDDEN PART 3 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do i access my user settings?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up my personal profile?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I manage my notifications?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up my company details?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up new users?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I add a new user?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I edit user permissions?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I delete a user?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Can I make my own bespoke user permissions?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f6078d201993535bd5d1f_pie%20line%20graph.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Dashboard/Home</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -754,9 +1136,110 @@
               </div>
             </div>
 
+
+
+
+            <!-- HIDDEN PART 4 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I search within the platform?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I navigate the Stryve platform?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How can I find on my dashboard?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I create an event outside of my hiring flow?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f60965db2775021e9a942_project%20blueprint%20create%20(1).svg"
+                  class="image-3">
                 <h4 class="c-category__title">Careers Page</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -766,11 +1249,86 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 5 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I make my job board public?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Can I preview my company careers page before it goes live?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I setup my company careers page?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f60b062563a1ad0f6cf27_single%20man%20profile%20picture%20(1).svg"
+                  class="image-3">
                 <h4 class="c-category__title">candidate Creation</h4>
-                <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f5fbfa59fba3e14e0b699_social%20video%20youtube%20clip.svg"
+                  class="image-4">
               </div>
               <div class="arrow-holder">
                 <img
@@ -778,9 +1336,99 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 6 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I create a new candidate?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Can I add a candidate straight to the Alumni database?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I add a candidate to an active job?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I add a CV to a candidate?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/629e2d0a7bb28386b27c76c4_Inbox.png"
+                  class="image-3">
                 <h4 class="c-category__title">inbox</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -790,9 +1438,62 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 7 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            What can I find in my inbox?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Where can I find a record of all my notifications?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f60d75db27782f7e9a99a_common%20file%20text%20search.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Job Creation and settings</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -802,9 +1503,227 @@
               </div>
             </div>
 
+            <!-- HIDEEN PART 8 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I create a new job?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I create a job with One Click Recruit?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I edit my job settings?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I add a job description for the role?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I build my hiring flow?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I create the actions in my hiring flow?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I add specific company users to work on a job?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I make my job live?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I archive a job?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I promote jobs on social media?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up more job reports?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/629e2d0088e3af51b207b561_App%20Marketplace.png"
+                  class="image-3">
                 <h4 class="c-category__title">The App Marketplace and integrations</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -814,9 +1733,206 @@
               </div>
             </div>
 
+            <!-- HIDDEN PART 9 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up my Slack integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I use my Slack integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up my HiBob integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I setup my Google Jobs integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I use Goggle Jobs?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up my Linkedin integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Adding a Zoom account
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up my Microsoft Teams integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I setup my Zoom integration?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How do I set up Stryve Multi-post?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/62a34564f38493ccad4eb262_image__13_-removebg-preview.png"
+                  class="image-3">
                 <h4 class="c-category__title">Stryve Source</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -826,9 +1942,63 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 10 -->
+
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How to request a Stryve Source project?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            What is Stryve Source?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f60ee45df66126d7bbda5_flow%202.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Live Hiring Flow</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -838,9 +2008,65 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 11 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How to request a Stryve Source project?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            What is Stryve Source?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/629e2cf7cca81a0e397960e9_Reports.png"
+                  class="image-3">
                 <h4 class="c-category__title">Reports & Analytics</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -850,11 +2076,65 @@
               </div>
             </div>
 
+            <!-- HIDDEN PART 12 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How to request a Stryve Source project?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            What is Stryve Source?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f6103ea156bd8db0782c5_layout%20dashboard.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Lists and Database</h4>
-                <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f5fbfa59fba3e14e0b699_social%20video%20youtube%20clip.svg"
+                  class="image-4">
               </div>
               <div class="arrow-holder">
                 <img
@@ -862,9 +2142,64 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 13 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How to request a Stryve Source project?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            What is Stryve Source?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f615541ed44d3d7a58427_headphones%20customer%20support.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Feedback and Help Center</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -874,9 +2209,65 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 14 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How can I leave feedback on the system?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            HOw can I contact STryve for support?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f6175248cb0f44ac1bee4_password%20desktop%20lock%20approved.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Security, Compliance and Redaction</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -886,9 +2277,65 @@
               </div>
             </div>
 
+            <!-- HIDDEN PART 15 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How can I leave feedback on the system?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            HOw can I contact STryve for support?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f619cd8fb8a5b37e6d506_accounting%20bills.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Billings and Subscription</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -898,9 +2345,65 @@
               </div>
             </div>
 
+
+            <!-- HIDDEN PART 16 -->
+
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            How can I leave feedback on the system?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            HOw can I contact STryve for support?
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
+                <img
+                  src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/619f61ac61f0ec4d22a26865_common%20file%20edit.svg"
+                  class="image-3">
                 <h4 class="c-category__title">Glossary</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -910,9 +2413,40 @@
               </div>
             </div>
 
+            <!-- HIDDEN PART 17 -->
+
+            <div class="questions-collection">
+              <div class="w-embed w-script">
+                <div class="questions-references-wrapper">
+
+
+                  <div class="w-dyn-items">
+                    <div class="c-subcategories">
+                      <div class="c-sub-category__item">
+                        <div class="c-category__left mg-btm">
+                          <h5 class="c-category__title">
+                            Visit the glossary page
+                          </h5>
+                          <img class="w-dyn-bind-empty" src>
+                        </div>
+                        <a href="#" class="category-link w-inline-block">
+                          <div class="text-block-16">Take a look</div>
+                          <img class="image-5"
+                            src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+
             <div class="c-category__item">
               <div class="c-category__left">
-                <img src class="image-3 w-dyn-bind-empty">
                 <h4 class="c-category__title">Stryve Multi-Post</h4>
                 <img src class="image-4 w-condition-invisible w-dyn-bind-empty">
               </div>
@@ -921,6 +2455,15 @@
                   src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/619f64bef5d5810a8b3bfeb9_arrow%20right%20copy%203.svg">
               </div>
             </div>
+
+            <!-- HIDDEN PART 18 -->
+
+            <div class="questions-collection">
+              No items found.
+            </div>
+
+
+
 
             <div class="c-category__item">
               <div class="c-category__left">
@@ -935,10 +2478,38 @@
             </div>
 
 
+            <!-- HIDDEN PART 19 -->
+
+            <div class="questions-collection">
+              No items found.
+            </div>
+
+
           </div>
         </div>
       </div>
     </section>
+
+
+
+    <script>
+      var acc = document.getElementsByClassName("c-category__item");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+
 
 
     <!-- START BUILDING SECTION -->
@@ -948,24 +2519,24 @@
         <div class="c-content_wrapper cc-100 cc-beige-bg p-both">
           <div class="c-text__content cc-30">
             <h3>
-              <div class="lineswrap">
+              <div class="lineswrap" data-aos="fade-up">
                 <div class="line animate-text" style="display: block; align-items: start; width: 100%;">
                   Start building the
                 </div>
               </div>
-              <div class="lineswrap">
+              <div class="lineswrap" data-aos="fade-up">
                 <div class="line animate-text" style="display: block; align-items: start; width: 100%;">
                   team your
                 </div>
               </div>
-              <div class="lineswrap">
+              <div class="lineswrap" data-aos="fade-up">
                 <div class="line animate-text" style="display: block; align-items: start; width: 100%;">
                   business needs
                 </div>
               </div>
             </h3>
             <div class="btn-holder cc-35 mg-top__20">
-              <a href="#" class="c-btn cc-with-icon w-inline-block">
+              <a href="bookdemo.html" class="c-btn cc-with-icon w-inline-block">
                 <div>Let's talk</div>
                 <img class="c-icon__arrow" alt="right-arrow"
                   src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf9bfb0a0658_arrow.svg">
@@ -1028,7 +2599,7 @@
             </h1>
           </div>
           <div class="c-tag__holder cc-pre-footer faded-btn">
-            <a href="#" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
+            <a href="bookdemo.html" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
               <div class="text-block-15">Book your demo with us here</div>
               <img
                 src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf2afe0a07b4_arrow%20right%20copy%202.svg"
@@ -1054,10 +2625,10 @@
                     class="c-footer__logo-svg">
                 </a>
                 <div class="flex-wrapper cc-socials">
-                  <a href="#" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
+                  <a href="login.html" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
                     Log in
                   </a>
-                  <a href="#" class="c-btn cc-light white-border faded-btn w-button">
+                  <a href="bookdemo.html" class="c-btn cc-light white-border faded-btn w-button">
                     Get started
                   </a>
 
@@ -1213,6 +2784,11 @@
 
 
   </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

@@ -68,8 +68,6 @@
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
           <div class="w-dropdown-toggle" onclick="whyOpen()">
-            <div class="w-icon-dropdown-toggle">
-            </div>
             <div>Why Stryve</div>
           </div>
 
@@ -362,7 +360,7 @@
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
               <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
-                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="#" target="_blank"
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" target="_blank"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
@@ -446,11 +444,32 @@
 
         </div>
         <div class="nav-line__separator"></div>
-        <a href="#" class="w-nav-link">Book a Demo</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="bookdemo()">Book a Demo</a>
 
-        <a href="#" class="w-nav-link">Sign up</a>
+        <script>
+          function bookdemo() {
+            window.open("bookdemo.html")
+            console.log("You click on book a demo part.")
+          }
+        </script>
 
-        <a href="#" class="c-bg__white w-nav-link">Log in</a>
+        <a href="#" target="_blank" class="w-nav-link" onclick="signup()">Sign up</a>
+
+        <script>
+          function signup() {
+            window.open("signup.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
+
+        <a href="#" class="c-bg__white w-nav-link" onclick="login()">Log in</a>
+
+        <script>
+          function login() {
+            window.open("login.html")
+            console.log("You clicked on sign up page")
+          }
+        </script>
       </nav>
 
 
@@ -1192,7 +1211,7 @@
             </h1>
           </div>
           <div class="c-tag__holder cc-pre-footer faded-btn">
-            <a href="#" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
+            <a href="bookdemo.html" target="_blank" class="c-btn cc-with-icon cc-white ppc-book-4 w-inline-block">
               <div class="text-block-15">Book your demo with us here</div>
               <img
                 src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf2afe0a07b4_arrow%20right%20copy%202.svg"
@@ -1218,10 +1237,10 @@
                     class="c-footer__logo-svg">
                 </a>
                 <div class="flex-wrapper cc-socials">
-                  <a href="#" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
+                  <a href="login.html" class="c-btn cc-no-border white mg-right__20 faded-btn w-button">
                     Log in
                   </a>
-                  <a href="#" class="c-btn cc-light white-border faded-btn w-button">
+                  <a href="bookdemo.html" class="c-btn cc-light white-border faded-btn w-button">
                     Get started
                   </a>
 
