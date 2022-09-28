@@ -1,3 +1,4 @@
+/*! CSS Used from: Embedded */
 svg:not(:root).svg-inline--fa {
   overflow: visible;
 }
@@ -24,6 +25,7 @@ svg:not(:root).svg-inline--fa {
   text-align: center;
   width: 1.25em;
 }
+/*! CSS Used from: https://control.stryve.online/_next/static/css/da020e9976d1d60e.css */
 *,
 :after,
 :before {
@@ -456,6 +458,7 @@ input::placeholder {
   font-weight: 500;
 }
 .font-normal {
+  font-family: Buenos Aires Book;
   font-weight: 400;
 }
 .font-light {
@@ -480,6 +483,7 @@ input::placeholder {
   font-size: 0.75rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-family: Buenos Aires Book;
   font-weight: 400;
 }
 .btn:hover {
@@ -615,16 +619,20 @@ body {
   letter-spacing: -0.02em;
   font-style: normal;
 }
-
+p {
+  font-family: Buenos Aires Book;
+}
 body {
   font-weight: 500;
 }
 body {
+  font-family: Buenos Aires Book;
   scrollbar-color: #9ca3af #e5e7eb;
 }
 ::-webkit-scrollbar-track {
   background: #e5e7eb;
   border-radius: 12px;
+  -webkit-box-shadow: inset 0 0 2px #9ca3af;
 }
 ::-webkit-scrollbar-thumb {
   background: #9ca3af;
@@ -653,11 +661,14 @@ span {
     display: block;
   }
 }
-@media (min-width: 1280px) {
-  .xl\:max-w-3xl {
-    max-width: 48rem;
+@media (max-width: 1280px) {
+
+  .lg\:block {
+    display: none;
   }
 }
+
+
 .svg-inline--fa,
 svg:not(:root).svg-inline--fa {
   overflow: visible;
@@ -836,18 +847,18 @@ svg:not(:root).svg-inline--fa {
   margin-left: -10px;
 }
 /*! CSS Used from: Embedded */
-.td935ce65-821a-4262-b5f1-a98176522a26 {
+.t46516852-49ba-4e64-992e-e66137f86ba0 {
   color: #fff;
   background: #222;
   border: 1px solid transparent;
 }
-.td935ce65-821a-4262-b5f1-a98176522a26.place-top {
+.t46516852-49ba-4e64-992e-e66137f86ba0.place-top {
   margin-top: -10px;
 }
-.td935ce65-821a-4262-b5f1-a98176522a26.place-top::before {
+.t46516852-49ba-4e64-992e-e66137f86ba0.place-top::before {
   border-top: 8px solid transparent;
 }
-.td935ce65-821a-4262-b5f1-a98176522a26.place-top::after {
+.t46516852-49ba-4e64-992e-e66137f86ba0.place-top::after {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   bottom: -6px;
@@ -858,18 +869,18 @@ svg:not(:root).svg-inline--fa {
   border-top-width: 6px;
 }
 /*! CSS Used from: Embedded */
-.t53037972-5686-4cc2-9310-b5502fc9513f {
+.t6bafc5fe-b603-4422-a714-ed4738513f01 {
   color: #fff;
   background: #222;
   border: 1px solid transparent;
 }
-.t53037972-5686-4cc2-9310-b5502fc9513f.place-top {
+.t6bafc5fe-b603-4422-a714-ed4738513f01.place-top {
   margin-top: -10px;
 }
-.t53037972-5686-4cc2-9310-b5502fc9513f.place-top::before {
+.t6bafc5fe-b603-4422-a714-ed4738513f01.place-top::before {
   border-top: 8px solid transparent;
 }
-.t53037972-5686-4cc2-9310-b5502fc9513f.place-top::after {
+.t6bafc5fe-b603-4422-a714-ed4738513f01.place-top::after {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   bottom: -6px;
@@ -880,196 +891,6 @@ svg:not(:root).svg-inline--fa {
   border-top-width: 6px;
 }
 /*! CSS Used fontfaces */
-
-@font-face {
-  font-family: Buenos Aires Light;
-  src: local("Buenos Aries Light"),
-    url(https://control.stryve.online/fonts/BuenosAires-Light.woff2)
-      format("woff2"),
-    url(https://control.stryve.online/fonts/BuenosAires-Light.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Avenir Next W02;
-  src: url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Regular.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Regular.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Avenir Next W02;
-  font-style: italic;
-  src: url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Regular-Italic.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Regular-Italic.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Avenir Next W02;
-  src: url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Medium.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Medium.woff)
-      format("woff");
-  font-weight: 500;
-}
-@font-face {
-  font-family: Avenir Next W02;
-  src: url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Demi.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Demi.woff)
-      format("woff");
-  font-weight: 600;
-}
-@font-face {
-  font-family: Avenir Next W02;
-  font-style: italic;
-  src: url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Demi-Italic.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Demi-Italic.woff)
-      format("woff");
-  font-weight: 600;
-}
-@font-face {
-  font-family: Avenir Next W02;
-  src: url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Bold.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/ui-fonts/static-1.264/fonts/AvenirNext-Bold.woff)
-      format("woff");
-  font-weight: 700;
-}
-@font-face {
-  font-family: spacesword;
-  src: url(//static.hsappstatic.net/icons/static-2.497/fonts/spacesword-low.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/icons/static-2.497/fonts/spacesword-low.woff)
-      format("woff");
-}
-@font-face {
-  font-family: spacesword;
-  src: url(//static.hsappstatic.net/icons/static-2.497/fonts/spacesword-high.woff2)
-      format("woff2"),
-    url(//static.hsappstatic.net/icons/static-2.497/fonts/spacesword-high.woff)
-      format("woff");
-  font-weight: 700;
-}
-
-
-
-
-
-
-
-
-.first_name{
-  max-height: 100vh;
-}
-
-.first_name_1 {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-}
-
-.first_name_2 {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex: 1 1 0%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow-x: hidden;
-  padding: 24px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-}
-
-.first_name_3 {
-  margin: 3rem;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  max-width: 28rem;
-  flex-direction: column;
-  padding-top: 3rem;
-}
-
-.first_name_4 {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-}
-
-.first_name_5 {
-  margin-top: 1rem;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-}
-
-.first_name_6 {
-  position: relative;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  border-width: 0px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 245 247 / var(--tw-bg-opacity));
-}
-
-.first_name_7 {
-  position: absolute;
-  left: 0.5rem;
-  z-index: 10;
-  transform-origin: left top;
-  line-height: 1.75rem;
-}
-
-.first_name_8 {
-  display: inline;
-  font-size: 0.875rem;
-  --tw-text-opacity: 1;
-  color: rgb(12 29 54 /var(--tw-bg-opacity));
-  font-weight: 500;
-}
-
-.first_name_9 {
-  margin: 0;
-  width: 100%;
-  border-radius: 0.5rem;
-  border-width: 0;
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 245 247 / var(--tw-bg-opacity));
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-  font-weight: 400;
-}
-
-.first_name_10 {
-  margin-top: 0.25rem;
-  margin-left: 0.5rem;
-}
-
-.first_name_11 {
-  position: relative;
-  z-index: 30;
-  display: inline-block;
-  line-height: 1;
-}
-
-.first_name_12 {
-  display: block;
-}
-
-.all-signup {
-  font-family: sans-serif;
-}
-
-
 @font-face {
   font-family: webflow-icons;
   src: url("data:application/x-font-ttf;charset=utf-8;base64,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")
@@ -1177,3 +998,29 @@ svg:not(:root).svg-inline--fa {
   font-style: normal;
   font-display: swap;
 }
+
+
+
+
+.max-h-screen {
+  max-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+
+

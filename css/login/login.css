@@ -402,9 +402,10 @@ span {
     display: block;
   }
 }
-@media (min-width: 1280px) {
-  .xl\:max-w-3xl {
-    max-width: 48rem;
+@media (max-width: 1280px) {
+
+  .lg\:block {
+    display: none;
   }
 }
 .svg-inline--fa,
