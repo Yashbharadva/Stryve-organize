@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/Homepage/main.css" />
   <link rel="stylesheet" href="css/about-us/us.css" />
+  <link rel="stylesheet" href="css/Homepage/responsive.css" />
+  <link rel="stylesheet" href="css/about-us/responsive.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>About us</title>
 </head>
@@ -471,7 +473,7 @@
       </nav>
 
 
-      <a class="c-menu-button w-inline-block" onclick="openTab()">
+      <a class="c-menu-button" onclick="openTab()">
         <div class="c-menu-line"></div>
         <div class="c-menu-line"></div>
         <div class="c-menu-line"></div>
@@ -500,7 +502,7 @@
 
 
             <div class="flex-vertical cc-nav-menu">
-              <a class="c-nav__menu w-inline-block w--cureent animate-text">
+              <a href="index.html" class="c-nav__menu w-inline-block w--cureent animate-text">
                 <div class="text-block-11">Home</div>
               </a>
               <div class="c-nav-menu__dropdown w-dropdown">
@@ -509,11 +511,29 @@
                   <div class="text-block-11">Why</div>
                 </div>
 
-                <nav class="dropdown-list w-dropdown-list" style="display: flex; opacity: 1;">
-                  <a href="#" class="c-dropdown__link w-dropdown-link">Attract</a>
-                  <a href="#" class="c-dropdown__link w-dropdown-link">Assess</a>
-                  <a href="#" class="c-dropdown__link w-dropdown-link">Simplify</a>
+                <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;">
+                  <a href="solution-attract.html" class="c-dropdown__link w-dropdown-link">Attract</a>
+                  <a href="assess-talent.html" class="c-dropdown__link w-dropdown-link">Assess</a>
+                  <a href="simplify.html" class="c-dropdown__link w-dropdown-link">Simplify</a>
                 </nav>
+
+                <script>
+                  var acc = document.getElementsByClassName("text-block-11");
+                  var i;
+
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "flex") {
+                        panel.style.display = "none";
+                      } else {
+                        panel.style.display = "flex";
+                        panel.style.opacity = "1";
+                      }
+                    });
+                  }
+                </script>
 
               </div>
               <div class="c-nav-menu__dropdown w-dropdown">
@@ -522,20 +542,69 @@
                   <div class="text-block-11">Our solution</div>
                 </div>
 
-              </div><a href="#" class="c-nav__menu-link w-inline-block animate-text">
+                <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;">
+                  <a href="save-time.html" class="c-dropdown__link w-dropdown-link">Time</a>
+                  <a href="remain.html" class="c-dropdown__link w-dropdown-link">Compliance</a>
+                  <a href="improve.html" class="c-dropdown__link w-dropdown-link">Diversity</a>
+                  <a href="engagement.html" class="c-dropdown__link w-dropdown-link">Engagement</a>
+                </nav>
+
+                <script>
+                  var acc = document.getElementsByClassName("dropdown-toggle-4 w-dropdown-toggle");
+                  var i;
+
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "flex") {
+                        panel.style.display = "none";
+                      } else {
+                        panel.style.display = "flex";
+                        panel.style.opacity = "1";
+                      }
+                    });
+                  }
+                </script>
+
+              </div><a href="about-us.html" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">About</div>
-              </a><a href="#" class="c-nav__menu-link w-inline-block animate-text">
+              </a><a href="pricing.html" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">Pricing</div>
               </a>
               <div class="c-nav-menu__dropdown w-dropdown">
-                <div class="dropdown-toggle-4 w-dropdown-toggle">
+                <div class="dropdown-toggle-4 w-dropdown-toggle resource-tag">
                   <div class="icon-2 w-icon-dropdown-toggle"></div>
                   <div class="text-block-11">Resources</div>
                 </div>
 
-              </div><a href="#" class="c-nav__menu-link w-inline-block animate-text">
+                <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;">
+                  <a href="resource.html" class="c-dropdown__link w-dropdown-link">Learning</a>
+                  <a href="userGuide.html" class="c-dropdown__link w-dropdown-link">User Guide</a>
+                  <a href="raiseTicket.html" class="c-dropdown__link w-dropdown-link">Raise Ticket</a>
+                </nav>
+
+                <script>
+                  var acc = document.getElementsByClassName("resource-tag");
+                  var i;
+
+                  for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "flex") {
+                        panel.style.display = "none";
+                      } else {
+                        panel.style.display = "flex";
+                        panel.style.opacity = "1";
+                      }
+                    });
+                  }
+                </script>
+
+              </div><a href="contact.html" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">Contact</div>
-              </a><a href="#" target="_blank" class="c-nav__menu-link w-inline-block animate-text">
+              </a><a href="login.html" target="_blank" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">Login</div>
               </a>
             </div>
