@@ -50,9 +50,6 @@
               d="M102 15.9201C102 11.334 99.552 8.74951 95.523 8.74951C90.831 8.74951 88.1025 12.3221 88.1025 16.5536C88.1025 20.8103 90.882 24.0029 95.4465 24.0029C98.124 24.0029 100.113 22.9134 101.643 21.013L100.037 19.3154C99.093 20.6076 97.6395 21.4944 95.7015 21.4944C93.075 21.4944 91.29 20.0755 90.933 17.3644H102V15.9201ZM91.0095 15.16C91.341 12.6769 92.871 11.2073 95.421 11.2073C97.92 11.2073 99.144 12.6515 99.1695 15.16H91.0095Z"
               fill="#0C1D36" style="stroke-dasharray: 89.7889, 89.7889; stroke-dashoffset: 89.7889px;"></path>
 
-            <defs>
-
-            </defs>
           </svg>
         </div>
         <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf45f80a06c5_Frame.svg"
@@ -69,8 +66,9 @@
 
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
-          <div class="w-dropdown-toggle" onclick="whyOpen()">
+          <div id="whyOpenId" class="w-dropdown-toggle" onclick="whyOpen()">
             <div>Why Stryve</div>
+            <div class="icon-2 w-icon-dropdown-toggle"></div>
           </div>
 
           <nav class="flex-menu solution w-dropdown-list"
@@ -123,6 +121,8 @@
 
         <script>
 
+
+
           function whyOpen() {
             if (document.getElementById("open-why").style.opacity === '1') {
               document.getElementById("open-why").style.opacity = "0";
@@ -138,6 +138,11 @@
             }
           }
 
+          // function whyOpen() {
+          //   document.getElementById("open-why").classList.toggle("show");
+          //   console.log("you clicked here..");
+          // }
+
         </script>
 
 
@@ -145,6 +150,7 @@
         <div class="w-dropdown">
           <div class="w-dropdown-toggle" onclick="solutionOpen()">
             <div>Our solution</div>
+            <div class="icon-2 w-icon-dropdown-toggle"></div>
           </div>
 
           <nav class="flex-menu solution w-dropdown-list"
@@ -234,6 +240,7 @@
         <div class="w-dropdown">
           <div class="w-dropdown-toggle" onclick="aboutOpen()">
             <div> About us</div>
+            <div class="icon-2 w-icon-dropdown-toggle"></div>
           </div>
 
           <nav class="flex-menu about w-dropdown-list"
@@ -317,6 +324,7 @@
         <div class="w-dropdown">
           <div class="w-dropdown-toggle" onclick="resourceOpen()">
             <div>Resources</div>
+            <div class="icon-2 w-icon-dropdown-toggle"></div>
           </div>
 
           <nav class="flex-menu resources w-dropdown-list"

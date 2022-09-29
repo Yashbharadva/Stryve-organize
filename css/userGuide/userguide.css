@@ -49,7 +49,7 @@ input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.w-icon-dropdown-toggle:before {
+.w-icon-dropdown-toggle::before {
   content: "\e603";
 }
 * {

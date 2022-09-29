@@ -855,7 +855,7 @@
   position: absolute;
   animation: infinite;
   animation-name: pink-curve2;
-  animation-duration: 3s;
+  animation-duration: 10s;
 }
 
 @keyframes pink-curve2 {
@@ -864,30 +864,32 @@
     left: 53%;
   }
 
-  /* 20% {
-    top: 18%;
-    left: 53%;
-  } */
-
-  40% {
+  30% {
     top: 30%;
     left: 80;
   }
 
 
-  /* 40% {
-    top: 31%;
-    left: 80%;
-  }
-
-  60% {
-    top: 30%;
-    left: 90%;
-  } */
-
   100% {
     top: 30%;
-    left: 100%;
+    left: 110%;
   }
 }
+
+/* #motion-demo {
+  offset-path: path("M0,10 20,100 100,10 100,100");
+  animation: move 3000ms infinite alternate ease-in-out;
+  width: 40px;
+  height: 40px;
+  background: cyan;
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+} */
 

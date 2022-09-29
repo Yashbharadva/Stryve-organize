@@ -462,6 +462,29 @@ h2 {
   max-width: none;
 }
 
+[class*=" w-icon-"],
+[class^="w-icon-"] {
+  font-family: webflow-icons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.w-icon-dropdown-toggle::before {
+  content: "\e603";
+}
+
+.blueballAni {
+  animation-name: pop-up-circle2;
+  animation-duration: 1.5s;
+}
+
+
+
 .no-padding {
   margin-top: 0;
   margin-bottom: 0;
