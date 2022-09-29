@@ -454,9 +454,9 @@ h2 {
   overflow: hidden;
 }
 
-.c-ctn, .cc-80, .cc-relative, .custom-full-width {
+/* .c-ctn, .cc-80, .cc-relative, .custom-full-width {
   min-width: 920px;
-}
+} */
 
 .c-ctn, .cc-relative, .custom-full-width {
   max-width: none;
