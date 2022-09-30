@@ -156,6 +156,24 @@
   }
 }
 
+.myFirst-redball {
+  position: absolute;
+  animation: myfirst 5s linear forwards;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0% {
+    left: 0%;
+    top: 0%;
+  }
+
+  100% {
+    left: 1000%;
+    top: 0%;
+  }
+}
+
 .grey-ball {
   position: absolute;
   left: 42%;
@@ -166,7 +184,7 @@
 
 @keyframes movegrey {
   0%   {
-      top: -200%;
+      top: 100%;
   }
   100% {
     top: 46%;

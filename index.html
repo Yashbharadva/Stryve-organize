@@ -18,7 +18,12 @@
   <link rel="stylesheet" href="css/Homepage/animate.css" />
   <link rel="stylesheet" href="css/Homepage/image-move.css" />
   <link rel="stylesheet" href="css/Attract/main-attract.css" />
+  <link rel="stylesheet" href="css/Homepage/ststst.css" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script></script>
 
   <title>Stryve</title>
 </head>
@@ -1238,24 +1243,39 @@
           <!-- ARROWS -->
 
 
-          <div class="swiper-arrows__2 myswiper">
 
+          <!-- <script>
 
-            <div class="swiper-arrow-holder my-right__10">
-              <img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf8c060a06d8_Group%201376.svg"
-                class="swiper-button-prev__2 swiper-button-disabled">
-            </div>
+            let slideIndex = 1;
+            showSlides(slideIndex);
 
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
 
-            <div class="swiper-arrow-holder">
-              <img
-                src="	https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf90700a06bc_Group%201375.svg"
-                class="swiper-button-next__2">
-            </div>
+            function currentSlide(n) {
+              showSlides(slideIndex = 1);
+            }
 
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByName("dot");
+              if (n > slides.length) { slideIndex = 2 }
+              if (n < 1) { slideIndex = slides.length }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
 
-          </div>
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex].style.display = "block";
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active"
+            }
+
+          </script> -->
 
 
           <!-- SLIDER 4 COMPONENTS -->
@@ -1264,160 +1284,156 @@
             class="swiper-container growth swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode"
             style="cursor: grab;">
 
-            <div class="swiper-wrapper">
+            <div class="carousel all-four-elements" data-flickity='{ "autoPlay": false }'>
+              <div class="carousel-cell component1">
 
-              <!-- FIRST CARD -->
-
-              <div class="swiper-slide swiper-slide-active"
-                style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; width: 285.333px; margin-right: 32px;">
-                <div class="c-card cc-pink-bg _1"
-                  style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                  <div class="c-card__header"
-                    style="transform: translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135fc4feb127982ac6a1c2e_stryve-time-thumbnail-img.svg"
-                      alt="circle" class="c-card__icon">
-                    <h2 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text hover-p" style="display: block; text-align: start; width: 100%;">
-                          Source
+                <div class="swipwe-slide swiper-slide-next mySlides bluecolor" style="margin-right: 32px;">
+                  <div class="c-card cc-pink-bg _1 bluebackground">
+                    <div class="c-card__header">
+                      <img
+                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135fc4feb127982ac6a1c2e_stryve-time-thumbnail-img.svg"
+                        class="c-card__icon">
+                      <h2 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
+                            Source
+                          </div>
                         </div>
-                      </div>
-                    </h2>
-                  </div>
+                      </h2>
+                    </div>
 
-
-                  <div class="c-card__text-content">
-                    <h4 class="c-card__header header-access"
-                      style="transform: translate3d(0px, 60px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; color: white;">
-                      Access over 1 billion
-                    </h4>
-                    <p class="is--white opacity-60 hello"
-                      style="transform: translate3d(0px, 20px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                      Using the powerful combination of artificial intelligence and human screening, stryve source sends
-                      dream candidates right ti your inbox!
-                      <br>
-                    </p>
-
-                  </div>
-
-                  <div class="c-btn__holder mg-top__40">
-                    <a href="save-time.html" class="c-btn cc-beige home w-button access-button">
-                      See how
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-
-              <!-- SECOND CARD -->
-
-              <div class="swipwe-slide swiper-slide-next" style="margin-right: 32px;">
-                <div class="c-card cc-pink-bg _2">
-                  <div class="c-card__header">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00c70a06cd_Group%20122.svg"
-                      class="c-card__icon">
-                    <h2 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
-                          ATS
-                        </div>
-                      </div>
-                    </h2>
-                  </div>
-
-                  <div class="c-card__text-content">
-                    <h4 class="is--white mg-btm__16 header-access2">
-                      A refreshing platform to manage
-                    </h4>
-                    <p class="is--white opacity-60 hello2">
-                      Our intuitive talent management system manages your hiring process from attracting candidates,
-                      nature programs, custom analytics and onboarding.
-                      <br>
-                    </p>
-                  </div>
-                  <div class="c-btn__holder mg-top__40">
-                    <a href="engagement.html" class="c-btn cc-beige home w-button access-button2">
-                      See how
-                    </a>
+                    <div class="c-card__text-content">
+                      <h4 class="is--white mg-btm__16 header-access2">
+                        Access over 1 billion candidates
+                      </h4>
+                      <p class="is--white opacity-60 hello2">
+                        using the powerful combination of artifical intelligence and human screening, Stryve Source
+                        sends
+                        dream candidates right to your inbox!
+                        <br>
+                      </p>
+                    </div>
+                    <div class="c-btn__holder mg-top__40">
+                      <a href="save-time.html" class="c-btn cc-beige home w-button access-button2">
+                        See how
+                      </a>
+                    </div>
                   </div>
                 </div>
+
               </div>
+              <div class="carousel-cell component2">
 
-              <!-- THIRD CARD -->
 
-              <div class="swipwe-slide swiper-slide-next" style="margin-right: 32px;">
-                <div class="c-card cc-pink-bg _3">
-                  <div class="c-card__header">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf6e110a069b_Group%20124.svg"
-                      class="c-card__icon">
-                    <h2 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
-                          Data
+
+                <div class="swipwe-slide swiper-slide-next mySlides greencolor" style="margin-right: 32px;">
+                  <div class="c-card cc-pink-bg _2 greenbackground">
+                    <div class="c-card__header">
+                      <img
+                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf00c70a06cd_Group%20122.svg"
+                        class="c-card__icon">
+                      <h2 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
+                            ATS
+                          </div>
                         </div>
-                      </div>
-                    </h2>
-                  </div>
+                      </h2>
+                    </div>
 
-                  <div class="c-card__text-content">
-                    <h4 class="is--white mg-btm__16 header-access3">
-                      We've got the data stuff coverd
-                    </h4>
-                    <p class="is--white opacity-60 hello3">
-                      Running a business is complicated enough. So why not let Stryve take care of your recruitment
-                      data, to keep you secure and GDPR compliant?
-                      <br>
-                    </p>
-                  </div>
-                  <div class="c-btn__holder mg-top__40">
-                    <a href="remain.html" class="c-btn cc-beige home w-button access-button3">
-                      See how
-                    </a>
+                    <div class="c-card__text-content">
+                      <h4 class="is--white mg-btm__16 header-access2">
+                        A refreshing platform to manage
+                      </h4>
+                      <p class="is--white opacity-60 hello2">
+                        Our intuitive talent management system manages your hiring process from attracting candidates,
+                        nature programs, custom analytics and onboarding.
+                        <br>
+                      </p>
+                    </div>
+                    <div class="c-btn__holder mg-top__40">
+                      <a href="engagement.html" class="c-btn cc-beige home w-button access-button2">
+                        See how
+                      </a>
+                    </div>
                   </div>
                 </div>
+
+
+
               </div>
+              <div class="carousel-cell component3">
 
-              <!-- FOURTH CARD -->
-
-              <div class="swipwe-slide swiper-slide-next" style="margin-right: 32px;">
-                <div class="c-card cc-pink-bg _4">
-                  <div class="c-card__header">
-                    <img
-                      src="	https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf308a0a06c3_Group%20119.svg"
-                      class="c-card__icon">
-                    <h2 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
-                          Brand
+                <div class="swipwe-slide swiper-slide-next mySlides orangecolor" style="margin-right: 32px;">
+                  <div class="c-card cc-pink-bg _3 yellowbackground">
+                    <div class="c-card__header">
+                      <img
+                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf6e110a069b_Group%20124.svg"
+                        class="c-card__icon">
+                      <h2 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
+                            Data
+                          </div>
                         </div>
-                      </div>
-                    </h2>
-                  </div>
+                      </h2>
+                    </div>
 
-                  <div class="c-card__text-content">
-                    <h4 class="is--white mg-btm__16 header-access4">
-                      Make your company shine
-                    </h4>
-                    <p class="is--white opacity-60 hello4">
-                      With our recruitment branding you're sure to wow your applicants from the very first interaction
-                      right through to hire.
-                      <br>
-                      Utilise our built-in career site, automated email flows, social media integrations and so much
-                      more.
-                      <br>
-                    </p>
-                  </div>
-                  <div class="c-btn__holder mg-top__40">
-                    <a href="improve.html" class="c-btn cc-beige home w-button access-button4">
-                      See how
-                    </a>
+                    <div class="c-card__text-content">
+                      <h4 class="is--white mg-btm__16 header-access2">
+                        We've got the data stuff covered
+                      </h4>
+                      <p class="is--white opacity-60 hello2">
+                        Running a business is complicated enough. So why not let Stryve take care of your recruitment
+                        data, to keep you secure and GDPR compliant and talk about that?
+                        <br>
+                      </p>
+                    </div>
+                    <div class="c-btn__holder mg-top__40">
+                      <a href="remain.html" class="c-btn cc-beige home w-button access-button2">
+                        See how
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
 
+              </div>
+              <div class="carousel-cell component4  ">
+
+                <div class="swipwe-slide swiper-slide-next mySlides pinkcolor" style="margin-right: 32px;">
+                  <div class="c-card cc-pink-bg _4 pinkbackground">
+                    <div class="c-card__header">
+                      <img
+                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf308a0a06c3_Group%20119.svg"
+                        class="c-card__icon">
+                      <h2 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text" style="display: block; text-align: start; width: 100%;">
+                            Brand
+                          </div>
+                        </div>
+                      </h2>
+                    </div>
+
+                    <div class="c-card__text-content">
+                      <h4 class="is--white mg-btm__16 header-access2">
+                        Make your company shine
+                      </h4>
+                      <p class="is--white opacity-60 hello2">
+                        With our recruitment branding you're sure to wow your applicants from the very first interaction
+                        right through to hire and intergrations so much more.
+                        <br>
+                      </p>
+                    </div>
+                    <div class="c-btn__holder mg-top__40">
+                      <a href="improve.html" class="c-btn cc-beige home w-button access-button2">
+                        See how
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
 
           </div>
@@ -1487,7 +1503,7 @@
         <div class="c-flex__cover cc-red cc-left mg-btm__32">
           <div class="c-lottie-large is--home">
 
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1955 1400" width="1955" height="1400"
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1955 1400" width="1955" height="1400"
               preserveAspectRatio="xMidYMid meet"
               style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
               <defs>
@@ -1521,6 +1537,7 @@
                       <path fill="rgb(255,40,104)" fill-opacity="1"
                         d=" M0,-55.60100173950195 C30.686193466186523,-55.60100173950195 55.60100173950195,-30.686193466186523 55.60100173950195,0 C55.60100173950195,30.686193466186523 30.686193466186523,55.60100173950195 0,55.60100173950195 C-30.686193466186523,55.60100173950195 -55.60100173950195,30.686193466186523 -55.60100173950195,0 C-55.60100173950195,-30.686193466186523 -30.686193466186523,-55.60100173950195 0,-55.60100173950195z">
                       </path>
+
                     </g>
                   </g>
                   <g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,1874,730)" opacity="1"
@@ -1592,7 +1609,7 @@
                   </g>
                   <g transform="matrix(0.8999999761581421,0,0,0.8999999761581421,1457.32373046875,732)" opacity="1"
                     style="display: block;">
-                    <g opacity="1"
+                    <g opacity="1" class="myFirst-redball"
                       transform="matrix(0.8399999737739563,0,0,0.8399999737739563,-471.9679870605469,-186.41000366210938)">
                       <path fill="rgb(255,40,104)" fill-opacity="1"
                         d=" M0,-92.66799926757812 C51.14346694946289,-92.66799926757812 92.66799926757812,-51.14346694946289 92.66799926757812,0 C92.66799926757812,51.14346694946289 51.14346694946289,92.66799926757812 0,92.66799926757812 C-51.14346694946289,92.66799926757812 -92.66799926757812,51.14346694946289 -92.66799926757812,0 C-92.66799926757812,-51.14346694946289 -51.14346694946289,-92.66799926757812 0,-92.66799926757812z">
@@ -1607,45 +1624,45 @@
                   </image>
                 </g>
               </g>
-            </svg>
+            </svg> -->
 
-            <!-- <img width="60px" height="60px" id="pot" style="z-index: 0; top: 40%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf349c0a069f_Ellipse%2024.svg">
-
-
-                <img width="20px" height="20px" id="pot1" style="z-index: 0; top: 39.8%; left: 20%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfeb130a06c1_Ellipse%2014.svg">
+            <img width="60px" height="60px" id="pot" style="z-index: 0; top: 40%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf349c0a069f_Ellipse%2024.svg">
 
 
-                <img width="25px" height="25px" id="pot2" style="z-index: 0; top: 45%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg">
+            <img width="20px" height="20px" id="pot1" style="z-index: 0; top: 39.8%; left: 20%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfeb130a06c1_Ellipse%2014.svg">
 
 
-                <img width="80px" height="80px" id="pot3" style="z-index: 0; top: 48%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbffb070a06bd_Ellipse%2019%20copy.svg">
+            <img width="25px" height="25px" id="pot2" style="z-index: 0; top: 45%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg">
 
 
-                <img width="60px" height="60px" id="pot4" style="z-index: 0; top: 41%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6a90a0693_Ellipse%2020.svg">
+            <img width="80px" height="80px" id="pot3" style="z-index: 0; top: 48%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbffb070a06bd_Ellipse%2019%20copy.svg">
 
 
-                <img width="40px" height="40px" id="pot5" style="z-index: 0; top: 47%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfeb130a06c1_Ellipse%2014.svg">
+            <img width="60px" height="60px" id="pot4" style="z-index: 0; top: 41%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6a90a0693_Ellipse%2020.svg">
 
 
-                <img width="25px" height="25px" id="pot6" style="z-index: 0; top: 38.5%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg">
+            <img width="40px" height="40px" id="pot5" style="z-index: 0; top: 47%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfeb130a06c1_Ellipse%2014.svg">
 
 
-                <img width="35px" height="35px" id="pot7" style="z-index: 0; top: 53%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg">
+            <img width="25px" height="25px" id="pot6" style="z-index: 0; top: 38.5%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg">
 
 
-                <img width="20px" height="20px" id="pot8" style="z-index: 0; top: 43%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbffb070a06bd_Ellipse%2019%20copy.svg">
+            <img width="35px" height="35px" id="pot7" style="z-index: 0; top: 53%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbff6bf0a0697_Ellipse%2026.svg">
 
-                <img width="30px" height="30px" id="pot9" style="z-index: 0; top: 50%;"
-                  src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf349c0a069f_Ellipse%2024.svg"> -->
+
+            <img width="20px" height="20px" id="pot8" style="z-index: 0; top: 43%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbffb070a06bd_Ellipse%2019%20copy.svg">
+
+            <img width="30px" height="30px" id="pot9" style="z-index: 0; top: 50%;"
+              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf349c0a069f_Ellipse%2024.svg">
           </div>
         </div>
       </div>
@@ -2603,7 +2620,7 @@
 
               <!-- FIRST CUSTOMER -->
 
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
+              <div class="swiper-slide w-dyn-item swiper-slide-nex slide" style="width: 333px; margin-right: 36px;">
                 <div class="c-card cc-redius__8">
                   <div class="c-img__inner"></div>
                   <img
@@ -2656,7 +2673,7 @@
 
               <!-- SECOND CUSTOMER -->
 
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
+              <div class="swiper-slide w-dyn-item swiper-slide-nex slide" style="width: 333px; margin-right: 36px;">
                 <div class="c-card cc-redius__8">
                   <div class="c-img__inner"></div>
                   <img src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6242ed673b3c651b4ccde178_aod54.png"
@@ -2702,7 +2719,7 @@
 
               <!-- THIRD CUSTOMER -->
 
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
+              <div class="swiper-slide w-dyn-item swiper-slide-nex slide" style="width: 333px; margin-right: 36px;">
                 <div class="c-card cc-redius__8">
                   <div class="c-img__inner"></div>
                   <img
@@ -2756,14 +2773,14 @@
         <!-- SLIDER PART -->
 
         <div class="swiper-arrows myswiper">
-          <div class="swiper-arrow-holder mg-right__10">
+          <div class="swiper-arrow-holder mg-right__10" id="arrow-left">
             <img
               src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf8c060a06d8_Group%201376.svg"
               alt="left-arrow" class="swiper-button-prev swiper-button-disabled">
 
           </div>
 
-          <div class="swiper-arrow-holder">
+          <div class="swiper-arrow-holder" id="arrow-right">
             <img
               src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf90700a06bc_Group%201375.svg"
               alt="right-arrow" class="swiper-button-next swiper-button-disabled">
@@ -2771,6 +2788,16 @@
           </div>
 
         </div>
+
+        <script>
+
+          let sliderImages = document.querySelectorAll(".slide"),
+            arrowLeft = document.querySelector("#arrow-left"),
+            arrowRight = document.querySelector("#arrow-right"),
+            current = 0;
+
+        </script>
+
 
       </div>
     </section>
