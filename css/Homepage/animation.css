@@ -121,6 +121,10 @@
   }
 }
 
+.myFirst-redball {
+  
+}
+
 .blue-ball {
   position: absolute;
   left: 45.5%;
@@ -635,3 +639,6 @@
       background: cyan;
     }
   }
+
+
+

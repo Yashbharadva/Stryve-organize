@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/simplify/automate.css" />
   <link rel="stylesheet" href="css/Homepage/responsive.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
 
@@ -373,8 +375,8 @@
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
-              <div class="c-nav-middle__flex-holder cc-turquoise" onclick="myFunction()">
-                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" target="_blank"
+              <div class="c-nav-middle__flex-holder cc-turquoise">
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="raiseTicket.html"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
@@ -384,12 +386,6 @@
                 </a>
               </div>
 
-              <script>
-
-                function myFunction() {
-                  window.open("raiseTicket.html")
-                }
-              </script>
 
             </div>
             <div class="c-nav-drop__right-item resources"><a href="resource.html"
@@ -1284,184 +1280,216 @@
 
     <!-- SECTION THAT IN DIFFERENT PAGE (CUSTOMER THINK SECTION) -->
 
-    <section class="c-section no-overflow wf-section">
-      <div class="c-gradient__bg"></div>
-      <div class="c-ctn cc-80 cc-relative custom-full-width">
-        <div class="c-header cc-testimonials">
-          <h1 class="is--white no-padding">
-            <div class="lineswrap" data-aos="fade-up">
-              <div class="line animate-text" style="display: block; text-align: start; width: 100%; font-weight: 100;">
-                What do our customers think?
+    <section class="c-section no-overflow p-btm__140 wf-section">
+      <div class="c-beige__bg">
+        <div class="c-gradient__bg  ">
+        </div>
+      </div>
+
+      <div class="c-ctn cc-70 cc-relative cc-custom-width">
+
+        <!-- TITLE PLUS DESCRIPTION -->
+
+        <div
+          class="c-header growth swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode helping">
+
+          <!-- TITLE FOR HELPING PART -->
+
+          <div>
+            <h2 class="heading-10">
+
+              <div class="lineswrap" data-aos="fade-up">
+                <div class="line animate-text" style="display: block; text-align: strat; width: 100;">
+                  What do our customers think?
+                </div>
               </div>
-            </div>
-          </h1>
+
+
+
+            </h2>
+          </div>
+
+          <!-- DESCRIPTION ABOUT COMPONENT -->
+
         </div>
 
-        <div class="c-slider__container">
+
+        <!-- CAROUSEL (SLIDER)  COMPONENTS -->
+
+        <div class="c-growth-slider__container">
+
+          <!-- SLIDER 4 COMPONENTS -->
+
           <div
-            class="swiper-container testimonials w-dyn-list swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode"
+            class="swiper-container growth swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode"
             style="cursor: grab;">
-            <div class="swiper-wrapper w-dyn-items">
 
-              <!-- FIRST CUSTOMER -->
+            <div class="carousel all-three-elements" data-flickity='{ "autoPlay": false }'>
 
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
-                <div class="c-card cc-redius__8">
-                  <div class="c-img__inner"></div>
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/61ea7bac4e0cbe7315ec169a_Katharine%20bw-p-500.jpeg"
-                    alt="man-stading" class="c-img-cover radius__8">
 
-                  <div class="c-card__text">
-                    <h3 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: strat; width: 100%; font-weight: 100;">
-                          Katharine Archer
+              <div class=" customer1">
+
+                <div class="swiper-slide w-dyn-item swiper-slide-nex slide" style="width: 333px; margin-right: 36px;">
+                  <div class="c-card cc-redius__8">
+                    <div class="c-img__inner"></div>
+                    <img
+                      src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/61ea7bac4e0cbe7315ec169a_Katharine%20bw-p-500.jpeg"
+                      alt="man-stading" class="c-img-cover radius__8">
+
+                    <div class="c-card__text">
+                      <h3 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text"
+                            style="display: block; text-align: strat; width: 100%; font-weight: 100;">
+                            Katharine Archer
+                          </div>
                         </div>
-                      </div>
-                    </h3>
+                      </h3>
 
-                    <div class="flex hero-headline slider-title">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: start; width: 100%; font-weight: 100; font-weight: 100;">
-                          People and Development Parner, Ridgeview Estate Winery
+                      <div class="flex hero-headline slider-title">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text"
+                            style="display: block; text-align: start; width: 100%; font-weight: 100; font-weight: 100;">
+                            People and Development Parner, Ridgeview Estate Winery
+                          </div>
                         </div>
                       </div>
                     </div>
+
+
+
+                    <a href="Katharine-Archer.html" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
+                      style="opacity: 1; height: 48px;">
+                      <div class="c-play__iocn-holder cc-hide">
+                        <img
+                          src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
+                          alt="arrow-red" class="c-icon__red-arrow">
+                      </div>
+
+                      <div class="flex mg-left__8" style="opacity: 1; display: flex;">
+                        <div class="p-right__3 cc-hide">Hear </div>
+                        <div>Read more</div>
+                        <div class="p-right__3 cc-hide">'s</div>
+                      </div>
+
+                    </a>
+
                   </div>
-
-                  <a href="#" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
-                    style="opacity: 0; height: 48px; width: 0px;">
-                    <div class="c-play__iocn-holder cc-hide">
-                      <img
-                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                        alt="arrow-red" class="c-icon__red-arrow">
-                    </div>
-
-                    <div class="p-right__3 cc-hide">Hear </div>
-                    <div>Read more</div>
-                    <div class="p-right__3 cc-hide">'s</div>
-                  </a>
-
                 </div>
+
               </div>
 
-              <!-- SECOND CUSTOMER -->
+              <div class="customer2">
 
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
-                <div class="c-card cc-redius__8">
-                  <div class="c-img__inner"></div>
-                  <img src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6242ed673b3c651b4ccde178_aod54.png"
-                    alt="man-stading" class="c-img-cover radius__8">
+                <div class="swiper-slide w-dyn-item swiper-slide-nex slide" style="width: 333px; margin-right: 36px;">
+                  <div class="c-card cc-redius__8">
+                    <div class="c-img__inner"></div>
+                    <img
+                      src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/6242ed673b3c651b4ccde178_aod54.png"
+                      alt="man-stading" class="c-img-cover radius__8">
 
-                  <div class="c-card__text">
-                    <h3 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: strat; width: 100%; font-weight: 100;">
-                          Richard Angel
+                    <div class="c-card__text">
+                      <h3 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text"
+                            style="display: block; text-align: strat; width: 100%; font-weight: 100;">
+                            Richard Angel
+                          </div>
                         </div>
-                      </div>
-                    </h3>
+                      </h3>
 
-                    <div class="flex hero-headline slider-title">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: start; width: 100%; font-weight: 100;">
-                          CEO, Angel O'Donnell
+                      <div class="flex hero-headline slider-title">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text"
+                            style="display: block; text-align: start; width: 100%; font-weight: 100;">
+                            CEO, Angel O'Donnell
+                          </div>
                         </div>
                       </div>
                     </div>
+
+                    <a href="Richard-Angle.html" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
+                      style="opacity: 1; height: 48px;">
+                      <div class="c-play__iocn-holder cc-hide">
+                        <img
+                          src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
+                          alt="arrow-red" class="c-icon__red-arrow">
+                      </div>
+
+                      <div class="flex mg-left__8" style="opacity: 1; display: flex;">
+                        <div class="p-right__3 cc-hide">Hear </div>
+                        <div>Read more</div>
+                        <div class="p-right__3 cc-hide">'s</div>
+                      </div>
+                    </a>
+
                   </div>
-
-                  <a href="#" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
-                    style="opacity: 0; height: 48px; width: 0px;">
-                    <div class="c-play__iocn-holder cc-hide">
-                      <img
-                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                        alt="arrow-red" class="c-icon__red-arrow">
-                    </div>
-
-                    <div class="p-right__3 cc-hide">Hear </div>
-                    <div>Read more</div>
-                    <div class="p-right__3 cc-hide">'s</div>
-                  </a>
-
                 </div>
+
               </div>
 
-              <!-- THIRD CUSTOMER -->
 
-              <div class="swiper-slide w-dyn-item swiper-slide-nex" style="width: 333px; margin-right: 36px;">
-                <div class="c-card cc-redius__8">
-                  <div class="c-img__inner"></div>
-                  <img
-                    src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/626963764de226186c9d4c5c_20190913_VOVI_Shot1_BW_003-p-500.jpeg"
-                    alt="man-stading" class="c-img-cover radius__8">
+              <div class="customer3">
 
-                  <div class="c-card__text">
-                    <h3 class="is--white no-mg">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: strat; width: 100%; font-weight: 100;">
-                          Alex Rook
+                <div class="swiper-slide w-dyn-item swiper-slide-nex slide" style="width: 333px; margin-right: 36px;">
+                  <div class="c-card cc-redius__8">
+                    <div class="c-img__inner"></div>
+                    <img
+                      src="https://uploads-ssl.webflow.com/6135d217a84bbf077f0a0656/626963764de226186c9d4c5c_20190913_VOVI_Shot1_BW_003-p-500.jpeg"
+                      alt="man-stading" class="c-img-cover radius__8">
+
+                    <div class="c-card__text">
+                      <h3 class="is--white no-mg">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text"
+                            style="display: block; text-align: strat; width: 100%; font-weight: 100;">
+                            Alex Rook
+                          </div>
                         </div>
-                      </div>
-                    </h3>
+                      </h3>
 
-                    <div class="flex hero-headline slider-title">
-                      <div class="lineswrap" data-aos="fade-up">
-                        <div class="line animate-text"
-                          style="display: block; text-align: start; width: 100%; font-weight: 100;">
-                          Founder, Vovi
+                      <div class="flex hero-headline slider-title">
+                        <div class="lineswrap" data-aos="fade-up">
+                          <div class="line animate-text"
+                            style="display: block; text-align: start; width: 100%; font-weight: 100;">
+                            Founder, Vovi
+                          </div>
                         </div>
                       </div>
                     </div>
+
+                    <a href="Alex-Rook.html" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
+                      style="opacity: 1; height: 48px;">
+                      <div class="c-play__iocn-holder cc-hide">
+                        <img
+                          src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
+                          alt="arrow-red" class="c-icon__red-arrow">
+                      </div>
+
+                      <div class="flex mg-left__8" style="opacity: 1; display: flex;">
+                        <div class="p-right__3 cc-hide">Hear </div>
+                        <div>Read more</div>
+                        <div class="p-right__3 cc-hide">'s</div>
+                      </div>
+
+                    </a>
+
                   </div>
-
-                  <a href="#" class="c-btn cc-beige cc-with-play cc-absolute w-inline-block"
-                    style="opacity: 0; height: 48px; width: 0px;">
-                    <div class="c-play__iocn-holder cc-hide">
-                      <img
-                        src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfda4a0a065e_Vector%209.svg"
-                        alt="arrow-red" class="c-icon__red-arrow">
-                    </div>
-
-                    <div class="p-right__3 cc-hide">Hear </div>
-                    <div>Read more</div>
-                    <div class="p-right__3 cc-hide">'s</div>
-                  </a>
-
                 </div>
+
               </div>
+
 
             </div>
+
           </div>
+
+
         </div>
 
-
-        <!-- SLIDER PART -->
-
-        <div class="swiper-arrows myswiper">
-          <div class="swiper-arrow-holder mg-right__10">
-            <img
-              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf8c060a06d8_Group%201376.svg"
-              alt="left-arrow" class="swiper-button-prev swiper-button-disabled">
-
-          </div>
-
-          <div class="swiper-arrow-holder">
-            <img
-              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf90700a06bc_Group%201375.svg"
-              alt="right-arrow" class="swiper-button-next swiper-button-disabled">
-
-          </div>
-
-        </div>
 
       </div>
+
     </section>
 
 

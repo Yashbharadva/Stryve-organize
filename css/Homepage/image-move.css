@@ -1,3 +1,81 @@
+
+
+
+
+.myFirst-redball {
+  position: absolute;
+  animation: linear infinite;
+  animation-name: g-tag1;
+  animation-duration: 5s;
+}
+
+@keyframes g-tag1 {
+  0% {
+    left: 20%;
+  }
+
+  50% {
+    left: 90%;
+  }
+
+  100% {
+    left: 10%;
+  }
+}
+
+.abcdefg {
+  bottom: 15%;
+  position: absolute;
+  animation: linear infinite;
+  animation-name: run80;
+  animation-duration: 6.5s;
+}
+
+@keyframes run80 {
+  0% {
+    left: 5%;
+  }
+
+  5% {
+    left: 5%;
+  }
+
+  10% {
+    left: 5%;
+  }
+
+  15% {
+    left: 5%;
+  }
+
+  25% {
+    left: 25%;
+  }
+
+  50% {
+    left: 65%;
+  }
+
+  75% {
+    left: 65%;
+  }
+
+  80% {
+    left: 55%;
+  }
+
+  90% {
+    left: 30%;
+  }
+
+  100% {
+    left: 5%;
+  }
+}
+
+
+
+
 #pot {
   bottom: 15%;
   position: absolute;
