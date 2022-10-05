@@ -339,9 +339,6 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
-  .c-btn.cc-with-icon.mg-right__20 {
-    margin-bottom: 20px;
-  }
   .c-hero__cover {
     width: 100vw;
     height: 80vw;
@@ -641,9 +638,6 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-  }
-  .c-btn.cc-with-icon.mg-right__20 {
-    margin-right: 0;
   }
   .c-hero__cover {
     height: 100vw;

@@ -16,18 +16,7 @@ img {
   display: inline-block;
   max-width: 180%;
 }
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-html.w-mod-touch * {
-  background-attachment: scroll !important;
-}
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
@@ -66,12 +55,7 @@ h5 {
   margin-right: auto;
   margin-left: auto;
 }
-.flex-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
+
 .flex-wrapper.cc-spaced {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -86,31 +70,7 @@ h5 {
   color: #0f172a;
   text-align: center;
 }
-.c-btn {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 48px;
-  min-width: 120px;
-  padding: 15px 23px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50px;
-  background-color: #0f172a;
-  color: #fff;
-  font-size: 14px;
-  line-height: 14.4px;
-  letter-spacing: -0.02em;
-  text-decoration: none;
-  cursor: pointer;
-}
+
 .c-btn.cc-light {
   border: 2px solid #000;
   background-color: transparent;
@@ -236,9 +196,7 @@ h5 {
 .cc-hide {
   display: none;
 }
-.mg-right__20 {
-  margin-right: 20px;
-}
+
 .text-12 {
   font-size: 12px;
 }

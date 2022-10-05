@@ -561,16 +561,9 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
-  .c-btn.cc-with-icon.mg-right__20 {
-    margin-bottom: 20px;
-  }
   .c-btn.cc-with-icon.big-orange {
     width: 80%;
     max-width: 350px;
-  }
-  .c-btn.cc-white.cc-with-play {
-    position: relative;
-    top: -9px;
   }
   .c-btn.cc-large {
     width: auto;
@@ -991,9 +984,6 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-  }
-  .c-btn.cc-with-icon.mg-right__20 {
-    margin-right: 0;
   }
   .c-btn.cc-with-icon.big-orange {
     width: 100%;

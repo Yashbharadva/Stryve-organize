@@ -1,0 +1,114 @@
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+.flex-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.c-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 48px;
+  min-width: 120px;
+  padding: 15px 23px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #0f172a;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14.4px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.c-btn.cc-with-icon {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.c-btn.cc-with-icon.mg-right__20 {
+  background-color: #0f172a;
+  color: #fff;
+}
+.c-btn.cc-white {
+  background-color: #fdf5f7;
+  color: #0f172a;
+}
+.c-btn.cc-white.cc-with-play {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 8px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.c-icon__arrow {
+  margin-left: 5px;
+  color: #0f172a;
+}
+.sm-ellipse {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.sm-ellipse.cc-gray {
+  background-color: rgba(15, 23, 42, 0.06);
+}
+.c-icon__black-arrow {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.mg-right__20 {
+  margin-right: 20px;
+}
+.text-block-4 {
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .c-btn.cc-with-icon.mg-right__20 {
+    margin-bottom: 20px;
+  }
+  .c-btn.cc-white.cc-with-play {
+    position: relative;
+    top: -9px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-btn.cc-with-icon.mg-right__20 {
+    margin-right: 0;
+  }
+}
+

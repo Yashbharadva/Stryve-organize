@@ -24,10 +24,7 @@ svg:not(:root) {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 
 
 
@@ -64,46 +61,13 @@ h1 {
   color: #0f172a;
   text-align: center;
 }
-.c-btn {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 48px;
-  min-width: 120px;
-  padding: 15px 23px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50px;
-  background-color: #0f172a;
-  color: #fff;
-  font-size: 14px;
-  line-height: 14.4px;
-  letter-spacing: -0.02em;
-  text-decoration: none;
-  cursor: pointer;
-}
-.c-btn.cc-with-icon {
-  padding-right: 20px;
-  padding-left: 20px;
-}
+
+
 .c-btn.cc-with-icon.cc-white {
   background-color: #fff;
 }
-.c-btn.cc-white {
-  background-color: #fdf5f7;
-  color: #0f172a;
-}
-.c-icon__arrow {
-  margin-left: 5px;
-  color: #0f172a;
-}
+
+
 .is--white {
   margin-bottom: 12px;
   color: #fff;

@@ -1,0 +1,48 @@
+h1 {
+  margin: 20px 0 40px;
+  color: #0f172a;
+  font-size: 50.52px;
+  line-height: 64px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 24px;
+  color: #0f172a;
+  font-size: 21.33px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: rgba(15, 23, 42, 0.65);
+  font-size: 16px;
+  line-height: 24px;
+}
+.c-hero__text {
+  max-width: 40ch;
+  padding-bottom: 60px;
+}
+.c-hero__text.cc-45 {
+  max-width: 45ch;
+}
+.heading-3 {
+  font-weight: 300;
+}
+.turquoise-color {
+  color: #43dbdb;
+}
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 32.44px;
+    line-height: 48px;
+  }
+  h4 {
+    font-size: 20.25px;
+  }
+}
+
+
