@@ -1,0 +1,271 @@
+/* external css: flickity.css */
+
+/* * { box-sizing: border-box; } */
+
+/* body { font-family: sans-serif; } */
+
+.carousel-cell {
+  width: 26%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+/*! CSS Used from: https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/css/stryve-project-5bdce3c7936e32726719e868.webflow.7848513f7.min.css */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+/* * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+html.w-mod-touch * {
+  background-attachment: scroll !important;
+}
+.w-button {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: #3898ec;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 24px;
+  color: #0f172a;
+  font-size: 37.9px;
+  line-height: 48px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 24px;
+  color: #0f172a;
+  font-size: 21.33px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+/* p {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: rgba(15, 23, 42, 0.65);
+  font-size: 16px;
+  line-height: 24px;
+} */
+
+.c-btn.cc-beige {
+  background-color: #fdf5f7;
+  color: #0f172a;
+}
+.c-btn.cc-beige.home {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.c-btn.cc-beige.home:hover {
+  background-color: #0f172a;
+  color: #fff;
+}
+.c-card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 110% 32px 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #fff;
+}
+.c-card.cc-pink-bg {
+  min-height: 500px;
+  margin-bottom: 0;
+  padding-top: 32px;
+  padding-right: 32px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 2%;
+  background-color: #fdf5f7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.c-card.cc-pink-bg._1 {
+  background-color: #009aff;
+}
+.is--white {
+  margin-bottom: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.is--white.opacity-60 {
+  margin-bottom: 16px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 16px;
+  text-decoration: none;
+}
+.is--white.mg-btm__16 {
+  margin-bottom: 16px;
+}
+.swiper-slide {
+  width: 32vw;
+  max-width: 32vw;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.c-card__icon {
+  width: 3.5vw;
+  height: 3.5vw;
+  max-width: 80px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+.c-btn__holder {
+  width: 120px;
+  margin-top: 10px;
+}
+.c-btn__holder.mg-top__40 {
+  margin-top: 40px;
+}
+/* .no-mg {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+.c-card__text-content {
+  max-width: 24ch;
+}
+.c-card__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+@media screen and (min-width: 1920px) {
+  .c-card__text-content {
+    max-width: 50ch;
+  }
+}
+@media screen and (max-width: 991px) {
+
+   /* .all-four-elements {
+    width: 210%;
+   } */
+
+    /* .greencolor {
+        margin-left: -225px;
+    } */
+  h2 {
+    font-size: 28.83px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 20.25px;
+  }
+  .c-card {
+    padding-left: 20px;
+  }
+  .c-card.cc-pink-bg {
+    min-height: 400px;
+    padding-right: 20px;
+  }
+  .c-card__icon {
+    width: 62px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-card.cc-pink-bg {
+    min-height: 500px;
+  }
+  .swiper-slide {
+    width: 55vw;
+    max-width: 55vw;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-card__icon {
+    width: 60px;
+  }
+}
+/*! CSS Used from: https://unpkg.com/swiper/swiper-bundle.min.css */
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+/*! CSS Used from: Embedded */
+/* * {
+  -moz-font-feature-settings: "ss01";
+  -webkit-font-feature-settings: "ss01";
+  font-feature-settings: "ss01" on;
+} */
+/* .lineswrap {
+  overflow: hidden;
+} */
+/* .line {
+  transform: translate3d(0%, 100%, 0) scale3d(1, 1, 1);
+  transition: transform 2s var(--ease1);
+} */
+/*! CSS Used from: Embedded */
+/* .animate-text {
+  opacity: 1;
+  transform: translate3d(0%, 0%, 0) scale3d(1, 1, 1);
+} */
+@media screen and (max-device-width: 767px) {
+  .swiper-slide {
+    width: 80vw !important;
+    max-width: 80vw !important;
+  }
+}
+/*! CSS Used from: Embedded */
+a:hover,
+a:focus {
+  outline: 0;
+}
+
+
