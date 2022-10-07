@@ -217,7 +217,7 @@ svg:not(:root) {
   font-weight: 400;
   letter-spacing: -0.02em;
 } */
-h2 {
+/* h2 {
   margin-top: 10px;
   margin-bottom: 24px;
   color: #0f172a;
@@ -225,7 +225,7 @@ h2 {
   line-height: 48px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
+} */
 /* h3 {
   margin-top: 0;
   margin-bottom: 10px;
@@ -235,7 +235,7 @@ h2 {
   font-weight: 400;
   letter-spacing: -0.02em;
 } */
-h4 {
+/* h4 {
   margin-top: 10px;
   margin-bottom: 24px;
   color: #0f172a;
@@ -243,7 +243,7 @@ h4 {
   line-height: 32px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
+} */
 h5 {
   margin-top: 0;
   margin-bottom: 10px;
@@ -260,12 +260,12 @@ h5 {
   font-size: 16px;
   line-height: 24px;
 } */
-.c-section {
+/* .c-section {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #0f172a;
-}
+} */
 .c-section.no-padding {
   padding-top: 0;
   padding-bottom: 0;
@@ -658,17 +658,17 @@ h5 {
   line-height: 16px;
   text-decoration: none;
 }
-.is--white {
+/* .is--white {
   margin-bottom: 12px;
   color: #fff;
   text-decoration: none;
-}
-.is--white.opacity-60 {
+} */
+/* .is--white.opacity-60 {
   margin-bottom: 16px;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
   text-decoration: none;
-}
+} */
 .is--white.is--12px {
   font-size: 12px;
 }
@@ -718,13 +718,13 @@ h5 {
   padding-top: 100px;
   padding-bottom: 0;
 }
-.c-hero__text {
+/* .c-hero__text {
   max-width: 40ch;
   padding-bottom: 60px;
 }
 .c-hero__text.cc-45 {
   max-width: 45ch;
-}
+} */
 .c-bubble__wrapper {
   position: absolute;
   left: auto;
@@ -988,12 +988,12 @@ h5 {
 .p-top__80 {
   padding-top: 80px;
 }
-.ruby-color {
+/* .ruby-color {
   color: #ff2868;
-}
-.heading-3 {
+} */
+/* .heading-3 {
   font-weight: 300;
-}
+} */
 .c-assess__svg {
   width: 100%;
   height: 100%;

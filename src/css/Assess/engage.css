@@ -41,12 +41,12 @@ p {
   line-height: 24px;
 }
 
-.c-section {
+/* .c-section {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #0f172a;
-}
+} */
 
 .c-section.no-padding {
   padding-top: 0;

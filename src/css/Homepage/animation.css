@@ -284,7 +284,7 @@
 }
 
 
-.header-access {
+/* .header-access {
   animation-name: padding-up;
 }
 
@@ -298,9 +298,9 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
-@keyframes uppppp {
+/* @keyframes uppppp {
   0% {
     transform: translateX(50%);
     opacity: 0;
@@ -310,7 +310,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
 #first-ball { 
 }
@@ -319,7 +319,7 @@
 /* ------------>>>>>>> Second cards <<<<<<<------------- */
 
 
-.swipe-slide , .swiper-slide-next:hover .hello2 {
+/* .swipe-slide , .swiper-slide-next:hover .hello2 {
   opacity: 1;
   animation-name: slide-check;
   animation-duration: 0.5s;
@@ -331,27 +331,27 @@
   animation-name: slide-check;
   animation-duration: 0.5s;
   animation-timing-function: ease-in;
-}
+} */
 
-.hello2 {
+/* .hello2 {
   animation-name: uppppp;
   padding-top: 25px;
   transition-duration: 0.5s;
-}
+} */
 
-.access-button2 {
+/* .access-button2 {
   opacity: 0;
 }
 
 .access-button2 :hover {
   opacity: 1;
-}
+} */
 
-.header-access2 {
+/* .header-access2 {
   animation-name: padding-up;
-}
+} */
 
-@keyframes padding-up {
+/* @keyframes padding-up {
   0% {
     transform: translateX(50%);
     opacity: 0;
@@ -361,8 +361,8 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
-
+} */
+/* 
 @keyframes uppppp {
   0% {
     transform: translateX(50%);
@@ -373,7 +373,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
 /* ------------>>>>>>> Third cards <<<<<<<------------- */
 

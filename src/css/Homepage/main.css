@@ -26,9 +26,9 @@ a:hover {
   background-color: #5e9bfe;
 }
 
-.blue-color {
+/* .blue-color {
   color: #0f00c0;
-}
+} */
 
 .c-hero-bg__time._2 {
   left: 6%;
@@ -194,7 +194,7 @@ a:hover {
 } */
 
 
-h4 {
+/* h4 {
   margin-top: 10px;
   margin-bottom: 24px;
   color: #0f172a;
@@ -202,15 +202,15 @@ h4 {
   line-height: 32px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
+} */
 
 
-.c-section {
+/* .c-section {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #0f172a;
-}
+} */
 
 /* .c-section p {
   color: rgba(255,255, 255, 0.65 );
@@ -352,12 +352,12 @@ h4 {
 
 
 
-h2 {
+/* h2 {
   font-size: 37.9px;
   line-height: 48px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
+} */
 
 
 
@@ -365,7 +365,7 @@ h2 {
 /* -------------->>>>>>>>>>>> START CUSTOMERS THINK SECTION  <<<<<<<<<<<<<<---------------- */
 
 
-.c-gradient__bg {
+/* .c-gradient__bg {
   position: absolute;
   left: 0;
   top: 0;
@@ -375,7 +375,7 @@ h2 {
   width: 100%;
   min-height: 600px;
   background-image: linear-gradient(90deg, #009aff 70%, #35c89f 0);
-}
+} */
 
 .c-section, .no-overflow {
   overflow: hidden;
@@ -535,10 +535,10 @@ h2 {
   max-width: 996px;
   min-width: 920px;
 }
-.c-ctn.cc-70.cc-absolute {
+/* .c-ctn.cc-70.cc-absolute {
   margin-bottom: 0;
   color: #0f172a;
-}
+} */
 .c-ctn.cc-70.cc-relative.cc-custom-width {
   max-width: none;
 }
@@ -676,9 +676,9 @@ h2 {
   color: #0f172a;
   text-align: center;
 } */
-.center-text.p-btm__12 {
+/* .center-text.p-btm__12 {
   padding-bottom: 12px;
-}
+} */
 
 .c-btn.cc-light {
   border: 2px solid #000;
@@ -854,18 +854,18 @@ h2 {
 
 
 
-.is--white.opacity-60 {
+/* .is--white.opacity-60 {
   margin-bottom: 16px;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
   text-decoration: none;
-}
+} */
 .is--white.is--12px {
   font-size: 12px;
 }
-.is--white.mg-btm__16 {
+/* .is--white.mg-btm__16 {
   margin-bottom: 16px;
-}
+} */
 .c-hero__cover {
   position: relative;
   overflow: hidden;
@@ -895,11 +895,11 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
 }
-.c-hero__content {
+/* .c-hero__content {
   max-width: 50%;
   padding-top: 100px;
   padding-bottom: 0;
-}
+} */
 .c-hero__content.is--home {
   margin-right: -26px;
 }
@@ -1193,31 +1193,31 @@ h2 {
 .c-content-holder.flex.p-btm__72 {
   padding-bottom: 0;
 }
-.c-content_wrapper {
+/* .c-content_wrapper {
   max-width: 50%;
   padding-bottom: 40px;
-}
-.c-content_wrapper.cc-100 {
+} */
+/* .c-content_wrapper.cc-100 {
   width: 100%;
   max-width: none;
-}
-.c-text__content {
+} */
+/* .c-text__content {
   max-width: 50ch;
   padding-bottom: 32px;
-}
-.c-text__content.center-text.cc-30.mg-auto {
+} */
+/* .c-text__content.center-text.cc-30.mg-auto {
   min-width: auto;
   margin: 0 auto;
   padding-top: 0;
-}
-.c-text__content.cc-30 {
+} */
+  /* .c-text__content.cc-30 {
+    max-width: 30ch;
+    min-width: 30ch;
+    padding-bottom: 0;
+  } */
+/* .c-text__content.cc-30.center-text {
   max-width: 30ch;
-  min-width: 30ch;
-  padding-bottom: 0;
-}
-.c-text__content.cc-30.center-text {
-  max-width: 30ch;
-}
+} */
 .c-text__content.cc-100 {
   max-width: none;
 }
@@ -1233,9 +1233,9 @@ h2 {
   padding-top: 0;
 }
 
-.green-color {
+/* .green-color {
   color: #35c89f;
-}
+} */
 .dark-blue-color {
   color: #0f00c0;
 }
@@ -1741,21 +1741,21 @@ h2 {
   color: #ff9c27;
 }
 
-.p-btm__12 {
+/* .p-btm__12 {
   padding-bottom: 12px;
-}
+} */
 .text-12 {
   font-size: 12px;
 }
-.mg-btm__32 {
+/* .mg-btm__32 {
   margin-top: 0;
   margin-bottom: 32px;
-}
-.p-top__32 {
+} */
+/* .p-top__32 {
   padding-top: 32px;
   text-align: left;
   object-fit: fill;
-}
+} */
 .c-menu-button,
 .c-nav__menu-list {
   display: none;
@@ -2135,9 +2135,9 @@ h2 {
   border-top-right-radius: 0;
   border-bottom-right-radius: 12px;
 }
-.c-card__text-content {
+/* .c-card__text-content {
   max-width: 24ch;
-}
+} */
 
 /* .flex-wrapper {
   display: flex;
@@ -2146,16 +2146,16 @@ h2 {
 .paragraph {
   color: rgba(255, 255, 255, 0.65);
 }
-.heading-10 {
+/* .heading-10 {
   color: #fff;
-}
-.heading-11 {
+} */
+/* .heading-11 {
   font-style: italic;
   font-weight: 300;
-}
-.heading-12 {
+} */
+/* .heading-12 {
   text-decoration: underline;
-}
+} */
 .c-footer__header {
   margin-bottom: 16px;
   color: #fff;

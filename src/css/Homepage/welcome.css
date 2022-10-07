@@ -68,11 +68,11 @@ svg:not(:root) {
 }
 
 
-.is--white {
+/* .is--white {
   margin-bottom: 12px;
   color: #fff;
   text-decoration: none;
-}
+} */
 .c-tag__holder {
   position: absolute;
   z-index: 2;

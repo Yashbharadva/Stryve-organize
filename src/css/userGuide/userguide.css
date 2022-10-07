@@ -348,12 +348,12 @@ em {
   font-style: italic;
   font-weight: 300;
 }
-.c-section {
+/* .c-section {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #0f172a;
-}
+} */
 .c-section.p-top__40 {
   padding-top: 40px;
 }

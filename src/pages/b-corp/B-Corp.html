@@ -5,13 +5,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/Homepage/main.css" />
-  <link rel="stylesheet" href="css/B-Corp/meaning.css" />
-  <link rel="stylesheet" href="css/Homepage/slider.css" />
-  <link rel="stylesheet" href="css/B-Corp/b-crop.css" />
-  <link rel="stylesheet" href="css/Homepage/responsive.css" />
-  <link rel="stylesheet" href="css/B-Corp/responsive.css" />
+  <link rel="stylesheet" href="/src/css/Homepage/main.css" />
+  <link rel="stylesheet" href="/src/css/B-Corp/meaning.css" />
+  <link rel="stylesheet" href="/src/css/Homepage/slider.css" />
+  <link rel="stylesheet" href="/src/css/B-Corp/b-crop.css" />
+  <link rel="stylesheet" href="/src/css/Homepage/responsive.css" />
+  <link rel="stylesheet" href="/src/css/B-Corp/responsive.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- NEW STYLES -->
+
+  <link rel="stylesheet" href="/src/components/global/global.css" />
+  <link rel="stylesheet" href="/src/components/organisms/section/section.css" />
+  <link rel="stylesheet" href="/src/components/organisms/navbar/nav.css" />
+  <link rel="stylesheet" href="/src/components/atoms/button.css" />
+  <link rel="stylesheet" href="/src/components/atoms/Text/text.css" />
+
+
   <title>B-Corp</title>
 </head>
 
@@ -23,9 +34,12 @@
 
   <div class="c-navbar w-nav">
     <div class="c-ctn cc-nav">
-      <a href="index.html" class="brand w-nav-brand w--current">
-        <div class="html-embed-3 w-embed"><svg id="logo-svg" width="102" height="31" viewBox="0 0 102 31" fill="none"
-            xmlns="http://www.w3.org/2000/svg" class=" drawsvg-initialized">
+
+      <a href="/src/pages/homepage/index.html" class="brand w-nav-brand w--current">
+        <div class="html-embed-3 w-embed">
+
+          <svg id="logo-svg" width="102" height="31" viewBox="0 0 102 31" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class=" drawsvg-initialized">
 
             <path
               d="M19.2782 20.5823C20.264 20.5823 21.0632 19.7882 21.0632 18.8087C21.0632 17.8291 20.264 17.035 19.2782 17.035C18.2923 17.035 17.4932 17.8291 17.4932 18.8087C17.4932 19.7882 18.2923 20.5823 19.2782 20.5823Z"
@@ -51,15 +65,17 @@
               fill="#0C1D36" style="stroke-dasharray: 89.7889, 89.7889; stroke-dashoffset: 89.7889px;"></path>
 
           </svg>
+
         </div>
+
         <img src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf45f80a06c5_Frame.svg"
           alt="logo" class="c-logo__svg cc-hide">
+
         <div class="cc-hide w-embed"></div>
         <div class="html-embed-3 w-embed">
           <svg width="102" height="31" viewbox="0 0 102 31" xmls="http://www.w3.org/2000/svg"
             class="drawsvg-initialized"></svg>
         </div>
-      </a>
       </a>
 
       <!-- NAVIGATION BAR -->
@@ -74,7 +90,9 @@
           <nav class="flex-menu solution w-dropdown-list"
             style="display: none; opacity: 0; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
             id="open-why" aria-labelledby="w-dropdown-toggle-0">
-            <div class="c-nav-drop__left-item cc-12" style="background-color: orange;"><img loading="lazy"
+            <div class="c-nav-drop__left-item cc-12" style="background-color: orange;">
+
+              <img loading="lazy"
                 src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf0ef70a06be_Group%20252%20copy.svg"
                 alt="" class="c-nav-drop__design cc-hide">
               <div class="c-why-nav__bubble cc-1"
@@ -89,7 +107,8 @@
             </div>
             <div class="c-nav-drop__middle-item">
               <div class="c-nav-middle__flex-holder cc-red top">
-                <a href="solution-attract.html" class="c-nav__flex-item cc-nav-title cc-2 cc-red w-inline-block"
+                <a href="/src/pages/attract/solution-attract.html"
+                  class="c-nav__flex-item cc-nav-title cc-2 cc-red w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0" id="solurion-attract">
                   <h5 class="heading-6" onclick="redirect()" id="redirect-page">Attract talent<img loading="lazy"
@@ -98,22 +117,26 @@
                 </a>
 
               </div>
-              <div class="c-nav-middle__flex-holder cc-red"><a href="assess-talent.html"
+              <div class="c-nav-middle__flex-holder cc-red">
+                <a href="/src/pages/assess/assess-talent.html"
                   class="c-nav__flex-item cc-nav-title cc-2 cc-green w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0">
                   <h5 class="heading-6">Assess talent<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf38130a069d_Vector%2013%20copy.svg"
                       alt="" class="c-nav__arrow-svg"></h5>
-                </a></div>
-              <div class="c-nav-middle__flex-holder cc-red"><a href="simplify.html"
+                </a>
+              </div>
+              <div class="c-nav-middle__flex-holder cc-red">
+                <a href="/src/pages/simplify/simplify.html"
                   class="c-nav__flex-item cc-nav-title cc-2 cc-blue w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0">
                   <h5 class="heading-6">Simplify hiring<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf99d90a06c9_Vector%2014%20(1).svg"
                       alt="" class="c-nav__arrow-svg"></h5>
-                </a></div>
+                </a>
+              </div>
             </div>
           </nav>
 
@@ -138,10 +161,6 @@
             }
           }
 
-          // function whyOpen() {
-          //   document.getElementById("open-why").classList.toggle("show");
-          //   console.log("you clicked here..");
-          // }
 
         </script>
 
@@ -174,7 +193,7 @@
             </div>
             <div class="c-nav-drop__middle-item">
               <div class="c-nav-middle__flex-holder cc-red top">
-                <a data-w-id="385e0229-2d32-e287-da36-8920b0231164" href="save-time.html"
+                <a data-w-id="385e0229-2d32-e287-da36-8920b0231164" href="/src/pages/save-time/save-time.html"
                   class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
@@ -186,7 +205,7 @@
                 </a>
               </div>
               <div class="c-nav-middle__flex-holder cc-red">
-                <a data-w-id="385e0229-2d32-e287-da36-8920b0231168" href="remain.html"
+                <a data-w-id="385e0229-2d32-e287-da36-8920b0231168" href="/src/pages/remain/remain.html"
                   class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0">
@@ -196,7 +215,7 @@
                 </a>
               </div>
               <div class="c-nav-middle__flex-holder cc-red">
-                <a data-w-id="385e0229-2d32-e287-da36-8920b023116c" href="improve.html"
+                <a data-w-id="385e0229-2d32-e287-da36-8920b023116c" href="/src/pages/improve/improve.html"
                   class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0">
@@ -206,7 +225,7 @@
                 </a>
               </div>
               <div class="c-nav-middle__flex-holder cc-red btm"><a data-w-id="385e0229-2d32-e287-da36-8920b0231170"
-                  href="engagement.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
+                  href="/src/pages/engagement/engagement.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
                   <h5 class="heading-6">Build engagement<img loading="lazy"
@@ -265,7 +284,8 @@
             <div class="c-nav-drop__middle-item">
               <div data-w-id="0d5dc2f6-242e-e269-a9ff-ed73ecc8e1c0" class="c-nav-middle__flex-holder top"
                 style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <a href="about-us.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block" tabindex="0">
+                <a href="/src/pages/about-us/about-us.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
+                  tabindex="0">
                   <h5 class="heading-6">About us<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                       alt="" class="c-nav__arrow-svg"></h5>
@@ -273,7 +293,8 @@
               </div>
               <div data-w-id="52e2bc8b-3d2c-721a-d9c4-bc5238ca2d39" class="c-nav-middle__flex-holder"
                 style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                <a href="B-Corp.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block" tabindex="0">
+                <a href="/src/pages/b-corp/B-Corp.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
+                  tabindex="0">
                   <h5 class="heading-6">B Corp<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf38130a069d_Vector%2013%20copy.svg"
                       alt="" class="c-nav__arrow-svg"></h5>
@@ -281,7 +302,8 @@
               </div>
               <div data-w-id="762dde16-ccfa-e577-c8c5-ef8a3b50a2eb" class="c-nav-middle__flex-holder"
                 style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-                <a href="career.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block" tabindex="0">
+                <a href="/src/pages/career/career.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
+                  tabindex="0">
                   <h5 class="heading-6">Careers<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf99d90a06c9_Vector%2014%20(1).svg"
                       alt="" class="c-nav__arrow-svg"></h5>
@@ -289,7 +311,8 @@
               </div>
               <div data-w-id="8d4bbd90-e234-4fdd-8f61-31dd088742d9" class="c-nav-middle__flex-holder btm"
                 style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;">
-                <a href="contact.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block" tabindex="0">
+                <a href="/src/pages/contact/contact.html" class="c-nav__flex-item cc-nav-title cc-2 w-inline-block"
+                  tabindex="0">
                   <h5 class="heading-6">Contact<img loading="lazy"
                       src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf99d90a06c9_Vector%2014%20(1).svg"
                       alt="" class="c-nav__arrow-svg"></h5>
@@ -320,7 +343,7 @@
 
 
         </div>
-        <a href="pricing.html" class="w-nav-link">Pricing</a>
+        <a href="/src/pages/price/pricing.html" class="w-nav-link">Pricing</a>
         <div class="w-dropdown">
           <div class="w-dropdown-toggle" onclick="resourceOpen()">
             <div>Resources</div>
@@ -346,31 +369,35 @@
                 style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
               </div>
             </div>
-            <div class="c-nav-drop__middle-item resources"><a href="resource.html"
+            <div class="c-nav-drop__middle-item resources">
+
+              <a href="/src/pages/resources/resource.html"
                 class="c-nav__flex-item cc-nav-title resources w-inline-block" tabindex="0">
                 <h5 class="heading-6">Resources<img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg"></h5>
               </a>
               <div class="c-nav-middle__flex-holder cc-turquoise"><a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be434"
-                  href="userGuide.html" class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
+                  href="/src/pages/userguide/userGuide.html"
+                  class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
                   <div class="p-left__5">User guide </div><img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
-              <div class="c-nav-middle__flex-holder cc-turquoise cc-hide"><a
-                  data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be438" href="/tips-categories/tutorials"
+              <div class="c-nav-middle__flex-holder cc-turquoise cc-hide">
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be438" href="/tips-categories/tutorials"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
                   <div class="p-left__5">Video tutorials</div><img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
                     alt="" class="c-nav__arrow-svg cc-hover">
-                </a></div>
+                </a>
+              </div>
               <div class="c-nav-middle__flex-holder cc-turquoise">
-                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="raiseTicket.html"
+                <a data-w-id="76cb24e1-63ba-aed2-336b-0b764f7be43c" href="/src/pages/raiseTicket/raiseTicket.html"
                   class="c-nav__flex-item mg-btm__8 cc-green-hover w-inline-block"
                   style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;"
                   tabindex="0" rel="noopener noreferrer">
@@ -382,7 +409,8 @@
 
 
             </div>
-            <div class="c-nav-drop__right-item resources"><a href="resource.html"
+            <div class="c-nav-drop__right-item resources">
+              <a href="/src/pages/resources/resource.html"
                 class="c-nav__flex-item cc-nav-title resources w-inline-block" tabindex="0">
                 <h5 class="heading-6">Education<img loading="lazy"
                     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf10e20a06cb_Vector%2014.svg"
@@ -416,7 +444,7 @@
                     alt="" class="c-nav__arrow-svg cc-hover">
                 </a></div>
               <div class="c-nav-middle__flex-holder cc-turquoise no-pd"><a
-                  data-w-id="f9526a54-7229-bd3c-cff9-cc509e1b5870" href="resource.html"
+                  data-w-id="f9526a54-7229-bd3c-cff9-cc509e1b5870" href="/src/pages/resources/resource.html"
                   class="c-nav__flex-item mg-btm__8 cc-red-hover w-inline-block"
                   style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
                   tabindex="0">
@@ -448,7 +476,7 @@
 
         </div>
         <div class="nav-line__separator"></div>
-        <a href="bookdemo.html" class="w-nav-link">Book a Demo</a>
+        <a href="/src/pages/bookademo/bookdemo.html" class="w-nav-link">Book a Demo</a>
 
 
         <a href="/src/pages/signup/signup.html" class="w-nav-link">Sign up</a>
@@ -490,7 +518,7 @@
 
 
             <div class="flex-vertical cc-nav-menu">
-              <a href="index.html" class="c-nav__menu w-inline-block w--cureent animate-text">
+              <a href="/src/pages/homepage/index.html" class="c-nav__menu w-inline-block w--cureent animate-text">
                 <div class="text-block-11">Home</div>
               </a>
               <div class="c-nav-menu__dropdown w-dropdown">
@@ -500,9 +528,10 @@
                 </div>
 
                 <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;">
-                  <a href="solution-attract.html" class="c-dropdown__link w-dropdown-link">Attract</a>
-                  <a href="assess-talent.html" class="c-dropdown__link w-dropdown-link">Assess</a>
-                  <a href="simplify.html" class="c-dropdown__link w-dropdown-link">Simplify</a>
+                  <a href="/src/pages/attract/solution-attract.html"
+                    class="c-dropdown__link w-dropdown-link">Attract</a>
+                  <a href="/src/pages/assess/assess-talent.html" class="c-dropdown__link w-dropdown-link">Assess</a>
+                  <a href="/src/pages/simplify/simplify.html" class="c-dropdown__link w-dropdown-link">Simplify</a>
                 </nav>
 
                 <script>
@@ -531,10 +560,11 @@
                 </div>
 
                 <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;">
-                  <a href="save-time.html" class="c-dropdown__link w-dropdown-link">Time</a>
-                  <a href="remain.html" class="c-dropdown__link w-dropdown-link">Compliance</a>
-                  <a href="improve.html" class="c-dropdown__link w-dropdown-link">Diversity</a>
-                  <a href="engagement.html" class="c-dropdown__link w-dropdown-link">Engagement</a>
+                  <a href="/src/pages/save-time/save-time.html" class="c-dropdown__link w-dropdown-link">Time</a>
+                  <a href="/src/pages/remain/remain.html" class="c-dropdown__link w-dropdown-link">Compliance</a>
+                  <a href="/src/pages/improve/improve.html" class="c-dropdown__link w-dropdown-link">Diversity</a>
+                  <a href="/src/pages/engagement/engagement.html"
+                    class="c-dropdown__link w-dropdown-link">Engagement</a>
                 </nav>
 
                 <script>
@@ -555,9 +585,9 @@
                   }
                 </script>
 
-              </div><a href="about-us.html" class="c-nav__menu-link w-inline-block animate-text">
+              </div><a href="/src/pages/about-us/about-us.html" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">About</div>
-              </a><a href="pricing.html" class="c-nav__menu-link w-inline-block animate-text">
+              </a><a href="/src/pages/price/pricing.html" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">Pricing</div>
               </a>
               <div class="c-nav-menu__dropdown w-dropdown">
@@ -567,9 +597,10 @@
                 </div>
 
                 <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;">
-                  <a href="resource.html" class="c-dropdown__link w-dropdown-link">Learning</a>
-                  <a href="userGuide.html" class="c-dropdown__link w-dropdown-link">User Guide</a>
-                  <a href="raiseTicket.html" class="c-dropdown__link w-dropdown-link">Raise Ticket</a>
+                  <a href="/src/pages/resources/resource.html" class="c-dropdown__link w-dropdown-link">Learning</a>
+                  <a href="/src/pages/userguide/userGuide.html" class="c-dropdown__link w-dropdown-link">User Guide</a>
+                  <a href="/src/pages/raiseTicket/raiseTicket.html" class="c-dropdown__link w-dropdown-link">Raise
+                    Ticket</a>
                 </nav>
 
                 <script>
@@ -590,9 +621,10 @@
                   }
                 </script>
 
-              </div><a href="contact.html" class="c-nav__menu-link w-inline-block animate-text">
+              </div><a href="/src/pages/contact/contact.html" class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">Contact</div>
-              </a><a href="login.html" target="_blank" class="c-nav__menu-link w-inline-block animate-text">
+              </a><a href="/src/pages/login/login.html" target="_blank"
+                class="c-nav__menu-link w-inline-block animate-text">
                 <div class="text-block-11">Login</div>
               </a>
             </div>
@@ -604,7 +636,7 @@
             <div class="c-bubble__wrapper _240 nav-menu"
               style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
             </div>
-            <div class="c-bubble__wrapper _205 nav-menu"
+            <div class="c-bubble__wrapper _205 nav-menu blueballAni"
               style="transform: translate3d(0px, 0px, 0px) scale3d(0.3, 0.3, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
             </div>
           </div>
@@ -673,8 +705,9 @@
               </div>
               <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;" id="w-dropdown-list-4"
                 aria-labelledby="w-dropdown-toggle-4"><a href="/solutions/attract"
-                  class="c-dropdown__link w-dropdown-link" tabindex="0">Attract</a><a href="/solutions/assess"
-                  class="c-dropdown__link w-dropdown-link" tabindex="0">Assess</a><a href="/solutions/simplify"
+                  class="c-dropdown__link w-dropdown-link" tabindex="0">Attract</a><a
+                  href="/src/pages/attract/solution-attract.html" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Assess</a><a href="/src/pages/assess/assess-talent.html"
                   class="c-dropdown__link w-dropdown-link" tabindex="0">Simplify</a></nav>
             </div>
             <div data-delay="0" data-hover="false" class="c-nav-menu__dropdown w-dropdown">
@@ -686,14 +719,19 @@
                 <div class="text-block-11">Our solution</div>
               </div>
               <nav class="dropdown-list w-dropdown-list" style="display: none; opacity: 0;" id="w-dropdown-list-5"
-                aria-labelledby="w-dropdown-toggle-5"><a href="/why/time" class="c-dropdown__link w-dropdown-link"
-                  tabindex="0">Time</a><a href="/why/compliance" class="c-dropdown__link w-dropdown-link"
-                  tabindex="0">Compliance</a><a href="/why/diversity" class="c-dropdown__link w-dropdown-link"
-                  tabindex="0">Diversity</a><a href="/why/engagement" class="c-dropdown__link w-dropdown-link"
-                  tabindex="0">Engagement</a></nav>
-            </div><a href="/about" class="c-nav__menu-link w-inline-block animate-text">
+                aria-labelledby="w-dropdown-toggle-5">
+                <a href="/src/pages/save-time/save-time.html" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Time</a>
+                <a href="/src/pages/remain/remain.html" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Compliance</a>
+                <a href="/src/pages/improve/improve.html" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Diversity</a>
+                <a href="/src/pages/engagement/engagement.html" class="c-dropdown__link w-dropdown-link"
+                  tabindex="0">Engagement</a>
+              </nav>
+            </div><a href="/src/pages/about-us/about-us.html" class="c-nav__menu-link w-inline-block animate-text">
               <div class="text-block-11">About</div>
-            </a><a href="/pricing" class="c-nav__menu-link w-inline-block animate-text">
+            </a><a href="/src/pages/price/pricing.html" class="c-nav__menu-link w-inline-block animate-text">
               <div class="text-block-11">Pricing</div>
             </a>
             <div data-delay="0" data-hover="false" class="c-nav-menu__dropdown w-dropdown">
@@ -709,11 +747,11 @@
                   tabindex="0">Learning</a><a
                   href="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6151be16c92719d19cb3f01a_Stryve%20User%20Guide.pdf"
                   class="c-dropdown__link w-dropdown-link" tabindex="0">User Guide</a><a
-                  href="https://ats.stryve.online/support-ticket" target="_blank"
+                  href="/src/pages/raiseTicket/raiseTicket.html" target="_blank"
                   class="c-dropdown__link w-dropdown-link" tabindex="0" rel="noopener noreferrer">Raise ticket</a></nav>
-            </div><a href="contact.html" class="c-nav__menu-link w-inline-block animate-text">
+            </div><a href="/src/pages/contact/contact.html" class="c-nav__menu-link w-inline-block animate-text">
               <div class="text-block-11">Contact</div>
-            </a><a href="https://control.stryve.online" target="_blank"
+            </a><a href="/src/pages/login/login.html" target="_blank"
               class="c-nav__menu-link w-inline-block animate-text" rel="noopener noreferrer">
               <div class="text-block-11">Login</div>
             </a>
@@ -864,17 +902,17 @@
       <div class="c-ctn cc-70">
         <div class="c-header cc-60 b-corp">
           <h1 class="heading-8 cc-pink" data-split="200" data-split-type="lines">
-            <div class="lineswrap" data-aos="fade-up">
+            <!-- <div class="lineswrap" data-aos="fade-up">
               <div class="line animate-text" style="display: block; text-align: start; width: 100%;">What does</div>
-            </div>
-            <div class="lineswrap" data-aos="fade-up">
+            </div> -->
+            <!-- <div class="lineswrap" data-aos="fade-up">
               <div class="line animate-text"
                 style="display: block; text-align: start; width: 100%; transition-delay: 200ms;">this mean</div>
-            </div>
-            <div class="lineswrap" data-aos="fade-up">
+            </div> -->
+            <!-- <div class="lineswrap" data-aos="fade-up">
               <div class="line animate-text"
                 style="display: block; text-align: start; width: 100%; transition-delay: 400ms;">for us?</div>
-            </div>
+            </div> -->
           </h1>
         </div>
         <div class="flex-wrapper cc-spaced b-corp-items">

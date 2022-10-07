@@ -90,18 +90,18 @@ h5 {
 .c-btn.cc-no-border.white.mg-right__20 {
   margin-right: 20px;
 }
-.is--white {
+/* .is--white {
   margin-bottom: 12px;
   color: #fff;
   text-decoration: none;
-}
-.is--white.opacity-60 {
+} */
+/* .is--white.opacity-60 {
   margin-bottom: 16px;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
   text-decoration: none;
   opacity: 0;
-}
+} */
 .is--white.is--12px {
   font-size: 12px;
 }

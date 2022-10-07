@@ -53,12 +53,12 @@ h4 {
   font-weight: 400;
   letter-spacing: -0.02em;
 }
-.c-section {
+/* .c-section {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #0f172a;
-}
+} */
 .c-ctn {
   width: 85%;
   max-width: 1280px;

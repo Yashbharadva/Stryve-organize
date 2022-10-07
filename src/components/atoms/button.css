@@ -112,3 +112,28 @@
   }
 }
 
+.btn-holder.cc-30 {
+  width: auto;
+  max-width: 30%;
+}
+
+.c-btn.cc-tag-time {
+  min-height: auto;
+  min-width: 80px;
+  padding: 7px 10px;
+  background-color: #f59e0b;
+}
+
+.c-info__holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 10px;
+  border-radius: 17px;
+  background-color: rgba(0, 154, 255, 0.09);
+}
+

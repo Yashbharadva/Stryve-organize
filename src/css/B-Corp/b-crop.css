@@ -41,11 +41,11 @@ svg:not(:root) {
   cursor: pointer;
   border-radius: 0;
 }
-ul {
+/* ul {
   margin-top: 0;
   margin-bottom: 10px;
   padding-left: 40px;
-}
+} */
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -57,15 +57,15 @@ ul {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
-h1 {
+/* h1 {
   margin: 20px 0 40px;
   color: #0f172a;
   font-size: 50.52px;
   line-height: 64px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
-h2 {
+} */
+/* h2 {
   margin-top: 10px;
   margin-bottom: 24px;
   color: #0f172a;
@@ -73,8 +73,8 @@ h2 {
   line-height: 48px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
-h3 {
+} */
+/* h3 {
   margin-top: 0;
   margin-bottom: 10px;
   color: #0f172a;
@@ -82,8 +82,8 @@ h3 {
   line-height: 40px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
-h4 {
+} */
+/* h4 {
   margin-top: 10px;
   margin-bottom: 24px;
   color: #0f172a;
@@ -91,7 +91,7 @@ h4 {
   line-height: 32px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
+} */
 h5 {
   margin-top: 0;
   margin-bottom: 10px;
@@ -101,19 +101,19 @@ h5 {
   font-weight: 400;
   letter-spacing: -0.02em;
 }
-p {
+/* p {
   margin-top: 0;
   margin-bottom: 40px;
   color: rgba(15, 23, 42, 0.65);
   font-size: 16px;
   line-height: 24px;
-}
-.c-section {
+} */
+/* .c-section {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
   color: #0f172a;
-}
+} */
 .c-section.no-padding {
   padding-top: 0;
   padding-bottom: 0;
@@ -205,15 +205,15 @@ p {
 .spacer-div.cc-35 {
   width: 35vw;
 }
-.text-14 {
+/* .text-14 {
   font-size: 14px;
-}
-.text-14.p-btm__10 {
+} */
+/* .text-14.p-btm__10 {
   padding-bottom: 10px;
-}
-.text-14.light-black {
+} */
+/* .text-14.light-black {
   color: rgba(12, 29, 54, 0.65);
-}
+} */
 .center-text {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -382,17 +382,17 @@ p {
   padding-top: 32px;
   padding-left: 32px;
 }
-.is--white {
+/* .is--white {
   margin-bottom: 12px;
   color: #fff;
   text-decoration: none;
-}
-.is--white.opacity-60 {
+} */
+/* .is--white.opacity-60 {
   margin-bottom: 16px;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 16px;
   text-decoration: none;
-}
+} */
 .is--white.is--12px {
   font-size: 12px;
 }
@@ -442,15 +442,15 @@ p {
 .c-hero.cc-flex.cc-green-bg {
   background-color: #35c89f;
 }
-.c-hero__content {
+/* .c-hero__content {
   max-width: 50%;
   padding-top: 100px;
   padding-bottom: 0;
-}
-.c-hero__text {
+} */
+/* .c-hero__text {
   max-width: 40ch;
   padding-bottom: 60px;
-}
+} */
 .c-bubble__wrapper {
   position: absolute;
   left: auto;
@@ -556,13 +556,13 @@ p {
   max-width: 30%;
   padding-top: 40px;
 }
-.c-text__content {
+/* .c-text__content {
   max-width: 50ch;
   padding-bottom: 32px;
-}
-.ruby-color {
+} */
+/* .ruby-color {
   color: #ff2868;
-}
+} */
 .green-color {
   color: #35c89f;
 }
@@ -871,11 +871,11 @@ p {
   border-radius: 50%;
   background-color: #fff;
 }
-.p-top__46 {
+/* .p-top__46 {
   padding-top: 46px;
   padding-right: 0;
   padding-left: 0;
-}
+} */
 .c-bg-cover {
   position: absolute;
   left: 0;
@@ -890,10 +890,10 @@ p {
 .cc-hide {
   display: none;
 }
-.c-pricing__item {
+/* .c-pricing__item {
   border-radius: 8px;
   background-color: #fdf5f7;
-}
+} */
 .c-pricing__item.cc-ruby {
   z-index: 40;
   width: 35vw;
@@ -975,25 +975,25 @@ p {
   padding-left: 32px;
   background-color: #ff9c27;
 }
-.c-pricing__info {
+/* .c-pricing__info {
   padding: 25px 32px 50px;
-}
-.c-pricing__info.p-btm__25 {
+} */
+/* .c-pricing__info.p-btm__25 {
   padding-bottom: 25px;
-}
-.c-pricing__features {
+} */
+/* .c-pricing__features {
   padding-right: 32px;
   padding-bottom: 55px;
   padding-left: 32px;
-}
-.c-line-separator {
+} */
+/* .c-line-separator {
   height: 1px;
   margin-bottom: 25px;
   background-color: rgba(12, 29, 54, 0.65);
-}
-.c-line-separator.cc-ruby {
+} */
+/* .c-line-separator.cc-ruby {
   background-color: rgba(255, 40, 104, 0.65);
-}
+} */
 .c-line-separator.cc-green {
   background-color: rgba(53, 200, 159, 0.65);
 }
@@ -1018,9 +1018,9 @@ p {
   opacity: 0.9;
   color: #f8b8c3;
 }
-.p-left__20 {
+/* .p-left__20 {
   padding-left: 20px;
-}
+} */
 .orange-color {
   color: #ff9c27;
 }
