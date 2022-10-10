@@ -20,18 +20,18 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
-input {
+/* input {
   color: inherit;
   font: inherit;
   margin: 0;
-}
+} */
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-input {
+/* input {
   line-height: normal;
-}
+} */
 input[type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
@@ -106,7 +106,7 @@ label {
   margin-bottom: 5px;
   font-weight: 700;
 }
-.w-input {
+/* .w-input {
   display: block;
   width: 100%;
   height: 38px;
@@ -118,7 +118,7 @@ label {
   vertical-align: middle;
   background-color: #fff;
   border: 1px solid #ccc;
-}
+} */
 .w-input:-moz-placeholder {
   color: #999;
 }
@@ -317,15 +317,15 @@ label {
   font-size: 14px;
   line-height: 20px;
 } */
-h1 {
+/* h1 {
   margin: 20px 0 40px;
   color: #0f172a;
   font-size: 50.52px;
   line-height: 64px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
-h5 {
+} */
+/* h5 {
   margin-top: 0;
   margin-bottom: 10px;
   color: #0f172a;
@@ -333,14 +333,14 @@ h5 {
   line-height: 24px;
   font-weight: 400;
   letter-spacing: -0.02em;
-}
-p {
+} */
+/* p {
   margin-top: 0;
   margin-bottom: 40px;
   color: rgba(15, 23, 42, 0.65);
   font-size: 16px;
   line-height: 24px;
-}
+} */
 .c-ctn {
   width: 85%;
   max-width: 1280px;
@@ -969,9 +969,9 @@ p {
 .signup__icon-svg {
   margin-right: 12px;
 }
-.p-btm__12 {
+/* .p-btm__12 {
   padding-bottom: 12px;
-}
+} */
 .c-signup__form-block {
   position: relative;
   z-index: 50;
@@ -985,14 +985,14 @@ p {
 .c-signup__form-block.cc-mobile {
   display: none;
 }
-.c-signup__input {
+/* .c-signup__input {
   margin-bottom: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: 1px #000;
   border-radius: 8px;
   background-color: #fdf5f7;
-}
+} */
 .c-signup__input::-webkit-input-placeholder {
   font-size: 12px;
 }
@@ -1005,9 +1005,9 @@ p {
 .c-signup__input::placeholder {
   font-size: 12px;
 }
-.c-signup__input.mg-btm__40 {
+/* .c-signup__input.mg-btm__40 {
   margin-bottom: 40px;
-}
+} */
 .text-12 {
   font-size: 12px;
 }
@@ -1035,10 +1035,10 @@ p {
   align-items: center;
   text-align: left;
 }
-.mg-btm__32 {
+/* .mg-btm__32 {
   margin-top: 0;
   margin-bottom: 32px;
-}
+} */
 .c-menu-button,
 .c-nav__menu-list {
   display: none;

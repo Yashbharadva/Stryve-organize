@@ -1,0 +1,33 @@
+.c-signup__input {
+  margin-bottom: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px #000;
+  border-radius: 8px;
+  background-color: #fdf5f7;
+}
+
+.w-input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+input {
+  line-height: normal;
+}
+
+input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
