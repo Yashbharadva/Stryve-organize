@@ -695,5 +695,99 @@ input.w-button {
 /* CONTACT PAGE */
 
 
+.no-padding {
+  margin-top: 0;
+  margin-bottom: 0;
+  align-self: center;
+}
 
+.text-14 {
+  font-size: 14px;
+}
 
+/* PRICING SCREEN */
+
+.center-text {
+  align-self: center;
+  text-align: center;
+}
+
+.c-pricing__top.prices.cc-red {
+  background-color: #ff2868;
+}
+
+.is--white.cc-absolute.center-text {
+  position: static;
+  margin-bottom: 0;
+}
+
+.is--white.cc-absolute {
+  position: absolute;
+  left: 0;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+} 
+
+.c-pricing__item {
+  border-radius: 8px;
+  background-color: #fdf5f7;
+}
+
+.c-pricing__item.prices {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.c-pricing__top.prices.cc-dark-blue,
+.c-pricing__top.prices.cc-green {
+  margin-right: -32px;
+  margin-left: -32px;
+  padding-left: 0;
+}
+
+.c-pricing__top.prices {
+  position: relative;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-pricing__top.cc-green {
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  background-color: #35c89f;
+}
+
+.c-pricing__top.cc-dark-blue {
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  background-color: #0f00c0;
+}
+
+.center-text.p-btm__12 {
+  padding-bottom: 12px;
+}
+
+.p-btm__12 {
+  padding-bottom: 12px;
+}
+
+.c-faq__heading {
+  margin-bottom: 0;
+  align-self: center;
+}
+
+.c-faq__p {
+  padding-top: 10px;
+  transition: 0.4s;
+}

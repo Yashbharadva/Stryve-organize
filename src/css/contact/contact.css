@@ -86,9 +86,9 @@ input.w-button {
 .w-embed:after {
   clear: both;
 }
-.w-form {
+/* .w-form {
   margin: 0 0 15px;
-}
+} */
 .w-form-done {
   display: none;
   padding: 20px;
@@ -101,11 +101,11 @@ input.w-button {
   padding: 10px;
   background-color: #ffdede;
 }
-label {
+/* label {
   display: block;
   margin-bottom: 5px;
   font-weight: 700;
-}
+} */
 /* .w-input {
   display: block;
   width: 100%;
@@ -136,12 +136,12 @@ label {
   border-color: #3898ec;
   outline: 0;
 }
-.w-form-label {
+/* .w-form-label {
   display: inline-block;
   cursor: pointer;
   font-weight: 400;
   margin-bottom: 0;
-}
+} */
 .w-dropdown {
   display: inline-block;
   position: relative;
@@ -262,11 +262,13 @@ label {
     padding-left: 10px;
   }
 }
-.w-checkbox {
+/* .w-checkbox {
   display: block;
   margin-bottom: 5px;
   padding-left: 20px;
-}
+} */
+
+
 .w-checkbox::before {
   content: " ";
   display: table;
@@ -292,12 +294,12 @@ label {
   grid-row-start: 1;
   clear: both;
 }
-.w-checkbox-input {
+/* .w-checkbox-input {
   float: left;
   margin: 4px 0 0 -20px;
   line-height: normal;
-}
-.w-checkbox-input--inputType-custom {
+} */
+/* .w-checkbox-input--inputType-custom {
   border-width: 1px;
   border-color: #ccc;
   border-top: 1px solid #ccc;
@@ -307,8 +309,8 @@ label {
   width: 12px;
   height: 12px;
   border-radius: 2px;
-}
-/* body {
+} */
+body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
@@ -316,7 +318,7 @@ label {
   font-family: "Buenos Aires", sans-serif;
   font-size: 14px;
   line-height: 20px;
-} */
+}
 /* h1 {
   margin: 20px 0 40px;
   color: #0f172a;
@@ -423,12 +425,12 @@ label {
 .flex-vertical.p-all__16.cc-beige-bg.radius-8 {
   border-radius: 8px;
 }
-.flex-wrapper {
+/* .flex-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-}
+} */
 .flex-wrapper.cc-spaced {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -447,9 +449,9 @@ label {
 .flex-wrapper.align-center.mg-btm__14 {
   margin-bottom: 14px;
 }
-.flex-wrapper.p-left__36 {
+/* .flex-wrapper.p-left__36 {
   padding-left: 36px;
-}
+} */
 .flex-wrapper.cc-right {
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -459,9 +461,9 @@ label {
 .flex-wrapper.cc-right.mg-top__25 {
   margin-top: 25px;
 }
-.text-14 {
+/* .text-14 {
   font-size: 14px;
-}
+} */
 .c-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -927,14 +929,11 @@ label {
   border-radius: 12px;
   background-color: #fdf5f7;
 }
-.no-padding {
+/* .no-padding {
   margin-top: 0;
   margin-bottom: 0;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
-}
+} */
 .nav-line__separator {
   width: 1px;
   height: 16px;
@@ -944,9 +943,9 @@ label {
 .cc-hide {
   display: none;
 }
-.lightblack {
+/* .lightblack {
   color: rgba(15, 23, 42, 0.65);
-}
+} */
 .c-line__holder {
   position: absolute;
   left: auto;
@@ -972,7 +971,7 @@ label {
 /* .p-btm__12 {
   padding-bottom: 12px;
 } */
-.c-signup__form-block {
+/* .c-signup__form-block {
   position: relative;
   z-index: 50;
   width: 40%;
@@ -981,7 +980,7 @@ label {
   padding: 36px;
   border-radius: 20px;
   background-color: #fdf5f7;
-}
+} */
 .c-signup__form-block.cc-mobile {
   display: none;
 }
@@ -1008,14 +1007,14 @@ label {
 /* .c-signup__input.mg-btm__40 {
   margin-bottom: 40px;
 } */
-.text-12 {
+/* .text-12 {
   font-size: 12px;
-}
-.text-12.lightblack.underline {
+} */
+/* .text-12.lightblack.underline {
   text-decoration: underline;
   cursor: pointer;
-}
-.c-signup__checkbox {
+} */
+/* .c-signup__checkbox {
   width: 24px;
   height: 24px;
   margin-top: 0;
@@ -1023,18 +1022,12 @@ label {
   border-width: 2px;
   border-color: rgba(12, 29, 54, 0.65);
   cursor: pointer;
-}
-.checkbox-field {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+} */
+/* .checkbox-field {
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   text-align: left;
-}
+} */
 /* .mg-btm__32 {
   margin-top: 0;
   margin-bottom: 32px;

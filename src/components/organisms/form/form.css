@@ -1,3 +1,18 @@
+.c-signup__form-block {
+  position: relative;
+  z-index: 50;
+  width: 40%;
+  max-width: 520px;
+  margin-bottom: 0;
+  padding: 36px;
+  border-radius: 20px;
+  background-color: #fdf5f7;
+}
+
+.w-form {
+  margin: 0 0 15px;
+}
+
 .c-signup__input {
   margin-bottom: 24px;
   padding-top: 20px;
@@ -31,3 +46,76 @@ input {
   margin: 0;
 }
 
+.c-signup__input.mg-btm__40 {
+  margin-bottom: 40px;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.w-checkbox {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.c-signup__checkbox {
+  width: 24px;
+  height: 24px;
+  margin-top: 0;
+  margin-right: 12px;
+  border-width: 2px;
+  border-color: rgba(12, 29, 54, 0.65);
+  cursor: pointer;
+}
+
+.w-checkbox-input--inputType-custom {
+  border-width: 1px;
+  border-color: #ccc;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-style: solid;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.lightblack {
+  color: rgba(15, 23, 42, 0.65);
+}
+
+.w-form-label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.flex-wrapper.p-left__36 {
+  padding-left: 36px;
+}
+
+.text-12.lightblack.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}

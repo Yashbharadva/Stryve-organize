@@ -32,7 +32,7 @@
 
   <link rel="stylesheet" href="/src/components/organisms/navbar/nav.css" />
 
-  <link rel="stylesheet" href="/src/components/atoms/button.css" />
+  <link rel="stylesheet" href="/src/components/atoms/button/button.css" />
   <link rel="stylesheet" href="/src/components/atoms/Text/text.css" />
   <link rel="stylesheet" href="/src/components/organisms/section/section.css" />
 
@@ -40,6 +40,16 @@
   <script
     src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf2fe50a07ea_suction%20lottie.json"></script>
 
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <script>
+
+    $(function () {
+
+      $("#navigationBar").load("navbar.html");
+    });
+  </script>
 
   <title>Stryve</title>
 </head>
@@ -50,7 +60,7 @@
   <!-- NAVIGATION BAR -->
 
 
-  <div class="c-navbar w-nav">
+  <!-- <div class="c-navbar w-nav" id="navigationBar">
     <div class="c-ctn cc-nav">
 
       <a href="/src/pages/homepage/index.html" class="brand w-nav-brand w--current">
@@ -96,7 +106,6 @@
         </div>
       </a>
 
-      <!-- NAVIGATION BAR -->
 
       <nav class="nav-menu w-nav-menu" id="myLinks">
         <div class="w-dropdown" style="z-index: 999;">
@@ -787,7 +796,7 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
   <!-- MAIN -->
 
@@ -1426,6 +1435,8 @@
       </div>
 
     </section>
+
+
 
 
     <!-- LIGHT RED, GREEN, BLUE COMPONENTS SECTION -->
@@ -2403,6 +2414,7 @@
 
 
     </footer>
+
 
   </main>
 
