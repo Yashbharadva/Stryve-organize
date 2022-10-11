@@ -46,7 +46,7 @@ svg:not(:root) {
   max-width: 100%;
   display: inline-block;
 }
-.w-button {
+/* .w-button {
   display: inline-block;
   padding: 9px 15px;
   background-color: #3898ec;
@@ -56,7 +56,7 @@ svg:not(:root) {
   text-decoration: none;
   cursor: pointer;
   border-radius: 0;
-}
+} */
 .w-embed:after,
 .w-embed:before {
   content: " ";
@@ -475,10 +475,10 @@ h5 {
   border-color: #fff;
   color: #fff;
 }
-.c-btn.cc-beige {
+/* .c-btn.cc-beige {
   background-color: #fdf5f7;
   color: #0f172a;
-}
+} */
 .c-btn.cc-beige.cc-with-play {
   width: 165px;
   margin-top: 0;

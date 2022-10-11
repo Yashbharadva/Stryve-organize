@@ -292,7 +292,6 @@ a:hover {
   z-index: 1;
   display: flex;
   transition-property: transform;
-  /* box-sizing: content-box; */
 }
 
 .swiper-slide {
@@ -344,20 +343,6 @@ a:hover {
   margin-right: 20px;
   margin-bottom: 0;
 }
-
-/* .no-mg {
-  margin-top: 0;
-  margin-bottom: 0;
-} */
-
-
-
-/* h2 {
-  font-size: 37.9px;
-  line-height: 48px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-} */
 
 
 
