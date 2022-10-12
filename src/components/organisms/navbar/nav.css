@@ -1,4 +1,3 @@
-/*! CSS Used from: https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/css/stryve-project-5bdce3c7936e32726719e868.webflow.514180e1c.min.css */
 nav {
   display: block;
 }
@@ -39,10 +38,7 @@ svg:not(:root) {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-embed:after,
 .w-embed:before {
   content: " ";
@@ -172,22 +168,7 @@ svg:not(:root) {
     padding-left: 10px;
   }
 }
-h5 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  color: #0f172a;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-nav {
   display: -webkit-box;
   display: -webkit-flex;
@@ -543,12 +524,9 @@ h5 {
   top: 5px;
   width: 15vw;
 }
-.brand.w--current {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+/* .brand.w--current {
   display: flex;
-}
+} */
 .html-embed-3 {
   border-radius: 70%;
 }

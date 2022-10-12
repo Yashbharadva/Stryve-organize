@@ -1,3 +1,4 @@
+/*! CSS Used from: http://127.0.0.1:5501/src/css/Homepage/main.css */
 section {
   display: block;
 }
@@ -45,11 +46,11 @@ a:hover {
 .c-section.p-btm__140 {
   padding-bottom: 140px;
 }
-/* .c-ctn.cc-70 {
+.c-ctn.cc-70 {
   width: 70%;
   max-width: 996px;
   min-width: 920px;
-} */
+}
 .c-ctn.cc-70.cc-relative.cc-custom-width {
   max-width: none;
 }
@@ -115,9 +116,9 @@ a:hover {
   padding-top: 32px;
   padding-left: 32px;
 }
-/* .c-header.growth {
+.c-header.growth {
   max-width: 40%;
-} */
+}
 .flex {
   display: -webkit-box;
   display: -webkit-flex;
@@ -175,6 +176,215 @@ a:hover {
 .c-img-cover.radius__8 {
   border-radius: 8px;
 }
+/*! CSS Used from: http://127.0.0.1:5501/src/css/Assess/career-site.css */
+section {
+  display: block;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+
+.c-ctn.cc-70 {
+  width: 70%;
+  max-width: 996px;
+  min-width: 920px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*! CSS Used from: http://127.0.0.1:5501/src/css/Assess/assess-main.css */
+section {
+  display: block;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+
+.c-section.no-overflow {
+  overflow: hidden;
+}
+
+.c-ctn.cc-70 {
+  width: 70%;
+  max-width: 996px;
+  min-width: 920px;
+}
+.c-ctn.cc-relative {
+  position: relative;
+}
+
+.c-btn.cc-beige {
+  background-color: #fdf5f7;
+  color: #0f172a;
+}
+.c-btn.cc-beige.cc-with-play {
+  width: 165px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 8px 15px 8px 8px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+}
+.c-btn.cc-beige.cc-with-play.cc-absolute {
+  position: absolute;
+  left: 0;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  width: auto;
+  max-width: 130px;
+  min-width: auto;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  padding-right: 8px;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+.c-btn.cc-beige.cc-with-play.cc-absolute:hover {
+  background-color: rgba(15, 23, 42, 0.95);
+  color: #fff;
+}
+.c-icon__red-arrow {
+  width: 7px;
+  max-width: none;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.c-card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 110% 32px 32px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #fff;
+}
+.c-card.cc-redius__8 {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.c-card__text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  max-width: 100%;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+.is--white {
+  margin-bottom: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.swiper-slide {
+  width: 32vw;
+  max-width: 32vw;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.c-gradient__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  width: 100%;
+  min-height: 600px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(70%, #009aff),
+    color-stop(0, #35c89f)
+  );
+  background-image: linear-gradient(90deg, #009aff 70%, #35c89f 0);
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex.mg-left__8 {
+  margin-left: 20px;
+}
+.flex.hero-headline.slider-title {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.p-right__3 {
+  padding-right: 3px;
+}
+.cc-hide {
+  display: none;
+}
+.no-mg {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.c-img__inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding-top: 110%;
+  border-radius: 8px;
+  background-color: rgba(15, 23, 42, 0.18);
+}
+.c-img-cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.c-img-cover.radius__8 {
+  border-radius: 8px;
+}
 /*! CSS Used from: http://127.0.0.1:5501/src/css/Homepage/slider.css */
 img {
   border: 0;
@@ -182,10 +392,423 @@ img {
   display: inline-block;
   max-width: 180%;
 }
-/*! CSS Used from: http://127.0.0.1:5501/src/css/Homepage/colorBalls.css */
+/*! CSS Used from: http://127.0.0.1:5501/src/components/atoms/pricing-line/line.css */
+section {
+  display: block;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
 img {
   border: 0;
   vertical-align: middle;
   display: inline-block;
   max-width: 180%;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.c-ctn.cc-relative {
+  position: relative;
+}
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 28.83px;
+    line-height: 40px;
+  }
+  .c-ctn {
+    max-width: 960px;
+    min-width: 740px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-ctn {
+    max-width: 767px;
+    min-width: 440px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-ctn {
+    max-width: 479px;
+    min-width: 300px;
+  }
+}
+a:hover,
+a:focus {
+  outline: 0;
+}
+svg:not(:root) {
+  overflow: visible !important;
+}
+/*! CSS Used from: http://127.0.0.1:5501/src/css/simplify/automate.css */
+section {
+  display: block;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.c-ctn.cc-70 {
+  width: 70%;
+  max-width: 996px;
+  min-width: 920px;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 28.83px;
+    line-height: 40px;
+  }
+  .c-ctn {
+    max-width: 960px;
+    min-width: 740px;
+  }
+  .c-ctn.cc-70 {
+    max-width: 992px;
+    min-width: 740px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-ctn {
+    max-width: 767px;
+    min-width: 440px;
+  }
+  .c-ctn.cc-70 {
+    width: 85%;
+    max-width: 760px;
+    min-width: 370px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-ctn,
+  .c-ctn.cc-70 {
+    max-width: 479px;
+    min-width: 300px;
+  }
+}
+* {
+  -moz-font-feature-settings: "ss01";
+  -webkit-font-feature-settings: "ss01";
+  font-feature-settings: "ss01" on;
+}
+/*! CSS Used from: http://127.0.0.1:5501/src/css/Homepage/responsive.css */
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 28.83px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 25.63px;
+    line-height: 32px;
+  }
+  .c-ctn {
+    max-width: 960px;
+    min-width: 740px;
+  }
+  .c-ctn.cc-70 {
+    max-width: 992px;
+    min-width: 740px;
+  }
+  .c-btn.cc-beige.cc-with-play.cc-absolute {
+    width: 80%;
+    margin-left: 20px;
+  }
+  .c-card {
+    padding-left: 20px;
+  }
+  .c-card__text {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .c-ctn {
+    max-width: 767px;
+    min-width: 440px;
+  }
+  .c-ctn.cc-70 {
+    width: 85%;
+    max-width: 760px;
+    min-width: 370px;
+  }
+  .c-header.growth {
+    max-width: 100%;
+  }
+  .swiper-slide {
+    width: 55vw;
+    max-width: 55vw;
+  }
+  .c-gradient__bg {
+    min-height: 500px;
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(75%, #009aff),
+      color-stop(0, #35c89f)
+    );
+    background-image: linear-gradient(180deg, #009aff 75%, #35c89f 0);
+  }
+  .c-beige__bg {
+    background-image: none;
+  }
+}
+@media screen and (max-width: 479px) {
+  .c-ctn,
+  .c-ctn.cc-70 {
+    max-width: 479px;
+    min-width: 300px;
+  }
+  .c-ctn.cc-70.cc-relative.cc-custom-width {
+    min-width: 320px;
+  }
+  .c-header.growth {
+    max-width: 38ch;
+  }
+  .c-gradient__bg {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(60%, #009aff),
+      color-stop(0, #35c89f)
+    );
+    background-image: linear-gradient(180deg, #009aff 60%, #35c89f 0);
+  }
+}
+@media screen and (max-device-width: 767px) {
+  .swiper-slide {
+    width: 80vw !important;
+    max-width: 80vw !important;
+  }
+}
+/*! CSS Used from: https://unpkg.com/aos@next/dist/aos.css */
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 0.4s;
+}
+[data-aos] {
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
+body[data-aos-easing="ease"] [data-aos] {
+  transition-timing-function: ease;
+}
+@media screen {
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
+    opacity: 0;
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+  }
+  html:not(.no-js) [data-aos^="fade"][data-aos^="fade"].aos-animate {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+  html:not(.no-js) [data-aos="fade-up"] {
+    -webkit-transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, 100px, 0);
+  }
+}
+/*! CSS Used from: https://unpkg.com/flickity@2/dist/flickity.min.css */
+.flickity-enabled {
+  position: relative;
+}
+.flickity-enabled:focus {
+  outline: 0;
+}
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.flickity-button {
+  position: absolute;
+  background: hsla(0, 0%, 100%, 0.75);
+  border: none;
+  color: #333;
+}
+.flickity-button:hover {
+  background: #fff;
+  cursor: pointer;
+}
+.flickity-button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 5px #19f;
+}
+.flickity-button:active {
+  opacity: 0.6;
+}
+.flickity-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+  pointer-events: none;
+}
+.flickity-button-icon {
+  fill: currentColor;
+}
+.flickity-prev-next-button {
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.flickity-prev-next-button.previous {
+  left: 10px;
+}
+.flickity-prev-next-button.next {
+  right: 10px;
+}
+.flickity-prev-next-button .flickity-button-icon {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: #333;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+.flickity-page-dots .dot.is-selected {
+  opacity: 1;
+}
+/*! CSS Used from: http://127.0.0.1:5501/src/components/organisms/section/section.css */
+.c-section {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #0f172a;
+}
+/*! CSS Used from: http://127.0.0.1:5501/src/components/organisms/navbar/nav.css */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.cc-hide {
+  display: none;
+}
+/*! CSS Used from: http://127.0.0.1:5501/src/components/atoms/button/button.css */
+
+
+/*! CSS Used from: http://127.0.0.1:5501/src/components/atoms/Text/text.css */
+.lineswrap {
+  overflow: hidden;
+}
+.animate-text {
+  opacity: 1;
+  transform: translate3d(0%, 0%, 0) scale3d(1, 1, 1);
+}
+.helping,
+.line {
+  animation-name: slideUp;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.no-mg {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.c-header {
+  margin-bottom: 50px;
+}
+.c-header {
+  margin-bottom: 50px;
+}
+.heading-10 {
+  color: #fff;
+}
+.is--white {
+  margin-bottom: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+.swiper-slide {
+  opacity: 1;
+  animation-name: slide-check;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+}
+.c-header {
+  margin-bottom: 50px;
 }

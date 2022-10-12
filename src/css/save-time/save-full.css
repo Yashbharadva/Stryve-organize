@@ -25,10 +25,7 @@ svg:not(:root) {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
@@ -137,13 +134,7 @@ svg:not(:root) {
   overflow: hidden;
   padding-top: 120px;
 }
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-absolute {
   position: absolute;
   padding-bottom: 0;
@@ -286,9 +277,9 @@ svg:not(:root) {
   padding-right: 20px;
   padding-left: 20px;
 }
-.c-btn.cc-with-icon.mg-right__20 {
+/* .c-btn.cc-with-icon.mg-right__20 {
   background-color: #fff;
-}
+} */
 .c-btn.cc-with-icon.cc-white {
   background-color: #fff;
 }

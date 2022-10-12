@@ -18,10 +18,7 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-embed:after,
 .w-embed:before {
   content: " ";
@@ -38,13 +35,7 @@ svg:not(:root) {
   overflow: hidden;
   padding-top: 120px;
 }
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-relative {
   position: relative;
 }

@@ -38,10 +38,7 @@ input {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
@@ -194,13 +191,7 @@ input.w-button {
 .c-section.p-top__115 {
   padding-top: 115px;
 }
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-absolute {
   position: absolute;
   padding-bottom: 0;
@@ -305,31 +296,7 @@ input.w-button {
   color: #0f172a;
   text-align: center;
 }
-.c-btn {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 48px;
-  min-width: 120px;
-  padding: 15px 23px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50px;
-  background-color: #0f172a;
-  color: #fff;
-  font-size: 14px;
-  line-height: 14.4px;
-  letter-spacing: -0.02em;
-  text-decoration: none;
-  cursor: pointer;
-}
+
 .c-btn.cc-light {
   border: 2px solid #000;
   background-color: transparent;
@@ -361,10 +328,10 @@ input.w-button {
   margin-bottom: 0;
   background-color: #fff;
 }
-.c-btn.cc-with-icon.mg-right__20 {
+/* .c-btn.cc-with-icon.mg-right__20 {
   background-color: #0f172a;
   color: #fff;
-}
+} */
 .c-icon__arrow {
   margin-left: 5px;
   color: #0f172a;

@@ -26,10 +26,7 @@ svg:not(:root) {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
@@ -92,15 +89,6 @@ svg:not(:root) {
   font-weight: 400;
   letter-spacing: -0.02em;
 } */
-h5 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  color: #0f172a;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
 /* p {
   margin-top: 0;
   margin-bottom: 40px;
@@ -130,13 +118,7 @@ h5 {
 .c-section.p-btm__280 {
   padding-bottom: 280px;
 }
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-absolute {
   position: absolute;
   padding-bottom: 0;
@@ -222,31 +204,7 @@ h5 {
   color: #0f172a;
   text-align: center;
 }
-.c-btn {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 48px;
-  min-width: 120px;
-  padding: 15px 23px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50px;
-  background-color: #0f172a;
-  color: #fff;
-  font-size: 14px;
-  line-height: 14.4px;
-  letter-spacing: -0.02em;
-  text-decoration: none;
-  cursor: pointer;
-}
+
 .c-btn.cc-light {
   border: 2px solid #000;
   background-color: transparent;

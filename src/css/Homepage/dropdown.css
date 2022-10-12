@@ -24,10 +24,7 @@ img {
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-dropdown-list {
   position: absolute;
   background: #ddd;
@@ -36,15 +33,6 @@ html.w-mod-touch * {
 }
 .w-dropdown-list.w--open {
   display: block;
-}
-h5 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  color: #0f172a;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
 }
 .c-nav-drop__left-item {
   position: relative;

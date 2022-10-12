@@ -1,10 +1,12 @@
-
-/* .c-section {
-  position: relative;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  color: #0f172a;
-} */
+section {
+  display: block;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 180%;
+}
 .c-section.no-padding {
   padding-top: 0;
   padding-bottom: 0;
@@ -28,13 +30,6 @@
   max-width: 1200px;
   min-width: auto;
 }
-.flex-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c-btn.cc-tag-time {
   min-height: auto;
   min-width: 80px;
@@ -115,21 +110,8 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
-.c-info__holder {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 15px 10px;
-  border-radius: 17px;
-  background-color: rgba(0, 154, 255, 0.09);
-}
-.c-info__holder.cc-ruby {
-  background-color: rgba(255, 40, 104, 0.09);
-}
+
+
 .c-info__icon {
   margin-right: 20px;
   -webkit-align-self: flex-start;
@@ -307,21 +289,83 @@
     height: 130px;
   }
 }
-/*! CSS Used from: Embedded */
-* {
-  -moz-font-feature-settings: "ss01";
-  -webkit-font-feature-settings: "ss01";
-  font-feature-settings: "ss01" on;
+/*! CSS Used from: http://127.0.0.1:5501/src/css/Homepage/responsive.css */
+@media screen and (max-width: 991px) {
+  h2 {
+    font-size: 28.83px;
+    line-height: 40px;
+  }
+  .c-ctn {
+    max-width: 960px;
+    min-width: 740px;
+  }
+  .c-ctn.cc-70 {
+    max-width: 992px;
+    min-width: 740px;
+  }
+  .c-flex__cover {
+    min-height: 500px;
+    padding-top: 0;
+  }
+  .c-content_wrapper {
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .c-text__content {
+    max-width: 40ch;
+    min-width: 40ch;
+  }
+  .p-top__32 {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
-.lineswrap {
-  overflow: hidden;
+@media screen and (max-width: 767px) {
+  .c-ctn {
+    max-width: 767px;
+    min-width: 440px;
+  }
+  .c-ctn.cc-absolute {
+    position: static;
+  }
+  .c-ctn.cc-70 {
+    width: 85%;
+    max-width: 760px;
+    min-width: 370px;
+  }
+  .c-flex__cover {
+    width: 100%;
+    min-height: 350px;
+  }
+  .c-content-holder.flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .c-content-holder.flex.p-btm__72 {
+    padding-bottom: 72px;
+  }
+  .c-content_wrapper {
+    width: 100%;
+    max-width: none;
+  }
+  .no-padding {
+    margin-top: 0;
+  }
+  .p-top__32 {
+    margin-bottom: 0;
+    padding-top: 32px;
+  }
 }
-.line {
-  transform: translate3d(0%, 100%, 0) scale3d(1, 1, 1);
-  transition: transform 2s var(--ease1);
-}
-/*! CSS Used from: Embedded */
-.animate-text {
-  opacity: 1;
-  transform: translate3d(0%, 0%, 0) scale3d(1, 1, 1);
+@media screen and (max-width: 479px) {
+  .c-ctn,
+  .c-ctn.cc-70 {
+    max-width: 479px;
+    min-width: 300px;
+  }
+  .c-text__content {
+    min-width: 30ch;
+  }
 }

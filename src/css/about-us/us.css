@@ -66,24 +66,6 @@ svg:not(:root) {
   font-weight: 400;
   letter-spacing: -0.02em;
 } */
-h3 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  color: #0f172a;
-  font-size: 28.43px;
-  line-height: 40px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
-h5 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  color: #0f172a;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
 /* p {
   margin-top: 0;
   margin-bottom: 40px;
@@ -110,13 +92,7 @@ h5 {
 .c-section.cc-green-bg {
   background-color: #35c89f;
 }
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-absolute {
   position: absolute;
   padding-bottom: 0;
@@ -800,13 +776,13 @@ h5 {
   padding-bottom: 397px;
   background-color: #0f00c0;
 }
-.c-learn-more__heading {
+/* .c-learn-more__heading {
   margin-top: 10px;
   margin-bottom: 20px;
   color: #fff;
   font-size: 50.52px;
   line-height: 64px;
-}
+} */
 .text-block-15 {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;

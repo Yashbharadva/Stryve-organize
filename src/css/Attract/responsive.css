@@ -372,9 +372,9 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
-  .c-btn.cc-with-icon.mg-right__20 {
+  /* .c-btn.cc-with-icon.mg-right__20 {
     margin-bottom: 20px;
-  }
+  } */
   .c-hero__cover {
     width: 100vw;
     height: 80vw;
@@ -669,9 +669,9 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
-  .c-btn.cc-with-icon.mg-right__20 {
+  /* .c-btn.cc-with-icon.mg-right__20 {
     margin-right: 0;
-  }
+  } */
   .is--white.no-padding {
     margin-top: 0;
   }

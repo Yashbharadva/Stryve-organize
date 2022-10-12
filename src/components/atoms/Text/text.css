@@ -358,22 +358,8 @@ h4 {
   object-fit: fill;
 }
 
-.c-info__holder.cc-green {
-  background-color: rgba(53, 200, 159, 0.09);
-}
 
-.c-info__holder {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 15px 10px;
-  border-radius: 17px;
-  background-color: rgba(0, 154, 255, 0.09);
-}
+
 
 .heading-7.cc-green {
   color: #35c89f;

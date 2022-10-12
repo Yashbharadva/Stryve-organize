@@ -26,10 +26,7 @@ svg:not(:root) {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
+
 .w-button {
   display: inline-block;
   padding: 9px 15px;
@@ -81,15 +78,7 @@ svg:not(:root) {
   font-weight: 400;
   letter-spacing: -0.02em;
 } */
-h4 {
-  margin-top: 10px;
-  margin-bottom: 24px;
-  color: #0f172a;
-  font-size: 21.33px;
-  line-height: 32px;
-  font-weight: 400;
-  letter-spacing: -0.02em;
-}
+
 /* h5 {
   margin-top: 0;
   margin-bottom: 10px;
@@ -122,13 +111,7 @@ h4 {
 .c-section.p-btm__200 {
   padding-bottom: 200px;
 }
-.c-ctn {
-  width: 85%;
-  max-width: 1280px;
-  min-width: 970px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .c-ctn.cc-70 {
   width: 70%;
   max-width: 996px;

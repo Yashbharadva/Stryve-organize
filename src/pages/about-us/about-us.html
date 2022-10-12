@@ -5,20 +5,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- MAIN STYLES -->
+
   <link rel="stylesheet" href="/src/css/Homepage/main.css" />
   <link rel="stylesheet" href="/src/css/about-us/us.css" />
   <link rel="stylesheet" href="/src/css/Homepage/responsive.css" />
   <link rel="stylesheet" href="/src/css/about-us/responsive.css" />
+  <link rel="stylesheet" href="/src/css/about-us/linear.css" />
+
+  <!-- JS AND CSS -->
+
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
-  <!-- NEW STYLES -->
-
+  <!-- NEW STYLE -->
   <link rel="stylesheet" href="/src/components/global/global.css" />
-  <link rel="stlesheet" href="/src/components/organisms/section/section.css" />
-  <link rel="sty6lesheet" href="/src/components/organisms/navbar/nav.css" />
-  <link rel="stylesheet" href="/src/components/atoms/button/button.css" />
+
+
   <link rel="stylesheet" href="/src/components/atoms/Text/text.css" />
+  <link rel="stylesheet" href="/src/components/organisms/section/section.css" />
+  <link rel="stylesheet" href="/src/components/atoms/button/button.css" />
+  <link rel="stylesheet" href="/src/components/atoms/color/color.css" />
+  <link rel="stylesheet" href="/src/components/organisms/footer/footer.css" />
+
+  <!-- SAME COMPONENETS AND SAME CSS -->
+
+  <link rel="stylesheet" href="/src/components/molecules/careerSite/careerSite.css" />
+  <link rel="stylesheet" href="/src/components/molecules/engage/engage.css" />
+  <link rel="stylesheet" href="/src/components/molecules/request-demo/request-demo.css" />
+  <link rel="stylesheet" href="/src/components/molecules/connect-top/connect-top.css" />
+  <link rel="stylesheet" href="/src/components/atoms/pricing-line/line.css" />
+  <link rel="stylesheet" href="/src/components/organisms/customer-think/customer-think.css" />
+  <link rel="stylesheet" href="/src/components/molecules/tips/tips.css" />
+  <link rel="stylesheet" href="/src/components/molecules/welcome/welcome.css" />
+
 
   <title>About us</title>
 </head>
@@ -959,68 +980,35 @@
     <!-- LEARN MORE SECTION -->
 
 
-    <section class="c-section no-overflow wf-section">
+    <section data-scroll-section="1" class="c-section no-overflow wf-section">
       <div class="c-gradient__bg cc-pink-blue"></div>
       <div class="c-ctn cc-80 cc-relative custom-full-width">
         <div class="c-header">
-          <h2 class="c-learn-more__heading">
-            <div class="lineswrap" data-aos="fade-up">
+          <h2 class="c-learn-more__heading" data-split="200" data-split-type="lines">
+            <div class="lineswrap">
               <div class="line animate-text" style="display: block; text-align: start; width: 100%;">Learn more about
                 Stryve</div>
             </div>
           </h2>
         </div>
         <div class="w-layout-grid services-grid">
-          <div class="c-card"><img
+          <div data-w-id="2bf6f324-653c-d300-c97c-cb1055f89bf9"
+            style="transform: translate3d(0px, 0px, 0px) scale3d(0.95, 0.95, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+            class="c-card"><img
               src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf248d0a0660_pexels-karolina-grabowska-4467683%201%20copy.png"
-              alt="drawn illustration" class="c-card__img">
+              loading="lazy" alt="drawn illustration" class="c-card__img">
             <div class="c-card__text">
-              <h3 class="is--white">
+              <h3 data-delay="150" data-split="200" data-split-type="lines" class="is--white">
                 <div class="lineswrap">
                   <div class="line animate-text" style="display: block; text-align: start; width: 100%;">Careers</div>
                 </div>
               </h3>
-            </div>
-            <a style="display: flex; opacity: 1;" href="career.html"
+            </div><a style="display: none; opacity: 0;" href="/careers"
               class="c-btn cc-with-icon cc-no-border cc-absolute w-inline-block">
               <div>Take a look</div><img
                 src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                class="c-icon__arrow">
-            </a>
-          </div>
-          <div class="c-card cc-hide">
-            <img
-              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbfa6c30a071d_pexels-karolina-grabowska-4467683%201%20copy%205.png"
-              alt="coffee-restaurent in a working place" class="c-card__img">
-            <div class="c-card__text">
-              <h3 class="is--white">
-                <div class="lineswrap">
-                  <div class="line" style="display: block; text-align: start; width: 100%;">Our Culture</div>
-                </div>
-              </h3>
-            </div><a style="display: none; opacity: 0;" href="#"
-              class="c-btn cc-with-icon cc-no-border cc-absolute w-inline-block">
-              <div>Take a look</div><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                alt="right arrow" class="c-icon__arrow">
-            </a>
-          </div>
-          <div class="c-card cc-hide">
-            <img
-              src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf54bb0a072c_pexels-karolina-grabowska-4467683%201.jpg"
-              loading="lazy" alt="tiny multitude of colors" class="c-card__img">
-            <div class="c-card__text">
-              <h3 class="is--white">
-                <div class="lineswrap">
-                  <div class="line" style="display: block; text-align: start; width: 100%;">Diversity &amp; inclusion
-                  </div>
-                </div>
-              </h3>
-            </div><a style="display: none; opacity: 0;" href="#"
-              class="c-btn cc-with-icon cc-no-border cc-absolute w-inline-block">
-              <div>Take a look</div><img
-                src="https://uploads-ssl.webflow.com/6135d217a84bbf3ca90a0652/6135d217a84bbf859f0a065a_arrow%20copy%202.svg"
-                alt="right arrow" class="c-icon__arrow">
+                loading="lazy" alt="right arrow" class="c-icon__arrow"
+                style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
             </a>
           </div>
         </div>

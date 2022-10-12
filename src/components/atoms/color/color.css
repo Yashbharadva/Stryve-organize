@@ -1,0 +1,42 @@
+.c-info__holder.cc-ruby {
+  background-color: rgba(255, 40, 104, 0.09);
+}
+
+.c-section.no-padding.cc-light-red-bg {
+  background-color: rgba(255, 40, 104, 0.17);
+}
+
+.c-flex__cover.cc-red {
+  background-color: #ff2868;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(55%, #ff2868),
+    color-stop(0, #f8b8c3)
+  );
+  background-image: linear-gradient(90deg, #ff2868 55%, #f8b8c3 0);
+}
+
+.c-info__holder.cc-green {
+  background-color: rgba(53, 200, 159, 0.09);
+}
+
+.c-section.no-padding.cc-light-green-bg {
+  background-color: rgba(53, 200, 159, 0.17);
+}
+
+/* .c-gradient__bg.cc-pink-blue {
+  background-image: linear-gradient(90 deg, 70% #f8b8c3, #0f00c0 0);
+}
+
+.c-gradient__bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  width: 100%;
+  min-height: 600px;
+  background-image: linear-gradient(90 deg, #009aff 70%, #35e89f 0);
+} */

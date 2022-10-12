@@ -1,7 +1,3 @@
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
 .flex-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
